@@ -1,0 +1,12 @@
+node_modules/
+.wrangler/
+.env
+.dev.vars
+*.pdf
+*.sql.gz
+welding-kb_export.sql
+reproduction/data/
+reproduction/out/
+evaluation/**/out_*/
+evaluation/**/paquete*/
+__pycache__/
