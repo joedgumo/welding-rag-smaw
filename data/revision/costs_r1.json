@@ -1,0 +1,36 @@
+{
+  "precios_usd_por_millon": {
+    "entrada": 0.3,
+    "salida": 2.5,
+    "cache": 0.03,
+    "almacenamiento_cache_hora": 1.0,
+    "embedding": 0.15
+  },
+  "brazos": {
+    "RAG": {
+      "n": 11,
+      "tokens_entrada_media": 3861,
+      "tokens_salida_media": 280,
+      "costo_por_consulta_usd": 0.00186,
+      "latencia_mediana_s": 1.58,
+      "latencia_media_s": 1.81,
+      "costo_1000_consultas_usd": 1.86
+    },
+    "LC": {
+      "n": 12,
+      "tokens_entrada_media": 176842,
+      "tokens_salida_media": 404,
+      "costo_por_consulta_usd": 0.05406,
+      "latencia_mediana_s": 3.3,
+      "latencia_media_s": 9.48,
+      "costo_1000_consultas_usd": 54.06,
+      "con_cache": {
+        "costo_por_consulta_usd": 0.00631,
+        "almacenamiento_por_hora_usd": 0.1768,
+        "nota": "cache explícita del corpus; el almacenamiento se paga por hora aunque no haya consultas"
+      }
+    }
+  },
+  "razon_costo_LC_sobre_RAG": 29.1,
+  "razon_tokens_LC_sobre_RAG": 45.8
+}

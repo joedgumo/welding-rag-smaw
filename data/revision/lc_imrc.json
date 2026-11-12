@@ -1,0 +1,770 @@
+{
+  "meta": {
+    "fecha": "2026-11-05T05:37:51.244Z",
+    "brazo": "lc",
+    "modelo": "gemini-2.5-flash",
+    "generationConfig": {
+      "temperature": 0.2,
+      "maxOutputTokens": 1400,
+      "thinkingConfig": {
+        "thinkingBudget": 0
+      }
+    },
+    "embedding_model": null,
+    "regla_emergencia": null,
+    "historial": "(sin historial previo)",
+    "contexto_lc_caracteres": 576494
+  },
+  "respuestas": [
+    {
+      "id": "A1",
+      "categoria": "Selección de parámetros",
+      "pregunta": "En el proceso SMAW, ¿qué criterios se deben considerar para seleccionar el amperaje de soldadura?",
+      "intent": "PARAMETROS",
+      "ruta": "contexto_largo",
+      "prompt_caracteres": 577746,
+      "respuesta": "Para seleccionar el amperaje de soldadura en el proceso SMAW, se deben considerar los siguientes criterios:\n\n1.  **Tamaño y clasificación del electrodo:** Cada electrodo cubierto de un tamaño y clasificación específicos puede operar satisfactoriamente dentro de un intervalo de amperaje. La rapidez de deposición aumenta con el amperaje.\n2.  **Espesor del material:** El amperaje debe ser suficiente para obtener una buena fusión y penetración.\n3.  **Posición de soldadura:** Al soldar en posición vertical o cenital, los amperajes óptimos suelen estar en la región baja del intervalo permitido para controlar el charco de soldadura.\n4.  **Tipo de unión:** El diseño de la unión influye en el amperaje necesario.\n5.  **Control del charco de soldadura:** El amperaje debe ser suficiente para una buena fusión y penetración sin perder el control del charco de soldadura.\n6.  **Evitar sobrecalentamiento del electrodo:** No se deben usar amperajes que rebasen el intervalo recomendado, ya que el electrodo puede sobrecalentarse, causando salpicaduras excesivas, golpe de arco, socavamiento y agrietamiento del metal de soldadura.\n\nFuentes: AWS_Tomo1_SMAW_cap1-2.pdf (pág. 62, 63)",
+      "finishReason": "STOP",
+      "usage": {
+        "promptTokenCount": 176845,
+        "candidatesTokenCount": 292,
+        "totalTokenCount": 177137,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 176845
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "modelVersion": "gemini-2.5-flash",
+      "latency_ms": 3156,
+      "citas": [
+        {
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 62
+        },
+        {
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 63
+        }
+      ]
+    },
+    {
+      "id": "A2",
+      "categoria": "Selección de parámetros",
+      "pregunta": "¿Qué tipos de polaridad existen en SMAW (soldadura por arco con electrodo revestido) y en qué se diferencian?",
+      "intent": "CONSUMIBLES",
+      "ruta": "contexto_largo",
+      "prompt_caracteres": 577759,
+      "respuesta": "En la soldadura por arco con electrodo revestido (SMAW), existen dos tipos de polaridad en corriente continua (CC):\n\n1.  **Polaridad Inversa (Electrodo Positivo, CCEP):** En este tipo, el electrodo está conectado al polo positivo de la fuente de poder. Generalmente, la polaridad inversa logra una mayor penetración en la soldadura.\n2.  **Polaridad Directa (Electrodo Negativo, CCEN):** Aquí, el electrodo está conectado al polo negativo. La polaridad directa aumenta la rapidez de fusión del electrodo.\n\nAunque la mayoría de los electrodos cubiertos funcionan mejor con polaridad inversa, algunos están diseñados específicamente para polaridad directa, y otros pueden usarse con ambas. La corriente continua (CC) en general produce un arco más estable y una transferencia de metal más uniforme que la corriente alterna (CA), ya que la polaridad no cambia constantemente.\n\nFuentes: AWS_Tomo1_SMAW_cap1-2.pdf (pág. 62)",
+      "finishReason": "STOP",
+      "usage": {
+        "promptTokenCount": 176853,
+        "candidatesTokenCount": 222,
+        "totalTokenCount": 177075,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 176853
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "modelVersion": "gemini-2.5-flash",
+      "latency_ms": 2816,
+      "citas": [
+        {
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 62
+        }
+      ]
+    },
+    {
+      "id": "A3",
+      "categoria": "Selección de parámetros",
+      "pregunta": "¿Qué factores se deben considerar al seleccionar el electrodo adecuado en SMAW?",
+      "intent": "CONSUMIBLES",
+      "ruta": "contexto_largo",
+      "prompt_caracteres": 577729,
+      "respuesta": "Al seleccionar el electrodo adecuado en SMAW, se deben considerar los siguientes factores:\n\n1.  **Tipo de corriente de salida:** La fuente de potencia puede usar corriente alterna (CA) o continua (CC), y el electrodo debe ser compatible con el tipo de corriente disponible. La CC generalmente produce un arco más estable y una transferencia de metal más uniforme. La CA es ventajosa por la ausencia de golpe de arco y el menor costo de la fuente de potencia.\n2.  **Polaridad:** Para CC, la mayoría de los electrodos cubiertos funcionan mejor con polaridad inversa (electrodo positivo) para mayor penetración, aunque algunos están diseñados para polaridad directa (electrodo negativo) para aumentar la rapidez de fusión.\n3.  **Amperaje:** Los electrodos operan satisfactoriamente dentro de un intervalo de amperaje específico, que varía según el espesor y la formulación de la cobertura. El amperaje óptimo también depende de la posición de soldadura y el tipo de unión.\n4.  **Longitud del arco:** La longitud correcta del arco varía con la clasificación, el diámetro y la composición de la cobertura del electrodo, así como con el amperaje y la posición de soldadura.\n5.  **Posición de soldadura:** Algunos electrodos son más adecuados para soldar en posiciones específicas (plana, horizontal, vertical o cenital). Los electrodos con grandes cantidades de hierro en polvo o coberturas gruesas suelen estar restringidos a posiciones planas y filetes horizontales.\n6.  **Composición química y propiedades mecánicas del metal de soldadura:** Los electrodos se clasifican según la composición química o las propiedades mecánicas (o ambas) del metal de soldadura sin diluir. Esto incluye la resistencia a la tensión, la tenacidad a la muesca y la presencia de elementos de aleación.\n7.  **Tipo de metal base:** La idoneidad del proceso para un metal base específico depende de la disponibilidad de un electrodo cubierto cuyo metal de aporte tenga la composición y propiedades requeridas para ese metal base (aceros al carbono, baja aleación, inoxidables, hierro colado, aluminio, cobre, níquel y sus aleaciones).\n8.  **Espesor del metal:** Para materiales más gruesos, se pueden usar electrodos de mayor diámetro y tasas de deposición más altas. Para materiales delgados, se prefieren electrodos de menor diámetro y CC para un arco más estable.\n9.  **Acondicionamiento del electrodo:** La humedad en la cobertura del electrodo puede causar porosidad y agrietamiento. Es crucial el almacenamiento y manejo adecuados, especialmente para electrodos de bajo hidrógeno, que pueden requerir cocimiento o almacenamiento en estufas de retención.\n10. **Diseño de la unión:** El diámetro del electrodo debe ser adecuado para la geometría del surco, especialmente en las pasadas de raíz, para asegurar una buena fusión y penetración.\n\nFuentes: AWS_Tomo1_SMAW_cap1-2.pdf (pág. 44, 47, 48, 52, 53, 54, 55, 56, 59, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70)",
+      "finishReason": "STOP",
+      "usage": {
+        "promptTokenCount": 176840,
+        "candidatesTokenCount": 722,
+        "totalTokenCount": 177562,
+        "cachedContentTokenCount": 176120,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 176840
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 176120
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "modelVersion": "gemini-2.5-flash",
+      "latency_ms": 4424,
+      "citas": [
+        {
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 44
+        },
+        {
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 47
+        },
+        {
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 48
+        },
+        {
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 52
+        },
+        {
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 53
+        },
+        {
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 54
+        },
+        {
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 55
+        },
+        {
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 56
+        },
+        {
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 59
+        },
+        {
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 61
+        },
+        {
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 62
+        },
+        {
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 63
+        },
+        {
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 64
+        },
+        {
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 65
+        },
+        {
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 66
+        },
+        {
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 67
+        },
+        {
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 68
+        },
+        {
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 69
+        },
+        {
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 70
+        }
+      ]
+    },
+    {
+      "id": "A4",
+      "categoria": "Selección de parámetros",
+      "pregunta": "¿Cómo se selecciona el tono (shade) del lente de filtro para protección ocular?",
+      "intent": "OTRO",
+      "ruta": "contexto_largo",
+      "prompt_caracteres": 577722,
+      "respuesta": "El tono del lente de filtro para protección ocular se selecciona de acuerdo con la norma AWS F2.2, \"Lens Shade Selector\" (Selector del tono de lentes) o la Tabla 1 del documento.\n\nFuentes: AWS_Z49.1-2012-SP.pdf (pág. 7)",
+      "finishReason": "STOP",
+      "usage": {
+        "promptTokenCount": 176840,
+        "candidatesTokenCount": 69,
+        "totalTokenCount": 176909,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 176840
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "modelVersion": "gemini-2.5-flash",
+      "latency_ms": 2142,
+      "citas": [
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "id": "B1",
+      "categoria": "Documental/procedimental",
+      "pregunta": "¿Cuáles son los factores para determinar una ventilación adecuada al soldar?",
+      "intent": "SEGURIDAD",
+      "ruta": "contexto_largo",
+      "prompt_caracteres": 577724,
+      "respuesta": "Los factores para determinar una ventilación adecuada al soldar incluyen:\n\n1.  **Volumen y configuración del espacio** en el que se desarrollan las operaciones.\n2.  **Cantidad y tipo de operaciones** que generan contaminantes.\n3.  **Concentraciones de los contaminantes tóxicos o inflamables específicos** que se generan.\n4.  **Flujo de aire natural** (caudal y condiciones atmosféricas generales donde se realiza el trabajo).\n5.  **Ubicación de las zonas de respiración** del soldador y de otras personas en relación con los contaminantes o fuentes.\n\nEn los casos donde los valores de los límites de exposición permitida varíen entre autoridades reconocidas, se deben utilizar los valores más bajos a los efectos de la protección máxima del personal.\n\nFuentes: AWS_Z49.1-2012-SP (pág. 11)",
+      "finishReason": "STOP",
+      "usage": {
+        "promptTokenCount": 176839,
+        "candidatesTokenCount": 193,
+        "totalTokenCount": 177032,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 176839
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "modelVersion": "gemini-2.5-flash",
+      "latency_ms": 2409,
+      "citas": []
+    },
+    {
+      "id": "B2",
+      "categoria": "Documental/procedimental",
+      "pregunta": "¿Qué requisitos deben cumplir los equipos de protección de ojos y cara?",
+      "intent": "EQUIPO",
+      "ruta": "contexto_largo",
+      "prompt_caracteres": 577716,
+      "respuesta": "Los equipos de protección de ojos y cara deben cumplir con la norma ANSI/ISEA Z87.1, \"Occupational and Educational Personal Eye and Face Protection Devices\" (Dispositivos de protección ocular y facial ocupacional y educativa).\n\nEspecíficamente:\n*   **Lentes con filtro:** Deben estar en conformidad con la norma ANSI/ISEA Z87.1 y el tono debe seleccionarse de acuerdo con la norma AWS F2.2, \"Lens Shade Selector\" o la Tabla 1. Deben estar libres de defectos que puedan distraer, bloquear o impedir la visión.\n*   **Propiedades de los materiales:** El cuerpo del casco y la careta de mano deben ser de un material con aislación térmica y eléctrica, no combustible o autoextinguible y opaco a la radiación visible, ultravioleta e infrarroja, y deben cumplir con los requisitos de la norma ANSI/ISEA Z87.1. Los cascos, caretas de mano y antiparras que cumplen con esta norma tienen combustibilidad limitada.\n*   **Área de protección:** Cuando exista una posibilidad de exposición peligrosa, los cascos y las caretas de mano deben proteger la cara, la frente, el cuello y las orejas hasta una línea vertical en la parte posterior de las orejas, de la energía radiante directa del arco y de las salpicaduras directas de soldadura.\n*   **Efecto de los materiales en la piel:** Los materiales en contacto con el cuerpo no deben irritar ni decolorar fácilmente la piel.\n*   **Ventilación de las antiparras:** Las antiparras deben contar con ventilación para impedir el empañamiento de los lentes de acuerdo con la norma ANSI Z87.1.\n*   **Lentes con cubierta exterior:** Se deben proporcionar lentes exteriores de vidrio transparente o plástico autoextinguible para proteger la lente con filtro o la lente con filtro de antiparras, cascos o caretas de mano contra salpicaduras, picaduras o rayones de soldadura. No es necesario que sean resistentes al impacto.\n*   **Lentes interiores o placas:** Cuando se utilizan cascos de soldador con apertura delantera, el interior del marco más cercano a los ojos debe contener un lente de seguridad o placa fija y resistente al impacto para proteger al soldador de partículas en vuelo cuando se levanta la parte delantera.\n*   **Marcado:** Los lentes de filtro deben llevar una marca distintiva permanente que permita la sencilla identificación del fabricante y deben estar marcados con su número de tono y de acuerdo con los requisitos de la norma ANSI Z87.1.\n*   **Propiedades de transmitancia de la radiación:** Todos los lentes con filtro deben cumplir con el requisito de \"Ultraviolet, Luminous and Infrared Transmittance\" (transmitancia ultravioleta, luminosa e infrarroja) de la norma ANSI Z87.1.\n*   **Mantenimiento:** Los cascos, caretas de mano y antiparras deben estar bien cuidados y no deberían transferirse de un empleado a otro sin limpiarse.\n\nFuentes: AWS_Z49.1-2012-SP.pdf (pág. 6, 7, 8, 9)",
+      "finishReason": "STOP",
+      "usage": {
+        "promptTokenCount": 176837,
+        "candidatesTokenCount": 683,
+        "totalTokenCount": 177520,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 176837
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "modelVersion": "gemini-2.5-flash",
+      "latency_ms": 3435,
+      "citas": [
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 6
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 7
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 8
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 9
+        }
+      ]
+    },
+    {
+      "id": "B3",
+      "categoria": "Documental/procedimental",
+      "pregunta": "¿Qué condiciones deben cumplirse para la ventilación en espacios confinados?",
+      "intent": "SEGURIDAD",
+      "ruta": "contexto_largo",
+      "prompt_caracteres": 577724,
+      "respuesta": "Para la ventilación en espacios confinados, deben cumplirse las siguientes condiciones:\n\n1.  **Oxígeno adecuado:** Asegurar una cantidad suficiente de oxígeno para la vida.\n2.  **Evitar acumulaciones peligrosas:** Prevenir la acumulación de mezclas asfixiantes, inflamables o explosivas.\n3.  **Evitar atmósferas enriquecidas en oxígeno:** Mantener las atmósferas por debajo de niveles peligrosos de oxígeno.\n4.  **Control de contaminantes:** Mantener los contaminantes del aire en atmósferas respirables por debajo de los límites permitidos especificados por la autoridad competente (mencionados en 5.1 del documento).\n\nAdemás, antes de ingresar a espacios confinados, estos deben estar bien ventilados y haberse sometido a pruebas para garantizar que son seguros. Si no es posible mantener el espacio seguro para el ingreso, solo se debe entrar si:\n*   El espacio ha sido probado y se determinó que no presenta una atmósfera deficiente o enriquecida en oxígeno, peligro de incendio o explosión, o una atmósfera peligrosa para la vida.\n*   Una segunda persona capacitada y equipada para el rescate se encuentra fuera del espacio confinado.\n\nFuentes: AWS_Z49.1-2012-SP.pdf (pág. 17)",
+      "finishReason": "STOP",
+      "usage": {
+        "promptTokenCount": 176839,
+        "candidatesTokenCount": 289,
+        "totalTokenCount": 177128,
+        "cachedContentTokenCount": 176120,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 176839
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 176120
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "modelVersion": "gemini-2.5-flash",
+      "latency_ms": 65026,
+      "citas": [
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 17
+        }
+      ]
+    },
+    {
+      "id": "B4",
+      "categoria": "Documental/procedimental",
+      "pregunta": "¿Cuáles son las funciones principales del revestimiento (cobertura) del electrodo en SMAW?",
+      "intent": "CONSUMIBLES",
+      "ruta": "contexto_largo",
+      "prompt_caracteres": 577740,
+      "respuesta": "Las funciones principales del revestimiento (cobertura) del electrodo en la soldadura por arco de metal protegido (SMAW) son:\n\n1.  **Estabilizar el arco.**\n2.  **Proteger el metal derretido de la atmósfera** mediante los gases que se crean cuando el recubrimiento se descompone por el calor del arco.\n3.  **Suministrar limpiadores, desoxidantes y agentes fundentes** para purificar la soldadura y evitar un crecimiento excesivo de granos en el metal de soldadura.\n4.  **Establecer las características eléctricas del electrodo.**\n5.  **Proporcionar un manto de escoria** que protege el metal de soldadura caliente del aire y mejora las propiedades mecánicas, la forma de la franja y la limpieza superficial de dicho metal.\n6.  **Constituir un medio para añadir elementos de aleación** que modifiquen las propiedades mecánicas del metal de soldadura.\n\nFuentes: AWS_Tomo1_SMAW_cap1-2.pdf (pág. 44), AWS_Tomo1_SMAW_cap1-2.pdf (pág. 45)",
+      "finishReason": "STOP",
+      "usage": {
+        "promptTokenCount": 176845,
+        "candidatesTokenCount": 260,
+        "totalTokenCount": 177105,
+        "cachedContentTokenCount": 176120,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 176845
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 176120
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "modelVersion": "gemini-2.5-flash",
+      "latency_ms": 1870,
+      "citas": [
+        {
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 44
+        },
+        {
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 45
+        }
+      ]
+    },
+    {
+      "id": "C1",
+      "categoria": "Diagnóstico/seguridad",
+      "pregunta": "Si la ventilación natural no es suficiente, ¿qué se debe hacer?",
+      "intent": "SEGURIDAD",
+      "ruta": "contexto_largo",
+      "prompt_caracteres": 577711,
+      "respuesta": "Si la ventilación natural no es suficiente para mantener los contaminantes del aire por debajo de los límites permitidos, se debe proveer ventilación mecánica o usar equipo de protección respiratoria.\n\nFuentes: AWS_Z49.1-2012-SP.pdf (pág. 12)",
+      "finishReason": "STOP",
+      "usage": {
+        "promptTokenCount": 176839,
+        "candidatesTokenCount": 66,
+        "totalTokenCount": 176905,
+        "cachedContentTokenCount": 176120,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 176839
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 176120
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "modelVersion": "gemini-2.5-flash",
+      "latency_ms": 1105,
+      "citas": [
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 12
+        }
+      ]
+    },
+    {
+      "id": "C2",
+      "categoria": "Diagnóstico/seguridad",
+      "pregunta": "¿Cuáles son las causas comunes de la porosidad en una soldadura y cómo se puede prevenir?",
+      "intent": "DEFECTOS",
+      "ruta": "contexto_largo",
+      "prompt_caracteres": 577736,
+      "respuesta": "La porosidad en una soldadura se refiere a las bolsas de gas o huecos que quedan atrapados en el metal de soldadura. Estos huecos son el resultado de la formación de gases por ciertas reacciones químicas que ocurren durante la soldadura.\n\nLas causas comunes de la porosidad y cómo se puede prevenir son:\n\n**Causas:**\n*   **Corriente de soldadura elevada o arco largo:** Si se utiliza una corriente excesivamente alta o un arco demasiado largo, los desoxidantes necesarios en el electrodo cubierto se pierden fácilmente durante la deposición. La cantidad restante de desoxidantes no es suficiente para desoxidar adecuadamente el metal derretido, lo que puede llevar a la formación de gases y, por ende, porosidad.\n*   **Humedad en la cobertura del electrodo:** Las coberturas de los electrodos para SMAW son higroscópicas (absorben y retienen la humedad con facilidad). La humedad absorbida se disocia durante la soldadura, produciendo hidrógeno y oxígeno. Estos átomos de hidrógeno se disuelven en la soldadura y en la zona térmicamente afectada, y un exceso de humedad puede originar porosidad en el metal de soldadura depositado.\n*   **Superficies de la unión no limpias:** La presencia de suciedad, escoria o cualquier otro material extraño en las superficies de las piezas de trabajo o en el metal de soldadura previamente depositado puede interferir con la soldadura y causar porosidad.\n*   **Fusión de escoria con el extremo del electrodo:** Si el arco se interrumpe, la escoria puede fusionarse con la punta del electrodo. Al intentar reencender el arco sin eliminar esta escoria fusionada, se puede introducir porosidad.\n\n**Prevención:**\n*   **Uso de amperaje y longitud de arco adecuados:** Emplear el amperaje apropiado y mantener un arco con la longitud correcta es fundamental para prevenir la porosidad.\n*   **Electrodos secos:** Utilizar electrodos secos es muy útil para minimizar los problemas de humedad. Para los electrodos de bajo hidrógeno, es crucial un empaque, almacenamiento y manejo correctos. Se recomienda el uso de estufas de retención para electrodos que han estado expuestos a la humedad.\n*   **Limpieza de las superficies:** Las superficies de las piezas de trabajo y el metal de soldadura previamente depositado deben estar libres de suciedad, escoria y cualquier otro material extraño.\n*   **Técnica de encendido del arco:** Al usar electrodos de bajo hidrógeno, se recomienda encender el arco unos cuantos diámetros de electrodo más adelante del punto deseado para comenzar a soldar, y luego regresar rápidamente para continuar la soldadura. Esto ayuda a volver a fundir cualquier glóbulo pequeño de metal de soldadura que pueda haber quedado y evitar porosidad en el inicio.\n*   **Eliminación de escoria fusionada:** Si la escoria se fusiona con la punta del electrodo al interrumpir el arco, es preciso eliminarla antes de reencenderlo.\n\nFuentes: AWS_Tomo1_SMAW_cap1-2.pdf (pág. 44, 54, 56, 62, 69)",
+      "finishReason": "STOP",
+      "usage": {
+        "promptTokenCount": 176844,
+        "candidatesTokenCount": 702,
+        "totalTokenCount": 177546,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 176844
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "modelVersion": "gemini-2.5-flash",
+      "latency_ms": 4622,
+      "citas": [
+        {
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 44
+        },
+        {
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 54
+        },
+        {
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 56
+        },
+        {
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 62
+        },
+        {
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 69
+        }
+      ]
+    },
+    {
+      "id": "C3",
+      "categoria": "Diagnóstico/seguridad",
+      "pregunta": "¿Qué medidas de prevención y protección contra incendios deben tomarse antes de soldar?",
+      "intent": "EMERGENCIA",
+      "ruta": "contexto_largo",
+      "prompt_caracteres": 577736,
+      "respuesta": "Antes de soldar, se deben tomar las siguientes medidas de prevención y protección contra incendios:\n\n1.  **Áreas que contienen combustibles:**\n    *   La soldadura o el corte no deben realizarse a menos que la atmósfera no sea inflamable y los combustibles se alejen o protejan del peligro de incendio.\n    *   Cuando sea posible, el trabajo debe trasladarse a un lugar designado seguro.\n    *   Si el trabajo no se puede trasladar, todos los elementos próximos desplazables que presenten peligro de incendio deben trasladarse a un lugar seguro.\n    *   Si el trabajo y los elementos de peligro de incendio no son desplazables, se deben usar salvaguardias para protegerlos a ellos y al personal de las inmediaciones contra el calor, las chispas y la escoria.\n    *   Los pisos combustibles deben estar limpios y protegidos mediante humedecimiento con agua o cobertura con arena húmeda, chapas metálicas o equivalentes. Si los pisos están mojados, se deben tomar medidas para proteger al personal contra las descargas eléctricas.\n    *   Todas las grietas o aberturas en el piso deben cubrirse o cerrarse, o se deben tomar precauciones para proteger los materiales inflamables o combustibles por debajo del piso contra las chispas que pudieran caer. Las mismas precauciones aplican a grietas o aberturas en paredes, puertas abiertas o ventanas abiertas o rotas.\n\n2.  **Protección contra incendios:**\n    *   Debe disponerse de equipo de extinción de incendios suficiente y listo para usar donde se está realizando el trabajo de soldadura y corte (cubos de agua, cubos de arena, mangueras o extintores portátiles, según la naturaleza y cantidad de material combustible expuesto).\n    *   Si existe un sistema de protección por rociado, este debe permanecer operativo. Los cabezales de rociadores automáticos en las inmediaciones de la soldadura pueden protegerse temporalmente con una lámina de material no combustible o guardas de paño húmedo.\n\n3.  **Vigías contra incendios:**\n    *   Se deben asignar vigías contra incendios calificados, expertos en procedimientos de informe de incendios y rescate de emergencia, en lugares donde se realiza la soldadura o el corte y donde se pueda desarrollar un incendio grande, o cuando:\n        *   Los materiales combustibles para la construcción o contenidos están dentro de un radio de 10,7 metros (35 pies) del lugar de operación.\n        *   Existen aberturas en paredes o pisos dentro de un radio de 10,7 metros (35 pies) que exponen materiales combustibles de áreas adyacentes, incluidos espacios ocultos.\n        *   Materiales combustibles adyacentes al lado opuesto de tabiques, paredes, cielo rasos o techos metálicos, o en contacto con tuberías, son propensos a la ignición por conducción o radiación.\n        *   El trabajo en navíos se realiza en el lado opuesto de paredes de tanques, cubiertas, cubiertas superiores y mamparos, donde la penetración directa de chispas o la transferencia de calor pueda presentar un peligro de incendio en un compartimento adyacente.\n    *   Cuando sea necesario observar áreas ocultas a la vista de un solo vigía, se deben asignar vigías adicionales.\n    *   Los vigías contra incendios deben capacitarse en el uso de equipos de extinción, estar familiarizados con las instalaciones para hacer sonar una alarma, permanecer fuera de espacios confinados para comunicarse con el personal interior, y estar atentos a incendios en todas las áreas expuestas. Deben intentar extinguirlos solo si están dentro de la capacidad del equipo disponible, o de lo contrario, hacer sonar la alarma.\n    *   Se debe mantener un vigía contra incendios durante al menos media hora después de la finalización de las operaciones de soldadura o corte para detectar y extinguir posibles incendios de combustión lenta.\n\n4.  **Autorización para el trabajo en caliente:**\n    *   Antes de comenzar la soldadura o el corte en un lugar no diseñado para tal fin, se debe requerir la inspección y autorización de un representante designado de la administración.\n\n5.  **Recipientes para soldadura o corte:**\n    *   El trabajo de soldadura o corte no debe comenzar hasta que el recipiente esté preparado para el trabajo en caliente. Los trabajadores deben estar familiarizados con las prácticas de seguridad para la preparación de recipientes y tuberías para soldadura y corte.\n\nFuentes: AWS_Z49.1-2012-SP.pdf (pág. 14, 15, 16, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87)",
+      "finishReason": "STOP",
+      "usage": {
+        "promptTokenCount": 176841,
+        "candidatesTokenCount": 1250,
+        "totalTokenCount": 178091,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 176841
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "modelVersion": "gemini-2.5-flash",
+      "latency_ms": 5774,
+      "citas": [
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 14
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 15
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 16
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 27
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 28
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 29
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 30
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 31
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 32
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 33
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 34
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 35
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 36
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 37
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 38
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 39
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 40
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 41
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 42
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 43
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 44
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 45
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 46
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 47
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 48
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 49
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 50
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 51
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 52
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 53
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 54
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 55
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 56
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 57
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 58
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 59
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 60
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 61
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 62
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 63
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 64
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 65
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 66
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 67
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 68
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 69
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 70
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 71
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 72
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 73
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 74
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 75
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 76
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 77
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 78
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 79
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 80
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 81
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 82
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 83
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 84
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 85
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 86
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 87
+        }
+      ]
+    },
+    {
+      "id": "C4",
+      "categoria": "Diagnóstico/seguridad",
+      "pregunta": "¿Por qué no debe usarse oxígeno para ventilar un espacio de trabajo y qué riesgo implica?",
+      "intent": "SEGURIDAD",
+      "ruta": "contexto_largo",
+      "prompt_caracteres": 577737,
+      "respuesta": "El oxígeno no debe utilizarse para ventilar un espacio de trabajo porque, aunque no es inflamable, promueve y acelera vigorosamente la combustión. Esto significa que los materiales arden con gran intensidad en presencia de oxígeno, y una chispa ligera puede provocar quemaduras graves. La ropa puede absorber oxígeno, aumentando el riesgo.\n\nFuentes: AWS_Z49.1-2012-SP.pdf (pág. 24)",
+      "finishReason": "STOP",
+      "usage": {
+        "promptTokenCount": 176844,
+        "candidatesTokenCount": 96,
+        "totalTokenCount": 176940,
+        "cachedContentTokenCount": 176120,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 176844
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 176120
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "modelVersion": "gemini-2.5-flash",
+      "latency_ms": 16978,
+      "citas": [
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 24
+        }
+      ]
+    }
+  ]
+}

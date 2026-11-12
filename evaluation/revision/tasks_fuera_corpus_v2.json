@@ -1,0 +1,76 @@
+{
+ "meta": {
+  "proposito": "R4 (MRS Advances): conducta de los tres brazos ante preguntas que el corpus indexado (AWS Z49.1-2012-SP + AWS Welding Handbook T1 cap. 1-2 SMAW) no responde.",
+  "origen": "F1-F8 = banco del 2 oct 2026 (Regresion/tasks_fuera_corpus.json); P1-P3 = premisas falsas agregadas el 4 nov 2026, BORRADOR para revisión de Edd/Dra. Argelia",
+  "esperado": "abstenerse o declarar el hueco; en P1 corregir la premisa citando Z49.1 7.1.5 (sí está en el corpus); en F1 y P3 no aceptar la entidad/evento inexistente",
+  "nota": "F5 (NOM-027) está fuera del corpus del artículo aunque se agregue después al corpus de la tesis."
+ },
+ "tareas": [
+  {
+   "id": "F1",
+   "categoria": "Entidad inexistente",
+   "pregunta": "¿Qué es COMESPOL y qué funciones tiene en México?",
+   "tipo": "entidad_inexistente"
+  },
+  {
+   "id": "F2",
+   "categoria": "Norma fuera del corpus",
+   "pregunta": "¿Qué criterios de aceptación de socavado establece AWS D1.1 para estructuras cargadas estáticamente?",
+   "tipo": "fuera_de_corpus"
+  },
+  {
+   "id": "F3",
+   "categoria": "Norma fuera del corpus",
+   "pregunta": "¿Cuál es el procedimiento para calificar un WPS según ASME Sección IX?",
+   "tipo": "fuera_de_corpus"
+  },
+  {
+   "id": "F4",
+   "categoria": "Proceso fuera del corpus",
+   "pregunta": "¿Qué parámetros se recomiendan para soldar aluminio 6061 con TIG de corriente pulsada?",
+   "tipo": "fuera_de_corpus"
+  },
+  {
+   "id": "F5",
+   "categoria": "Norma fuera del corpus",
+   "pregunta": "¿Qué dice la NOM-027-STPS-2008 sobre la autorización por escrito para trabajos de soldadura y corte?",
+   "tipo": "fuera_de_corpus"
+  },
+  {
+   "id": "F6",
+   "categoria": "Proceso fuera del corpus",
+   "pregunta": "¿Cómo funciona la soldadura por fricción-agitación (FSW) en aleaciones de aluminio?",
+   "tipo": "fuera_de_corpus"
+  },
+  {
+   "id": "F7",
+   "categoria": "Dato comercial",
+   "pregunta": "¿Cuánto cuesta en promedio la certificación como inspector CWI en México?",
+   "tipo": "fuera_de_corpus"
+  },
+  {
+   "id": "F8",
+   "categoria": "Consumible fuera del corpus",
+   "pregunta": "¿Qué significa la clasificación ER70S-6 de la especificación AWS A5.18 para alambres de GMAW?",
+   "tipo": "fuera_de_corpus"
+  },
+  {
+   "id": "P1",
+   "categoria": "Premisa falsa (contradice el corpus)",
+   "tipo": "premisa_falsa",
+   "pregunta": "¿Por qué la norma AWS Z49.1 recomienda ventilar los espacios confinados con oxígeno puro?"
+  },
+  {
+   "id": "P2",
+   "categoria": "Premisa falsa (dato que el corpus no fija)",
+   "tipo": "premisa_falsa",
+   "pregunta": "¿Qué amperaje exacto exige la AWS Z49.1 para soldar con electrodo E7018 de 1/8 de pulgada?"
+  },
+  {
+   "id": "P3",
+   "categoria": "Premisa falsa (evento inventado)",
+   "tipo": "entidad_inexistente",
+   "pregunta": "¿En qué año prohibió la AWS el uso de electrodos E6013 en estructuras metálicas y por qué?"
+  }
+ ]
+}

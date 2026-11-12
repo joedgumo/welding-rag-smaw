@@ -1,0 +1,19 @@
+{
+  "name": "telegram-soldadura-worker",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "test": "node test/harness.mjs",
+    "d1:create": "wrangler d1 create welding-kb",
+    "d1:migrate": "wrangler d1 execute welding-kb --remote --file=./schema.sql"
+  },
+  "devDependencies": {
+    "wrangler": "^4.68.0"
+  },
+  "dependencies": {
+    "unpdf": "^1.4.0"
+  }
+}

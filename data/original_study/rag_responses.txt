@@ -1,0 +1,152 @@
+# Respuestas del Sistema A (chatbot-RAG) — captura VERBATIM desde Telegram.
+# Pega la respuesta del bot debajo de cada marcador, tal cual (puede ocupar varias líneas),
+# incluida la línea "Fuentes: ... (pág. N)". NO borres ni modifiques las líneas "=== ID ===".
+
+=== A1 ===
+Para seleccionar el amperaje en el proceso SMAW, se deben considerar los siguientes criterios:
+
+*  Tamaño y clasificación del electrodo: Los electrodos cubiertos de un tamaño y clasificación específicos pueden operar satisfactoriamente dentro de un intervalo de amperaje. Este intervalo varía según el espesor y la formulación de la cobertura. La rapidez de deposición aumenta con el amperaje.
+*  Tipo de corriente (CA o CC): Ciertos electrodos, especialmente aquellos con hierro pulverizado en su cobertura, están diseñados para operar a mayores amperajes con corriente alterna (CA).
+*  Posición de soldadura y tipo de unión: Para un tipo y tamaño de electrodo específicos, el amperaje óptimo depende de factores como la posición de soldadura y el tipo de unión. En posiciones vertical o cenital, la corriente continua (CC) es un poco mejor que la alterna porque permite usar un amperaje menor.
+*  Espesor del metal: La corriente continua (CC) ofrece mejores características de operación y un arco más estable para soldar lámina metálica con diámetros pequeños de electrodo y bajos niveles de corriente.
+*  Requerimientos de la fuente de potencia: La fuente de potencia debe ser capaz de suministrar el intervalo de amperaje necesario según los tamaños y tipos de electrodos que se usarán.
+*  Evitar sobrecalentamiento del electrodo: Un amperaje excesivo sobrecalienta el electrodo y descompone su cobertura, lo que altera las características del arco y la protección.
+
+Fuentes: AWS_Tomo1_SMAW_cap1-2.pdf (pág. 76), AWS_Tomo1_SMAW_cap1-2.pdf (pág. 62), AWS_Tomo1_SMAW_cap1-2.pdf (pág. 61), AWS_Tomo1_SMAW_cap1-2.pdf (pág. 60)
+
+=== A2 ===
+En el proceso SMAW, existen dos tipos de polaridad de corriente continua (CC):
+
+1.  Polaridad Inversa (Electrodo Positivo): En este tipo, el electrodo está conectado al polo positivo y la pieza de trabajo al polo negativo. La polaridad inversa logra una mayor penetración en la soldadura. La mayoría de los electrodos cubiertos trabajan mejor con esta polaridad.
+2.  Polaridad Directa (Electrodo Negativo): Aquí, el electrodo está conectado al polo negativo y la pieza de trabajo al polo positivo. La polaridad directa aumenta la rapidez de fusión del electrodo. Algunos electrodos están diseñados específicamente para operar con esta polaridad.
+
+La corriente continua (CC) en general produce un arco más estable y una transferencia de metal más uniforme que la corriente alterna (CA), ya que la polaridad no cambia constantemente. El arco de CC también hace que el charco de soldadura moje mejor las superficies de unión y produce una franja de soldadura de dimensiones más uniformes, incluso con amperajes bajos, lo que la hace ideal para soldar secciones delgadas, en posición vertical o cenital, y para soldar con arco corto.
+
+Fuentes: AWS_Tomo1_SMAW_cap1-2.pdf (pág. 76)
+
+=== A3 ===
+Para seleccionar el electrodo adecuado en SMAW, se deben considerar los siguientes factores:
+
+*  Tipo de corriente (CA o CC): El tipo de corriente influye en el rendimiento del electrodo. Algunos electrodos están diseñados para operar a mayores amperajes con corriente alterna (CA), especialmente aquellos con hierro pulverizado en su cobertura. La corriente continua (CC) ofrece mejores características de operación y un arco más estable con electrodos de diámetro pequeño y baja corriente de soldadura.
+*  Requerimientos de amperaje: Los electrodos cubiertos de un tamaño y clasificación específicos pueden operar satisfactoriamente dentro de un intervalo de amperaje. Un amperaje excesivo puede sobrecalentar el electrodo y descomponer su cobertura, alterando las características del arco y la protección.
+*  Tipo de material a soldar: Existen electrodos de SMAW para soldar aceros al carbono y de baja aleación, aceros inoxidables, hierro colado, cobre y níquel y sus aleaciones, y para algunas aplicaciones de aluminio. Los metales de bajo punto de fusión (plomo, estaño, cinc) y metales reactivos (titanio, zirconio, tántalo y colombio) no se sueldan con SMAW.
+*  Posición de soldadura: La corriente continua es un poco mejor que la alterna para soldaduras verticales o por encima de la cabeza, ya que permite usar un amperaje menor. Sin embargo, con los electrodos apropiados, es posible hacer soldaduras satisfactorias con CA en todas las posiciones.
+*  Espesor del metal: Se puede soldar tanto metal laminado como secciones gruesas empleando CC. La soldadura de lámina metálica con CA es menos recomendable que con CC, ya que las condiciones del arco en niveles de corriente bajos para materiales delgados son menos estables con CA.
+
+Fuentes: AWS_Tomo1_SMAW_cap1-2.pdf (pág. 60), AWS_Tomo1_SMAW_cap1-2.pdf (pág. 61), AWS_Tomo1_SMAW_cap1-2.pdf (pág. 62), AWS_Tomo1_SMAW_cap1-2.pdf (pág. 76)
+
+=== A4 ===
+Para seleccionar el tono (shade) del lente de filtro para protección ocular en soldadura, se deben considerar los siguientes factores:
+
+*  Tipo de operación de soldadura o corte: El tono se selecciona de acuerdo con la norma AWS F2.2, Lens Shade Selector (Selector del tono de lentes) o la Tabla 1 de la norma AWS Z49.1.
+*  Corriente del arco (Amperios) y tamaño del electrodo: La Tabla 1 de la norma AWS Z49.1 proporciona una guía de números de tono sugeridos para diferentes procesos de soldadura, incluyendo SMAW, basándose en el amperaje y el tamaño del electrodo.
+
+Guía general para SMAW (Soldadura por arco con electrodo metálico revestido):
+
+*  Menor de 3/32" (2.4 mm) y menor de 60 Amperios: Tono protector mínimo 7, tono sugerido 7.
+*  3/32"-5/32" (2.4-4.0 mm) y 60-160 Amperios: Tono protector mínimo 8, tono sugerido 10.
+*  5/32"-1/4" (4.0-6.4 mm) y 160-250 Amperios: Tono protector mínimo 10, tono sugerido 12.
+*  Menor de 1/4" (6.4 mm) y 250-550 Amperios: Tono protector mínimo 11, tono sugerido 14.
+
+Es importante recordar que estos números de tono son solo una guía y pueden variar para adaptarse a las necesidades individuales. Los lentes con filtro deben estar libres de defectos que puedan distraer o impedir la visión.
+
+Fuentes: AWS_Z49.1-2012-SP.pdf (pág. 20), AWS_Z49.1-2012-SP.pdf (pág. 21), AWS_Tomo1_SMAW_cap1-2.pdf (pág. 84)
+
+=== B1 ===
+Para determinar una ventilación adecuada al soldar, se deben considerar los siguientes factores:
+
+1.  Volumen y configuración del espacio: Esto incluye el tamaño y la forma del área donde se realizan las operaciones.
+2.  Cantidad y tipo de operaciones: Se refiere a la magnitud y la naturaleza de las actividades que generan contaminantes.
+3.  Concentraciones de contaminantes: Es importante conocer las concentraciones de los contaminantes tóxicos o inflamables específicos que se generan.
+4.  Flujo de aire natural: Considera el caudal y las condiciones atmosféricas generales del lugar de trabajo.
+5.  Ubicación de las zonas de respiración: Se debe tener en cuenta la posición del soldador y de otras personas en relación con los contaminantes o sus fuentes.
+
+El método recomendado para determinar la ventilación adecuada es tomar muestras de la composición y la cantidad de humos y gases a los que el personal está expuesto.
+
+Fuentes: AWS_Z49.1-2012-SP.pdf (pág. 24)
+
+=== B2 ===
+Los equipos de protección de ojos y cara deben cumplir con los siguientes requisitos:
+
+*  Conformidad con la norma ANSI/ISEA Z87.1: La protección de los ojos y la cara debe cumplir con la norma ANSI/ISEA Z87.1, "Occupational and Educational Personal Eye and Face Protection Devices" (Dispositivos de protección ocular y facial ocupacional y educativa).
+*  Lentes con filtro: Los lentes con filtro deben estar en conformidad con la norma ANSI/ISEA Z87.1 y el tono se debe seleccionar de acuerdo con la norma AWS F2.2, "Lens Shade Selector" (Selector del tono de lentes) o la Tabla 1 de la norma AWS Z49.1.
+*  Propiedades de los materiales: El cuerpo del casco y la careta de mano debe ser de un material con aislación térmica y eléctrica, no combustible o autoextinguible y opaco a la radiación visible, ultravioleta e infrarroja. Además, debe cumplir con los requisitos de la norma ANSI/ISEA Z87.1.
+*  Protección contra radiación, chispas y salpicaduras: Los cascos de soldadura provistos de lentes con filtro están destinados a proteger a los usuarios de los rayos del arco, así como de las chispas y salpicaduras de soldadura que impactan directamente.
+
+Fuentes: AWS_Z49.1-2012-SP.pdf (pág. 20), AWS_Z49.1-2012-SP.pdf (pág. 19)
+
+=== B3 ===
+Para la ventilación en espacios confinados, se deben cumplir las siguientes condiciones:
+
+1.  Suficiencia de oxígeno y prevención de acumulaciones: La ventilación debe asegurar una cantidad adecuada de oxígeno para la vida, evitar la acumulación de mezclas asfixiantes, inflamables o explosivas, prevenir atmósferas enriquecidas en oxígeno y mantener los contaminantes del aire por debajo de los límites permitidos.
+2.  Ventilación y ensayo antes del ingreso: No se debe ingresar a espacios confinados si no están bien ventilados y se han sometido a ensayo para garantizar que son seguros. Si no es posible mantener el espacio seguro, solo se debe ingresar si:  *  El espacio ha sido ensayado y se determinó que no presenta deficiencia o enriquecimiento de oxígeno, peligro de incendio o explosión, o una atmósfera peligrosa para la vida.  *  Una segunda persona capacitada y equipada para el rescate se encuentra fuera del espacio confinado.
+3.  Ensayo de atmósferas: Los espacios confinados deben someterse a ensayo en busca de gases, polvos y vapores tóxicos o inflamables, y para comprobar el oxígeno adecuado o en exceso, antes del ingreso y durante la ocupación.
+4.  Protección del personal: La ventilación adecuada debe garantizarse no solo para los soldadores o cortadores, sino también para todo el personal que pueda estar presente en el área.
+5.  Calidad y cantidad del aire: La calidad y cantidad del aire para ventilación debe mantener la exposición del personal a contaminantes peligrosos por debajo de los límites permitidos. El aire para respiración suministrado por cilindros o compresores debe cumplir con los requisitos de grado D de la norma ANSI/CGA G-7.1. La línea de suministro de aire para respiradores debe ser exclusiva.
+6.  Gases de ventilación prohibidos: No se debe utilizar oxígeno, o cualquier otro gas o mezcla de gases, excepto aire, para ventilación.
+7.  Materiales de límite permitido bajo: Si se identifican materiales como antimonio, arsénico, bario, berilio, cadmio, cromo, cobalto, cobre, plomo, manganeso, mercurio, níquel, ozono, selenio, plata y vanadio en operaciones en espacios confinados, y exceden los límites permitidos, se debe usar ventilación mecánica local por extracción y, cuando sea necesario, protección respiratoria.
+8.  Compuestos de flúor: Cuando se empleen fundentes, recubrimientos u otros materiales que contengan compuestos de flúor en espacios confinados, se deberá proporcionar ventilación mecánica local por extracción o protección respiratoria.
+9.  Ubicación de equipos de servicio: Los cilindros de gas comprimido y las fuentes de alimentación para soldadura deben ubicarse fuera del espacio confinado. El equipo portátil pesado sobre ruedas debe asegurarse en su posición.
+10. Conductos de ventilación: Los conductos deben ser de materiales no combustibles y se deben inspeccionar para asegurar su funcionamiento adecuado y que estén libres de residuos combustibles.
+11. Áreas adyacentes: El personal que realice soldadura o corte por encima o en las adyacencias de un espacio confinado debe ser consciente de los peligros y no debe ingresar en dicho espacio.
+12. Áreas IDLH: Cuando los procesos se realicen en áreas inmediatamente peligrosas para la vida o la salud (IDLH), se deben cumplir los requisitos de la norma OSHA 29 CFR 1910.146.
+
+Fuentes: AWS_Z49.1-2012-SP.pdf (pág. 30), AWS_Z49.1-2012-SP.pdf (pág. 26), AWS_Z49.1-2012-SP.pdf (pág. 31), AWS_Z49.1-2012-SP.pdf (pág. 24), AWS_Z49.1-2012-SP.pdf (pág. 18)
+
+=== B4 ===
+Las funciones principales del revestimiento (cobertura) del electrodo en SMAW son:
+
+1.  Estabilizar el arco: Ayuda a mantener un arco de soldadura estable.
+2.  Proteger el metal derretido de la atmósfera: Genera gases al descomponerse por el calor del arco, los cuales protegen el metal fundido de la contaminación atmosférica (oxígeno y nitrógeno).
+3.  Suministrar limpiadores, desoxidantes y agentes fundentes: Purifican la soldadura y evitan el crecimiento excesivo de granos en el metal de soldadura.
+4.  Establecer las características eléctricas del electrodo: Influye en el comportamiento eléctrico del electrodo.
+5.  Proporcionar un manto de escoria: Esta escoria protege el metal de soldadura caliente del aire, mejora sus propiedades mecánicas, la forma del cordón y la limpieza superficial.
+6.  Añadir elementos de aleación: Permite modificar las propiedades mecánicas del metal de soldadura.
+
+Fuentes: AWS_Tomo1_SMAW_cap1-2.pdf (pág. 58), AWS_Tomo1_SMAW_cap1-2.pdf (pág. 59)
+
+=== C1 ===
+Si la ventilación natural no es suficiente para mantener los contaminantes por debajo de los límites permitidos, se debe proveer ventilación mecánica o respiradores.
+
+Fuentes: AWS_Z49.1-2012-SP.pdf (pág. 25)
+
+=== C2 ===
+Las causas comunes de la porosidad en una soldadura son:
+
+*  Formación de gases: Es el resultado de reacciones químicas durante la soldadura que producen bolsas de gas o huecos en el metal de soldadura.
+*  Humedad en la cobertura del electrodo: La humedad absorbida por la cobertura del electrodo se disocia durante la soldadura, produciendo hidrógeno y oxígeno, lo que puede causar porosidad. Esto es especialmente crítico para electrodos de bajo hidrógeno y electrodos para soldar aluminio.
+*  Corriente elevada o arco largo: Si se emplea una corriente elevada o un arco largo, los desoxidantes del electrodo cubierto se pierden fácilmente.
+*  Velocidad de recorrido alta: Una velocidad de recorrido excesiva puede atrapar gas en el metal de soldadura.
+*  Orientación incorrecta del electrodo: Puede causar porosidad.
+*  Superficies de la unión o tira de respaldo sucias: La presencia de suciedad puede provocar porosidad.
+*  Arco inestable: Un arco inestable puede resultar en defectos como la porosidad.
+
+Para prevenir la porosidad, se pueden tomar las siguientes medidas:
+
+*  Emplear el amperaje apropiado y mantener un arco con la longitud correcta.
+*  Usar electrodos secos.
+*  Almacenar y manejar correctamente los electrodos, especialmente los de bajo hidrógeno, para minimizar la absorción de humedad. Para electrodos de aluminio, deben guardarse en un gabinete con calefacción.
+*  Ajustar la velocidad de recorrido para evitar que sea demasiado alta.
+*  Asegurar una orientación correcta del electrodo.
+*  Mantener limpias las superficies de la unión y la tira de respaldo.
+*  Asegurar un arco estable.
+
+Fuentes: AWS_Tomo1_SMAW_cap1-2.pdf (pág. 83, 70, 78, 69, 72, 81)
+
+=== C3 ===
+⚠️ Posible emergencia industrial detectada.
+
+1. Detén la operación si es seguro hacerlo.
+2. Corta energía o suministro de gas si aplica y si estás capacitado.
+3. Evacúa la zona si hay riesgo inmediato.
+4. Activa el protocolo interno de seguridad y contacta al responsable HSE/supervisor.
+5. Si hay lesionados o peligro grave, llama a emergencias locales de inmediato.
+
+No continúes soldando hasta controlar la situación.
+
+=== C4 ===
+No se debe utilizar oxígeno, o cualquier otro gas o mezcla de gases, excepto aire, para ventilar un espacio de trabajo.
+
+El riesgo principal de usar oxígeno para ventilar es que las atmósferas enriquecidas en oxígeno intensifican considerablemente la combustión y pueden provocar rápidamente quemaduras graves y frecuentemente fatales.
+
+Fuentes: AWS_Z49.1-2012-SP.pdf (pág. 30)

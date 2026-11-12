@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite the article."
+title: "Welding RAG assistant (SMAW): code and data"
+type: software
+license: MIT
+version: 1.0.0
+date-released: 2026-11-16
+authors:
+  - family-names: Gutiérrez Montoya
+    given-names: José Eduardo
+  - family-names: Jurado-Bichir
+    given-names: Lorena E.
+  - family-names: Gaona
+    given-names: Octavio P.
+  - family-names: González De Lara
+    given-names: Brenda
+  - family-names: Miranda Pérez
+    given-names: Argelia Fabiola
+  - family-names: González-González
+    given-names: David Salvador
+preferred-citation:
+  type: article
+  title: "Towards Reliable and Low-Cost AI Assistants for Welding SMEs: A Retrieval-Augmented Generation Approach"
+  journal: "MRS Advances"
+  year: 2026
+  authors:
+    - family-names: Gutiérrez Montoya
+      given-names: José Eduardo
+    - family-names: Jurado-Bichir
+      given-names: Lorena E.
+    - family-names: Gaona
+      given-names: Octavio P.
+    - family-names: González De Lara
+      given-names: Brenda
+    - family-names: Miranda Pérez
+      given-names: Argelia Fabiola
+    - family-names: González-González
+      given-names: David Salvador

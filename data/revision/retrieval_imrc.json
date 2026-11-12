@@ -1,0 +1,1644 @@
+{
+ "meta": {
+  "fecha": "2026-11-05T05:37:06.201Z",
+  "chunks": "production D1 export (not redistributed)",
+  "embedding_model": "gemini-embedding-001",
+  "k": 10,
+  "total_chunks": 499,
+  "searched": 499,
+  "limit_600_binding": false
+ },
+ "tareas": [
+  {
+   "id": "A1",
+   "categoria": "Selección de parámetros",
+   "pregunta": "En el proceso SMAW, ¿qué criterios se deben considerar para seleccionar el amperaje de soldadura?",
+   "intent": "PARAMETROS",
+   "contexto_truncado": false,
+   "pasajes_en_contexto": 10,
+   "top": [
+    {
+     "rank": 1,
+     "chunk_id": 1916,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 76,
+     "score": 30.804,
+     "sem": 0.7744,
+     "kw": 9.2,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 2,
+     "chunk_id": 1857,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 62,
+     "score": 30.502,
+     "sem": 0.7942,
+     "kw": 9.2,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 3,
+     "chunk_id": 1851,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 61,
+     "score": 26.163,
+     "sem": 0.7163,
+     "kw": 7.5,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 4,
+     "chunk_id": 1895,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 71,
+     "score": 25.729,
+     "sem": 0.7229,
+     "kw": 7.5,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 5,
+     "chunk_id": 1315,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 52,
+     "score": 25.579,
+     "sem": 0.6579,
+     "kw": 7.5,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 6,
+     "chunk_id": 1684,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 16,
+     "score": 25.566,
+     "sem": 0.7066,
+     "kw": 7.5,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 7,
+     "chunk_id": 1305,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 52,
+     "score": 25.559,
+     "sem": 0.6559,
+     "kw": 7.5,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 8,
+     "chunk_id": 1853,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 61,
+     "score": 25.509,
+     "sem": 0.7509,
+     "kw": 7.5,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 9,
+     "chunk_id": 1849,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 60,
+     "score": 25.475,
+     "sem": 0.7475,
+     "kw": 7.5,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 10,
+     "chunk_id": 1915,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 76,
+     "score": 25.147,
+     "sem": 0.7147,
+     "kw": 7.5,
+     "sec": 0,
+     "phr": 0
+    }
+   ],
+   "fidelidad": {
+    "cited": [
+     {
+      "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+      "page": 76
+     },
+     {
+      "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+      "page": 62
+     },
+     {
+      "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+      "page": 61
+     },
+     {
+      "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+      "page": 60
+     }
+    ],
+    "cited_in_topk": 4,
+    "cited_total": 4
+   }
+  },
+  {
+   "id": "A2",
+   "categoria": "Selección de parámetros",
+   "pregunta": "¿Qué tipos de polaridad existen en SMAW (soldadura por arco con electrodo revestido) y en qué se diferencian?",
+   "intent": "CONSUMIBLES",
+   "contexto_truncado": false,
+   "pasajes_en_contexto": 10,
+   "top": [
+    {
+     "rank": 1,
+     "chunk_id": 1915,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 76,
+     "score": 33.36,
+     "sem": 0.8045,
+     "kw": 10.73,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 2,
+     "chunk_id": 1310,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 51,
+     "score": 30.572,
+     "sem": 0.6434,
+     "kw": 10.08,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 3,
+     "chunk_id": 1299,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 51,
+     "score": 30.451,
+     "sem": 0.6313,
+     "kw": 10.08,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 4,
+     "chunk_id": 1356,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 68,
+     "score": 29.936,
+     "sem": 0.7197,
+     "kw": 9.58,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 5,
+     "chunk_id": 1886,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 69,
+     "score": 29.623,
+     "sem": 0.6885,
+     "kw": 9.58,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 6,
+     "chunk_id": 1849,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 60,
+     "score": 29.508,
+     "sem": 0.7269,
+     "kw": 9.58,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 7,
+     "chunk_id": 1921,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 77,
+     "score": 29.466,
+     "sem": 0.705,
+     "kw": 10.23,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 8,
+     "chunk_id": 1183,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 21,
+     "score": 29.31,
+     "sem": 0.6572,
+     "kw": 9.58,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 9,
+     "chunk_id": 1914,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 76,
+     "score": 27.746,
+     "sem": 0.7585,
+     "kw": 8.42,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 10,
+     "chunk_id": 1888,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 69,
+     "score": 27.57,
+     "sem": 0.7409,
+     "kw": 8.42,
+     "sec": 0,
+     "phr": 0
+    }
+   ],
+   "fidelidad": {
+    "cited": [
+     {
+      "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+      "page": 76
+     }
+    ],
+    "cited_in_topk": 1,
+    "cited_total": 1
+   }
+  },
+  {
+   "id": "A3",
+   "categoria": "Selección de parámetros",
+   "pregunta": "¿Qué factores se deben considerar al seleccionar el electrodo adecuado en SMAW?",
+   "intent": "CONSUMIBLES",
+   "contexto_truncado": false,
+   "pasajes_en_contexto": 10,
+   "top": [
+    {
+     "rank": 1,
+     "chunk_id": 1916,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 76,
+     "score": 28.587,
+     "sem": 0.7737,
+     "kw": 8.25,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 2,
+     "chunk_id": 1851,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 61,
+     "score": 27.843,
+     "sem": 0.6993,
+     "kw": 8.25,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 3,
+     "chunk_id": 1857,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 62,
+     "score": 24.069,
+     "sem": 0.7869,
+     "kw": 6.5,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 4,
+     "chunk_id": 1849,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 60,
+     "score": 19.408,
+     "sem": 0.7858,
+     "kw": 4.75,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 5,
+     "chunk_id": 1897,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 71,
+     "score": 19.05,
+     "sem": 0.75,
+     "kw": 4.75,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 6,
+     "chunk_id": 1853,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 61,
+     "score": 18.828,
+     "sem": 0.7278,
+     "kw": 4.75,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 7,
+     "chunk_id": 1693,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 18,
+     "score": 18.725,
+     "sem": 0.6675,
+     "kw": 4.75,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 8,
+     "chunk_id": 1315,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 52,
+     "score": 18.543,
+     "sem": 0.6493,
+     "kw": 4.75,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 9,
+     "chunk_id": 1305,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 52,
+     "score": 18.446,
+     "sem": 0.6396,
+     "kw": 4.75,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 10,
+     "chunk_id": 1684,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 16,
+     "score": 18.438,
+     "sem": 0.6888,
+     "kw": 4.75,
+     "sec": 0,
+     "phr": 0
+    }
+   ],
+   "fidelidad": {
+    "cited": [
+     {
+      "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+      "page": 60
+     },
+     {
+      "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+      "page": 61
+     },
+     {
+      "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+      "page": 62
+     },
+     {
+      "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+      "page": 76
+     }
+    ],
+    "cited_in_topk": 4,
+    "cited_total": 4
+   }
+  },
+  {
+   "id": "A4",
+   "categoria": "Selección de parámetros",
+   "pregunta": "¿Cómo se selecciona el tono (shade) del lente de filtro para protección ocular?",
+   "intent": "OTRO",
+   "contexto_truncado": false,
+   "pasajes_en_contexto": 10,
+   "top": [
+    {
+     "rank": 1,
+     "chunk_id": 1181,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 20,
+     "score": 37.792,
+     "sem": 0.7752,
+     "kw": 12.8,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 2,
+     "chunk_id": 1180,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 20,
+     "score": 29.574,
+     "sem": 0.6754,
+     "kw": 9.9,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 3,
+     "chunk_id": 1333,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 58,
+     "score": 27.227,
+     "sem": 0.6567,
+     "kw": 8.7,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 4,
+     "chunk_id": 1182,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 20,
+     "score": 27.197,
+     "sem": 0.7037,
+     "kw": 8.7,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 5,
+     "chunk_id": 1179,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 19,
+     "score": 27.131,
+     "sem": 0.6971,
+     "kw": 8.7,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 6,
+     "chunk_id": 1183,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 21,
+     "score": 26.369,
+     "sem": 0.7609,
+     "kw": 8.2,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 7,
+     "chunk_id": 1335,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 58,
+     "score": 24.024,
+     "sem": 0.6524,
+     "kw": 7.5,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 8,
+     "chunk_id": 1952,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 84,
+     "score": 23.692,
+     "sem": 0.7592,
+     "kw": 7,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 9,
+     "chunk_id": 1185,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 22,
+     "score": 23.065,
+     "sem": 0.6965,
+     "kw": 7,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 10,
+     "chunk_id": 1953,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 84,
+     "score": 21.892,
+     "sem": 0.7052,
+     "kw": 6.3,
+     "sec": 0,
+     "phr": 0
+    }
+   ],
+   "fidelidad": {
+    "cited": [
+     {
+      "source": "AWS_Z49.1-2012-SP.pdf",
+      "page": 20
+     },
+     {
+      "source": "AWS_Z49.1-2012-SP.pdf",
+      "page": 21
+     },
+     {
+      "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+      "page": 84
+     }
+    ],
+    "cited_in_topk": 3,
+    "cited_total": 3
+   }
+  },
+  {
+   "id": "B1",
+   "categoria": "Documental/procedimental",
+   "pregunta": "¿Cuáles son los factores para determinar una ventilación adecuada al soldar?",
+   "intent": "SEGURIDAD",
+   "contexto_truncado": false,
+   "pasajes_en_contexto": 10,
+   "top": [
+    {
+     "rank": 1,
+     "chunk_id": 1195,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 24,
+     "score": 38.223,
+     "sem": 0.7783,
+     "kw": 13.3,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 2,
+     "chunk_id": 1193,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 24,
+     "score": 33.965,
+     "sem": 0.7585,
+     "kw": 11.6,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 3,
+     "chunk_id": 1194,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 24,
+     "score": 29.934,
+     "sem": 0.8114,
+     "kw": 9.9,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 4,
+     "chunk_id": 1925,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 78,
+     "score": 28.157,
+     "sem": 0.6597,
+     "kw": 9.2,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 5,
+     "chunk_id": 1338,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 59,
+     "score": 26.973,
+     "sem": 0.6813,
+     "kw": 8.7,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 6,
+     "chunk_id": 1953,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 84,
+     "score": 26.427,
+     "sem": 0.7267,
+     "kw": 8.7,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 7,
+     "chunk_id": 1216,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 30,
+     "score": 24.942,
+     "sem": 0.7182,
+     "kw": 8.2,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 8,
+     "chunk_id": 1201,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 26,
+     "score": 24.936,
+     "sem": 0.7176,
+     "kw": 8.2,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 9,
+     "chunk_id": 1176,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 19,
+     "score": 24.635,
+     "sem": 0.6875,
+     "kw": 8.2,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 10,
+     "chunk_id": 1214,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 29,
+     "score": 24.463,
+     "sem": 0.6703,
+     "kw": 8.2,
+     "sec": 0,
+     "phr": 0
+    }
+   ],
+   "fidelidad": {
+    "cited": [
+     {
+      "source": "AWS_Z49.1-2012-SP.pdf",
+      "page": 24
+     }
+    ],
+    "cited_in_topk": 1,
+    "cited_total": 1
+   }
+  },
+  {
+   "id": "B2",
+   "categoria": "Documental/procedimental",
+   "pregunta": "¿Qué requisitos deben cumplir los equipos de protección de ojos y cara?",
+   "intent": "EQUIPO",
+   "contexto_truncado": false,
+   "pasajes_en_contexto": 10,
+   "top": [
+    {
+     "rank": 1,
+     "chunk_id": 1181,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 20,
+     "score": 31.113,
+     "sem": 0.7513,
+     "kw": 10.06,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 2,
+     "chunk_id": 1192,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 23,
+     "score": 28.853,
+     "sem": 0.6553,
+     "kw": 9.33,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 3,
+     "chunk_id": 1303,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 52,
+     "score": 28.31,
+     "sem": 0.601,
+     "kw": 9.33,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 4,
+     "chunk_id": 1313,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 52,
+     "score": 28.28,
+     "sem": 0.598,
+     "kw": 9.33,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 5,
+     "chunk_id": 1177,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 19,
+     "score": 26.632,
+     "sem": 0.7632,
+     "kw": 8.33,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 6,
+     "chunk_id": 1180,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 20,
+     "score": 26.274,
+     "sem": 0.7274,
+     "kw": 8.33,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 7,
+     "chunk_id": 1336,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 59,
+     "score": 25.073,
+     "sem": 0.6073,
+     "kw": 8.33,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 8,
+     "chunk_id": 1340,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 59,
+     "score": 24.907,
+     "sem": 0.5907,
+     "kw": 8.33,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 9,
+     "chunk_id": 1224,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 32,
+     "score": 24.521,
+     "sem": 0.6321,
+     "kw": 7.61,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 10,
+     "chunk_id": 1302,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 52,
+     "score": 24.312,
+     "sem": 0.6112,
+     "kw": 7.61,
+     "sec": 0,
+     "phr": 0
+    }
+   ],
+   "fidelidad": {
+    "cited": [
+     {
+      "source": "AWS_Z49.1-2012-SP.pdf",
+      "page": 20
+     },
+     {
+      "source": "AWS_Z49.1-2012-SP.pdf",
+      "page": 19
+     }
+    ],
+    "cited_in_topk": 2,
+    "cited_total": 2
+   }
+  },
+  {
+   "id": "B3",
+   "categoria": "Documental/procedimental",
+   "pregunta": "¿Qué condiciones deben cumplirse para la ventilación en espacios confinados?",
+   "intent": "SEGURIDAD",
+   "contexto_truncado": false,
+   "pasajes_en_contexto": 10,
+   "top": [
+    {
+     "rank": 1,
+     "chunk_id": 1215,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 30,
+     "score": 31.159,
+     "sem": 0.7559,
+     "kw": 9.5,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 2,
+     "chunk_id": 1194,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 24,
+     "score": 30.637,
+     "sem": 0.7037,
+     "kw": 9.5,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 3,
+     "chunk_id": 1200,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 26,
+     "score": 27.649,
+     "sem": 0.6799,
+     "kw": 8.25,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 4,
+     "chunk_id": 1216,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 30,
+     "score": 26.601,
+     "sem": 0.7651,
+     "kw": 7.75,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 5,
+     "chunk_id": 1217,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 30,
+     "score": 26.164,
+     "sem": 0.7214,
+     "kw": 7.75,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 6,
+     "chunk_id": 1219,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 30,
+     "score": 25.918,
+     "sem": 0.6968,
+     "kw": 7.75,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 7,
+     "chunk_id": 1201,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 26,
+     "score": 25.896,
+     "sem": 0.6946,
+     "kw": 7.75,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 8,
+     "chunk_id": 1193,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 24,
+     "score": 25.704,
+     "sem": 0.6754,
+     "kw": 7.75,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 9,
+     "chunk_id": 1229,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 31,
+     "score": 25.679,
+     "sem": 0.6729,
+     "kw": 7.75,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 10,
+     "chunk_id": 1175,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 18,
+     "score": 25.32,
+     "sem": 0.637,
+     "kw": 7.75,
+     "sec": 0,
+     "phr": 0
+    }
+   ],
+   "fidelidad": {
+    "cited": [
+     {
+      "source": "AWS_Z49.1-2012-SP.pdf",
+      "page": 30
+     },
+     {
+      "source": "AWS_Z49.1-2012-SP.pdf",
+      "page": 26
+     },
+     {
+      "source": "AWS_Z49.1-2012-SP.pdf",
+      "page": 31
+     },
+     {
+      "source": "AWS_Z49.1-2012-SP.pdf",
+      "page": 24
+     },
+     {
+      "source": "AWS_Z49.1-2012-SP.pdf",
+      "page": 18
+     }
+    ],
+    "cited_in_topk": 5,
+    "cited_total": 5
+   }
+  },
+  {
+   "id": "B4",
+   "categoria": "Documental/procedimental",
+   "pregunta": "¿Cuáles son las funciones principales del revestimiento (cobertura) del electrodo en SMAW?",
+   "intent": "CONSUMIBLES",
+   "contexto_truncado": false,
+   "pasajes_en_contexto": 10,
+   "top": [
+    {
+     "rank": 1,
+     "chunk_id": 1838,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 58,
+     "score": 34.554,
+     "sem": 0.7936,
+     "kw": 11.45,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 2,
+     "chunk_id": 1935,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 81,
+     "score": 29.244,
+     "sem": 0.7153,
+     "kw": 9.77,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 3,
+     "chunk_id": 1842,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 59,
+     "score": 28.158,
+     "sem": 0.8194,
+     "kw": 8.59,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 4,
+     "chunk_id": 1883,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 69,
+     "score": 27.117,
+     "sem": 0.7153,
+     "kw": 8.59,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 5,
+     "chunk_id": 1809,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 48,
+     "score": 26.584,
+     "sem": 0.6393,
+     "kw": 9.27,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 6,
+     "chunk_id": 1843,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 59,
+     "score": 26.123,
+     "sem": 0.8059,
+     "kw": 8.09,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 7,
+     "chunk_id": 1849,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 60,
+     "score": 25.619,
+     "sem": 0.7555,
+     "kw": 8.09,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 8,
+     "chunk_id": 1916,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 76,
+     "score": 25.539,
+     "sem": 0.7476,
+     "kw": 8.09,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 9,
+     "chunk_id": 1892,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 70,
+     "score": 25.438,
+     "sem": 0.7374,
+     "kw": 8.09,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 10,
+     "chunk_id": 1881,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 68,
+     "score": 24.947,
+     "sem": 0.6883,
+     "kw": 8.09,
+     "sec": 0,
+     "phr": 0
+    }
+   ],
+   "fidelidad": {
+    "cited": [
+     {
+      "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+      "page": 58
+     },
+     {
+      "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+      "page": 59
+     }
+    ],
+    "cited_in_topk": 2,
+    "cited_total": 2
+   }
+  },
+  {
+   "id": "C1",
+   "categoria": "Diagnóstico/seguridad",
+   "pregunta": "Si la ventilación natural no es suficiente, ¿qué se debe hacer?",
+   "intent": "SEGURIDAD",
+   "contexto_truncado": false,
+   "pasajes_en_contexto": 10,
+   "top": [
+    {
+     "rank": 1,
+     "chunk_id": 1196,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 25,
+     "score": 30.509,
+     "sem": 0.6309,
+     "kw": 8.17,
+     "sec": 0,
+     "phr": 3
+    },
+    {
+     "rank": 2,
+     "chunk_id": 1215,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 30,
+     "score": 18.855,
+     "sem": 0.6355,
+     "kw": 5,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 3,
+     "chunk_id": 1193,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 24,
+     "score": 18.719,
+     "sem": 0.6219,
+     "kw": 5,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 4,
+     "chunk_id": 1197,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 25,
+     "score": 18.545,
+     "sem": 0.6545,
+     "kw": 5,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 5,
+     "chunk_id": 1194,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 24,
+     "score": 18.317,
+     "sem": 0.6317,
+     "kw": 5,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 6,
+     "chunk_id": 1245,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 36,
+     "score": 18.243,
+     "sem": 0.5743,
+     "kw": 5,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 7,
+     "chunk_id": 1190,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 23,
+     "score": 17.794,
+     "sem": 0.5794,
+     "kw": 5,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 8,
+     "chunk_id": 1208,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 28,
+     "score": 17.638,
+     "sem": 0.5638,
+     "kw": 5,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 9,
+     "chunk_id": 1951,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 84,
+     "score": 17.382,
+     "sem": 0.5382,
+     "kw": 5,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 10,
+     "chunk_id": 1953,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 84,
+     "score": 16.663,
+     "sem": 0.6063,
+     "kw": 4.5,
+     "sec": 0,
+     "phr": 0
+    }
+   ],
+   "fidelidad": {
+    "cited": [
+     {
+      "source": "AWS_Z49.1-2012-SP.pdf",
+      "page": 25
+     }
+    ],
+    "cited_in_topk": 1,
+    "cited_total": 1
+   }
+  },
+  {
+   "id": "C2",
+   "categoria": "Diagnóstico/seguridad",
+   "pregunta": "¿Cuáles son las causas comunes de la porosidad en una soldadura y cómo se puede prevenir?",
+   "intent": "DEFECTOS",
+   "contexto_truncado": false,
+   "pasajes_en_contexto": 10,
+   "top": [
+    {
+     "rank": 1,
+     "chunk_id": 1943,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 83,
+     "score": 29.519,
+     "sem": 0.7429,
+     "kw": 9.77,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 2,
+     "chunk_id": 1945,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 83,
+     "score": 25.016,
+     "sem": 0.7453,
+     "kw": 8.09,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 3,
+     "chunk_id": 1890,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 70,
+     "score": 24.784,
+     "sem": 0.672,
+     "kw": 8.09,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 4,
+     "chunk_id": 1923,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 78,
+     "score": 23.072,
+     "sem": 0.7136,
+     "kw": 6.91,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 5,
+     "chunk_id": 1883,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 69,
+     "score": 22.77,
+     "sem": 0.6834,
+     "kw": 6.91,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 6,
+     "chunk_id": 1924,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 78,
+     "score": 22.669,
+     "sem": 0.6732,
+     "kw": 6.91,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 7,
+     "chunk_id": 1900,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 72,
+     "score": 22.614,
+     "sem": 0.6678,
+     "kw": 6.91,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 8,
+     "chunk_id": 1934,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 81,
+     "score": 22.592,
+     "sem": 0.6655,
+     "kw": 6.91,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 9,
+     "chunk_id": 1947,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 83,
+     "score": 22.068,
+     "sem": 0.7131,
+     "kw": 6.91,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 10,
+     "chunk_id": 1892,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 70,
+     "score": 21.767,
+     "sem": 0.633,
+     "kw": 6.91,
+     "sec": 0,
+     "phr": 0
+    }
+   ],
+   "fidelidad": {
+    "cited": [
+     {
+      "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+      "page": 83
+     },
+     {
+      "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+      "page": 70
+     },
+     {
+      "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+      "page": 78
+     },
+     {
+      "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+      "page": 69
+     },
+     {
+      "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+      "page": 72
+     },
+     {
+      "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+      "page": 81
+     }
+    ],
+    "cited_in_topk": 6,
+    "cited_total": 6
+   }
+  },
+  {
+   "id": "C3",
+   "categoria": "Diagnóstico/seguridad",
+   "pregunta": "¿Qué medidas de prevención y protección contra incendios deben tomarse antes de soldar?",
+   "intent": "EMERGENCIA",
+   "contexto_truncado": false,
+   "pasajes_en_contexto": 10,
+   "top": [
+    {
+     "rank": 1,
+     "chunk_id": 1175,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 18,
+     "score": 38.779,
+     "sem": 0.7599,
+     "kw": 12.6,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 2,
+     "chunk_id": 1204,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 27,
+     "score": 30.627,
+     "sem": 0.7567,
+     "kw": 9.2,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 3,
+     "chunk_id": 1174,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 18,
+     "score": 30.33,
+     "sem": 0.777,
+     "kw": 9.2,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 4,
+     "chunk_id": 1295,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 50,
+     "score": 30.232,
+     "sem": 0.7172,
+     "kw": 9.2,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 5,
+     "chunk_id": 1206,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 27,
+     "score": 27.968,
+     "sem": 0.7568,
+     "kw": 8,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 6,
+     "chunk_id": 1336,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 59,
+     "score": 27.744,
+     "sem": 0.7344,
+     "kw": 8,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 7,
+     "chunk_id": 1225,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 33,
+     "score": 27.604,
+     "sem": 0.7204,
+     "kw": 8,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 8,
+     "chunk_id": 1325,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 55,
+     "score": 27.248,
+     "sem": 0.6848,
+     "kw": 8,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 9,
+     "chunk_id": 1157,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 10,
+     "score": 27.209,
+     "sem": 0.6809,
+     "kw": 8,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 10,
+     "chunk_id": 1226,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 33,
+     "score": 27.2,
+     "sem": 0.68,
+     "kw": 8,
+     "sec": 0,
+     "phr": 0
+    }
+   ],
+   "fidelidad": {
+    "cited": [],
+    "cited_in_topk": 0,
+    "cited_total": 0
+   }
+  },
+  {
+   "id": "C4",
+   "categoria": "Diagnóstico/seguridad",
+   "pregunta": "¿Por qué no debe usarse oxígeno para ventilar un espacio de trabajo y qué riesgo implica?",
+   "intent": "SEGURIDAD",
+   "contexto_truncado": false,
+   "pasajes_en_contexto": 10,
+   "top": [
+    {
+     "rank": 1,
+     "chunk_id": 1217,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 30,
+     "score": 26.31,
+     "sem": 0.701,
+     "kw": 8.5,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 2,
+     "chunk_id": 1218,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 30,
+     "score": 26.197,
+     "sem": 0.6897,
+     "kw": 8.5,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 3,
+     "chunk_id": 1223,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 32,
+     "score": 25.734,
+     "sem": 0.6434,
+     "kw": 8.5,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 4,
+     "chunk_id": 1254,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 38,
+     "score": 23.635,
+     "sem": 0.6435,
+     "kw": 7.33,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 5,
+     "chunk_id": 1168,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 16,
+     "score": 22.936,
+     "sem": 0.5736,
+     "kw": 7.33,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 6,
+     "chunk_id": 1158,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 11,
+     "score": 22.807,
+     "sem": 0.6107,
+     "kw": 7.33,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 7,
+     "chunk_id": 1216,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 30,
+     "score": 22.024,
+     "sem": 0.6724,
+     "kw": 6.83,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 8,
+     "chunk_id": 1233,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 32,
+     "score": 21.911,
+     "sem": 0.6611,
+     "kw": 6.83,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 9,
+     "chunk_id": 1215,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 30,
+     "score": 21.875,
+     "sem": 0.6575,
+     "kw": 6.83,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 10,
+     "chunk_id": 1251,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 38,
+     "score": 21.866,
+     "sem": 0.6566,
+     "kw": 6.83,
+     "sec": 0,
+     "phr": 0
+    }
+   ],
+   "fidelidad": {
+    "cited": [
+     {
+      "source": "AWS_Z49.1-2012-SP.pdf",
+      "page": 30
+     }
+    ],
+    "cited_in_topk": 1,
+    "cited_total": 1
+   }
+  }
+ ]
+}

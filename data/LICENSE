@@ -1,0 +1,8 @@
+The data in data/ and the task, reference and rubric files in evaluation/ are licensed under the
+Creative Commons Attribution 4.0 International License (CC BY 4.0):
+https://creativecommons.org/licenses/by/4.0/
+
+They contain short quotations of AWS documents (page-level fragments in
+evaluation/revision/gold_pages_v2.json and passages quoted in model responses) used for research
+and evaluation purposes. Those quotations remain the property of the American Welding Society and
+are not covered by this licence.

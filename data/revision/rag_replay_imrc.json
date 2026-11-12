@@ -1,0 +1,1120 @@
+{
+  "meta": {
+    "fecha": "2026-11-05T05:40:39.617Z",
+    "brazo": "rag",
+    "modelo": "gemini-2.5-flash",
+    "generationConfig": {
+      "temperature": 0.2,
+      "maxOutputTokens": 1400,
+      "thinkingConfig": {
+        "thinkingBudget": 0
+      }
+    },
+    "embedding_model": "gemini-embedding-001",
+    "regla_emergencia": true,
+    "historial": "(sin historial previo)",
+    "contexto_lc_caracteres": null
+  },
+  "respuestas": [
+    {
+      "id": "A1",
+      "categoria": "Selección de parámetros",
+      "pregunta": "En el proceso SMAW, ¿qué criterios se deben considerar para seleccionar el amperaje de soldadura?",
+      "intent": "PARAMETROS",
+      "ruta": "rag",
+      "pasajes": [
+        {
+          "chunk_id": 1916,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 76,
+          "score": 30.804
+        },
+        {
+          "chunk_id": 1857,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 62,
+          "score": 30.502
+        },
+        {
+          "chunk_id": 1851,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 61,
+          "score": 26.163
+        },
+        {
+          "chunk_id": 1895,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 71,
+          "score": 25.729
+        },
+        {
+          "chunk_id": 1315,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 52,
+          "score": 25.579
+        },
+        {
+          "chunk_id": 1684,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 16,
+          "score": 25.566
+        },
+        {
+          "chunk_id": 1305,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 52,
+          "score": 25.559
+        },
+        {
+          "chunk_id": 1853,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 61,
+          "score": 25.509
+        },
+        {
+          "chunk_id": 1849,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 60,
+          "score": 25.475
+        },
+        {
+          "chunk_id": 1915,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 76,
+          "score": 25.147
+        }
+      ],
+      "pasajes_en_contexto": 10,
+      "query_embedding_tokens_aprox": 25,
+      "prompt_caracteres": 14368,
+      "respuesta": "Para seleccionar el amperaje de soldadura en el proceso SMAW, se deben considerar los siguientes criterios:\n\n*   **Tamaño y clasificación del electrodo:** Los electrodos cubiertos de un tamaño y clasificación específicos pueden operar satisfactoriamente dentro de un intervalo de amperaje determinado.\n*   **Espesor y formulación de la cobertura del electrodo:** Este intervalo de amperaje puede variar ligeramente dependiendo del espesor y la formulación de la cobertura del electrodo.\n*   **Tipo de corriente (CA o CC):**\n    *   Ciertos electrodos (los que tienen hierro pulverizado en su cobertura) están diseñados para operar a mayores amperajes con corriente alterna (CA).\n    *   Para soldaduras verticales o por encima de la cabeza, la corriente continua (CC) permite usar un amperaje menor.\n    *   Para secciones delgadas, la corriente continua es ideal y produce una franja de soldadura más uniforme incluso con amperajes bajos.\n    *   Con CA, las condiciones del arco en niveles de corriente bajos requeridos para materiales delgados son menos estables que con CC.\n*   **Sobrecalentamiento del electrodo:** Un amperaje excesivo puede sobrecalentar el electrodo y descomponer su cobertura, alterando las características del arco y la protección.\n\nFuentes: AWS_Tomo1_SMAW_cap1-2.pdf (pág. 76), AWS_Tomo1_SMAW_cap1-2.pdf (pág. 61), AWS_Tomo1_SMAW_cap1-2.pdf (pág. 60)",
+      "finishReason": "STOP",
+      "usage": {
+        "promptTokenCount": 3732,
+        "candidatesTokenCount": 345,
+        "totalTokenCount": 4077,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3732
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "modelVersion": "gemini-2.5-flash",
+      "latency_ms": 2155,
+      "citas": [
+        {
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 76
+        },
+        {
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 61
+        },
+        {
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 60
+        }
+      ]
+    },
+    {
+      "id": "A2",
+      "categoria": "Selección de parámetros",
+      "pregunta": "¿Qué tipos de polaridad existen en SMAW (soldadura por arco con electrodo revestido) y en qué se diferencian?",
+      "intent": "CONSUMIBLES",
+      "ruta": "rag",
+      "pasajes": [
+        {
+          "chunk_id": 1915,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 76,
+          "score": 33.36
+        },
+        {
+          "chunk_id": 1310,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 51,
+          "score": 30.572
+        },
+        {
+          "chunk_id": 1299,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 51,
+          "score": 30.451
+        },
+        {
+          "chunk_id": 1356,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 68,
+          "score": 29.936
+        },
+        {
+          "chunk_id": 1886,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 69,
+          "score": 29.623
+        },
+        {
+          "chunk_id": 1849,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 60,
+          "score": 29.508
+        },
+        {
+          "chunk_id": 1921,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 77,
+          "score": 29.466
+        },
+        {
+          "chunk_id": 1183,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 21,
+          "score": 29.31
+        },
+        {
+          "chunk_id": 1914,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 76,
+          "score": 27.746
+        },
+        {
+          "chunk_id": 1888,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 69,
+          "score": 27.57
+        }
+      ],
+      "pasajes_en_contexto": 10,
+      "query_embedding_tokens_aprox": 28,
+      "prompt_caracteres": 14379,
+      "respuesta": "En la soldadura SMAW (Soldadura por Arco con Electrodo Metálico Revestido), existen dos tipos de polaridad cuando se utiliza corriente continua (CC):\n\n1.  **Polaridad Inversa (Electrodo Positivo):** En este tipo de polaridad, el electrodo está conectado al polo positivo. Logra una mayor penetración en el metal base. La mayoría de los electrodos revestidos funcionan mejor con esta polaridad.\n2.  **Polaridad Directa (Electrodo Negativo):** En este caso, el electrodo está conectado al polo negativo. Aumenta la rapidez de fusión del electrodo. Algunos electrodos están diseñados específicamente para esta polaridad.\n\nLa corriente continua (CC) en general produce un arco más estable y una transferencia de metal más uniforme que la corriente alterna (CA), ya que la polaridad no cambia constantemente. La CC es ideal para soldar secciones delgadas y es preferida para soldar en posición vertical o cenital, y con arco corto.\n\nFuentes: AWS_Tomo1_SMAW_cap1-2.pdf (pág. 76)",
+      "finishReason": "STOP",
+      "usage": {
+        "promptTokenCount": 4176,
+        "candidatesTokenCount": 238,
+        "totalTokenCount": 4414,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 4176
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "modelVersion": "gemini-2.5-flash",
+      "latency_ms": 1608,
+      "citas": [
+        {
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 76
+        }
+      ]
+    },
+    {
+      "id": "A3",
+      "categoria": "Selección de parámetros",
+      "pregunta": "¿Qué factores se deben considerar al seleccionar el electrodo adecuado en SMAW?",
+      "intent": "CONSUMIBLES",
+      "ruta": "rag",
+      "pasajes": [
+        {
+          "chunk_id": 1916,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 76,
+          "score": 28.587
+        },
+        {
+          "chunk_id": 1851,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 61,
+          "score": 27.843
+        },
+        {
+          "chunk_id": 1857,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 62,
+          "score": 24.069
+        },
+        {
+          "chunk_id": 1849,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 60,
+          "score": 19.408
+        },
+        {
+          "chunk_id": 1897,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 71,
+          "score": 19.05
+        },
+        {
+          "chunk_id": 1853,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 61,
+          "score": 18.828
+        },
+        {
+          "chunk_id": 1693,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 18,
+          "score": 18.725
+        },
+        {
+          "chunk_id": 1315,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 52,
+          "score": 18.543
+        },
+        {
+          "chunk_id": 1305,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 52,
+          "score": 18.446
+        },
+        {
+          "chunk_id": 1684,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 16,
+          "score": 18.438
+        }
+      ],
+      "pasajes_en_contexto": 10,
+      "query_embedding_tokens_aprox": 20,
+      "prompt_caracteres": 14351,
+      "respuesta": "Al seleccionar el electrodo adecuado en SMAW, se deben considerar los siguientes factores:\n\n*   **Tipo de corriente:** La selección del tipo de corriente (CA, CC o ambas) dependerá en gran medida de los tipos de electrodos que se usarán. Algunos electrodos están diseñados para operar a mayores amperajes con CA, especialmente aquellos con hierro pulverizado en su cobertura. La CC ofrece mejores características de operación y un arco más estable con electrodos de diámetro pequeño y baja corriente.\n*   **Material a soldar:** Existen electrodos de SMAW para soldar aceros al carbono y de baja aleación, aceros inoxidables, hierro colado, cobre y níquel y sus aleaciones, y para algunas aplicaciones de aluminio. Los metales de bajo punto de fusión (plomo, estaño, cinc) y metales reactivos (titanio, zirconio, tántalo, colombio) no se sueldan con SMAW.\n*   **Amperaje requerido:** Los electrodos cubiertos de un tamaño y clasificación específicos pueden operar satisfactoriamente dentro de un intervalo de amperaje. Un amperaje excesivo puede sobrecalentar el electrodo y descomponer su cobertura, alterando las características del arco y la protección.\n*   **Posición de soldadura:** Aunque con los electrodos apropiados es posible hacer soldaduras satisfactorias con CA en todas las posiciones, la corriente continua es un poco mejor para soldaduras verticales o por encima de la cabeza porque permite usar un amperaje menor.\n*   **Espesor del metal:** Se puede soldar tanto metal laminado como secciones gruesas empleando CC. La soldadura de lámina metálica con CA es menos recomendable que con CC debido a la menor estabilidad del arco en niveles de corriente bajos.\n*   **Diseño de la unión:** El diseño de la unión, incluyendo la abertura de raíz y el ángulo del surco, influye en la cantidad de metal de aporte necesario y, por lo tanto, en el tipo de electrodo.\n\nFuentes: AWS_Tomo1_SMAW_cap1-2.pdf (pág. 60), AWS_Tomo1_SMAW_cap1-2.pdf (pág. 61), AWS_Tomo1_SMAW_cap1-2.pdf (pág. 62), AWS_Tomo1_SMAW_cap1-2.pdf (pág. 71), AWS_Tomo1_SMAW_cap1-2.pdf (pág. 76)",
+      "finishReason": "STOP",
+      "usage": {
+        "promptTokenCount": 3689,
+        "candidatesTokenCount": 540,
+        "totalTokenCount": 4229,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3689
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "modelVersion": "gemini-2.5-flash",
+      "latency_ms": 3125,
+      "citas": [
+        {
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 60
+        },
+        {
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 61
+        },
+        {
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 62
+        },
+        {
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 71
+        },
+        {
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 76
+        }
+      ]
+    },
+    {
+      "id": "A4",
+      "categoria": "Selección de parámetros",
+      "pregunta": "¿Cómo se selecciona el tono (shade) del lente de filtro para protección ocular?",
+      "intent": "OTRO",
+      "ruta": "rag",
+      "pasajes": [
+        {
+          "chunk_id": 1181,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 20,
+          "score": 37.792
+        },
+        {
+          "chunk_id": 1180,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 20,
+          "score": 29.574
+        },
+        {
+          "chunk_id": 1333,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 58,
+          "score": 27.227
+        },
+        {
+          "chunk_id": 1182,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 20,
+          "score": 27.197
+        },
+        {
+          "chunk_id": 1179,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 19,
+          "score": 27.131
+        },
+        {
+          "chunk_id": 1183,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 21,
+          "score": 26.369
+        },
+        {
+          "chunk_id": 1335,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 58,
+          "score": 24.024
+        },
+        {
+          "chunk_id": 1952,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 84,
+          "score": 23.692
+        },
+        {
+          "chunk_id": 1185,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 22,
+          "score": 23.065
+        },
+        {
+          "chunk_id": 1953,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 84,
+          "score": 21.892
+        }
+      ],
+      "pasajes_en_contexto": 10,
+      "query_embedding_tokens_aprox": 20,
+      "prompt_caracteres": 14320,
+      "respuesta": "El tono (shade) del lente de filtro para protección ocular se selecciona de acuerdo con la norma AWS F2.2, \"Lens Shade Selector\" (Selector del tono de lentes) o la Tabla 1.\n\nFuentes: AWS_Z49.1-2012-SP.pdf (pág. 20), AWS_Z49.1-2012-SP.pdf (pág. 21)",
+      "finishReason": "STOP",
+      "usage": {
+        "promptTokenCount": 4072,
+        "candidatesTokenCount": 95,
+        "totalTokenCount": 4167,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 4072
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "modelVersion": "gemini-2.5-flash",
+      "latency_ms": 992,
+      "citas": [
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 20
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 21
+        }
+      ]
+    },
+    {
+      "id": "B1",
+      "categoria": "Documental/procedimental",
+      "pregunta": "¿Cuáles son los factores para determinar una ventilación adecuada al soldar?",
+      "intent": "SEGURIDAD",
+      "ruta": "rag",
+      "pasajes": [
+        {
+          "chunk_id": 1195,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 24,
+          "score": 38.223
+        },
+        {
+          "chunk_id": 1193,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 24,
+          "score": 33.965
+        },
+        {
+          "chunk_id": 1194,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 24,
+          "score": 29.934
+        },
+        {
+          "chunk_id": 1925,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 78,
+          "score": 28.157
+        },
+        {
+          "chunk_id": 1338,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 59,
+          "score": 26.973
+        },
+        {
+          "chunk_id": 1953,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 84,
+          "score": 26.427
+        },
+        {
+          "chunk_id": 1216,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 30,
+          "score": 24.942
+        },
+        {
+          "chunk_id": 1201,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 26,
+          "score": 24.936
+        },
+        {
+          "chunk_id": 1176,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 19,
+          "score": 24.635
+        },
+        {
+          "chunk_id": 1214,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 29,
+          "score": 24.463
+        }
+      ],
+      "pasajes_en_contexto": 10,
+      "query_embedding_tokens_aprox": 19,
+      "prompt_caracteres": 14326,
+      "respuesta": "Los factores para determinar una ventilación adecuada al soldar incluyen:\n\n1.  **Volumen y configuración del espacio** donde se realizan las operaciones (especialmente en espacios confinados).\n2.  **Cantidad y tipo de operaciones** que generan contaminantes.\n3.  **Concentraciones de los contaminantes tóxicos o inflamables específicos** que se generan.\n4.  **Flujo de aire natural** (caudal y condiciones atmosféricas generales del lugar de trabajo).\n5.  **Ubicación de las zonas de respiración** del soldador y de otras personas en relación con los contaminantes o sus fuentes.\n\nFuentes: AWS_Z49.1-2012-SP.pdf (pág. 24)",
+      "finishReason": "STOP",
+      "usage": {
+        "promptTokenCount": 3782,
+        "candidatesTokenCount": 161,
+        "totalTokenCount": 3943,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3782
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "modelVersion": "gemini-2.5-flash",
+      "latency_ms": 1112,
+      "citas": [
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 24
+        }
+      ]
+    },
+    {
+      "id": "B2",
+      "categoria": "Documental/procedimental",
+      "pregunta": "¿Qué requisitos deben cumplir los equipos de protección de ojos y cara?",
+      "intent": "EQUIPO",
+      "ruta": "rag",
+      "pasajes": [
+        {
+          "chunk_id": 1181,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 20,
+          "score": 31.113
+        },
+        {
+          "chunk_id": 1192,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 23,
+          "score": 28.853
+        },
+        {
+          "chunk_id": 1303,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 52,
+          "score": 28.31
+        },
+        {
+          "chunk_id": 1313,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 52,
+          "score": 28.28
+        },
+        {
+          "chunk_id": 1177,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 19,
+          "score": 26.632
+        },
+        {
+          "chunk_id": 1180,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 20,
+          "score": 26.274
+        },
+        {
+          "chunk_id": 1336,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 59,
+          "score": 25.073
+        },
+        {
+          "chunk_id": 1340,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 59,
+          "score": 24.907
+        },
+        {
+          "chunk_id": 1224,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 32,
+          "score": 24.521
+        },
+        {
+          "chunk_id": 1302,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 52,
+          "score": 24.312
+        }
+      ],
+      "pasajes_en_contexto": 10,
+      "query_embedding_tokens_aprox": 18,
+      "prompt_caracteres": 14309,
+      "respuesta": "Los equipos de protección de ojos y cara deben cumplir con la norma ANSI/ISEA Z87.1, \"Occupational and Educational Personal Eye and Face Protection Devices\".\n\nEspecíficamente:\n*   **Lentes con filtro:** Deben estar en conformidad con la norma ANSI/ISEA Z87.1 y el tono debe seleccionarse de acuerdo con la norma AWS F2.2, \"Lens Shade Selector\", o la Tabla 1.\n*   **Cuerpo del casco y careta de mano:** Deben ser de un material con aislación térmica y eléctrica, no combustible o autoextinguible, y opaco a la radiación visible, ultravioleta e infrarroja. Además, deben cumplir con los requisitos de la norma ANSI/ISEA Z87.1.\n\nFuentes: AWS_Z49.1-2012-SP.pdf (pág. 20), AWS_Z49.1-2012-SP.pdf (pág. 19)",
+      "finishReason": "STOP",
+      "usage": {
+        "promptTokenCount": 3829,
+        "candidatesTokenCount": 218,
+        "totalTokenCount": 4047,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3829
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "modelVersion": "gemini-2.5-flash",
+      "latency_ms": 1160,
+      "citas": [
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 20
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 19
+        }
+      ]
+    },
+    {
+      "id": "B3",
+      "categoria": "Documental/procedimental",
+      "pregunta": "¿Qué condiciones deben cumplirse para la ventilación en espacios confinados?",
+      "intent": "SEGURIDAD",
+      "ruta": "rag",
+      "pasajes": [
+        {
+          "chunk_id": 1215,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 30,
+          "score": 31.159
+        },
+        {
+          "chunk_id": 1194,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 24,
+          "score": 30.637
+        },
+        {
+          "chunk_id": 1200,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 26,
+          "score": 27.649
+        },
+        {
+          "chunk_id": 1216,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 30,
+          "score": 26.601
+        },
+        {
+          "chunk_id": 1217,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 30,
+          "score": 26.164
+        },
+        {
+          "chunk_id": 1219,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 30,
+          "score": 25.918
+        },
+        {
+          "chunk_id": 1201,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 26,
+          "score": 25.896
+        },
+        {
+          "chunk_id": 1193,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 24,
+          "score": 25.704
+        },
+        {
+          "chunk_id": 1229,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 31,
+          "score": 25.679
+        },
+        {
+          "chunk_id": 1175,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 18,
+          "score": 25.32
+        }
+      ],
+      "pasajes_en_contexto": 10,
+      "query_embedding_tokens_aprox": 19,
+      "prompt_caracteres": 14315,
+      "respuesta": "Para la ventilación en espacios confinados, se deben cumplir las siguientes condiciones:\n\n*   **Suficiencia de ventilación:** Debe ser suficiente para asegurar la cantidad adecuada de oxígeno para la vida, evitar la acumulación de mezclas asfixiantes, inflamables o explosivas, evitar atmósferas enriquecidas en oxígeno y mantener los contaminantes del aire en atmósferas respirables por debajo de los límites permitidos.\n*   **Ventilación antes del ingreso:** No se debe ingresar a espacios confinados si no están bien ventilados y se han sometido a ensayo para garantizar que son seguros.\n*   **Ensayo de atmósferas:** Los espacios confinados deben someterse a ensayo en busca de gases, polvos y vapores tóxicos o inflamables, y para comprobar el oxígeno adecuado o en exceso antes del ingreso y durante la ocupación.\n*   **Calidad y cantidad del aire:** La calidad y cantidad del aire para ventilación debe ser tal que la exposición del personal a contaminantes peligrosos se mantenga por debajo de los límites permitidos. El aire para respiración suministrado por cilindros o compresores debe cumplir con los requisitos de grado D de la norma ANSI/CGA G-7.1.\n*   **Gases de ventilación prohibidos:** No se debe utilizar oxígeno, o cualquier otro gas o mezclas de gases, excepto aire, para ventilación.\n*   **Materiales de límite permitido bajo:** Si se identifican materiales como antimonio, arsénico, bario, berilio, cadmio, cromo, cobalto, cobre, plomo, manganeso, mercurio, níquel, ozono, selenio, plata y vanadio en operaciones de soldadura, soldadura fuerte o corte en espacios confinados, y exceden los límites permitidos, se debe usar ventilación mecánica local por extracción y, cuando sea necesario, protección respiratoria.\n*   **Compuestos de flúor:** Cuando se empleen fundentes, recubrimientos u otros materiales que contengan compuestos de flúor en espacios confinados, se deberá proporcionar ventilación mecánica local por extracción o protección respiratoria.\n\nFuentes: AWS_Z49.1-2012-SP (pág. 30), AWS_Z49.1-2012-SP (pág. 24), AWS_Z49.1-2012-SP (pág. 26)",
+      "finishReason": "STOP",
+      "usage": {
+        "promptTokenCount": 3764,
+        "candidatesTokenCount": 526,
+        "totalTokenCount": 4290,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3764
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "modelVersion": "gemini-2.5-flash",
+      "latency_ms": 3921,
+      "citas": []
+    },
+    {
+      "id": "B4",
+      "categoria": "Documental/procedimental",
+      "pregunta": "¿Cuáles son las funciones principales del revestimiento (cobertura) del electrodo en SMAW?",
+      "intent": "CONSUMIBLES",
+      "ruta": "rag",
+      "pasajes": [
+        {
+          "chunk_id": 1838,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 58,
+          "score": 34.554
+        },
+        {
+          "chunk_id": 1935,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 81,
+          "score": 29.244
+        },
+        {
+          "chunk_id": 1842,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 59,
+          "score": 28.158
+        },
+        {
+          "chunk_id": 1883,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 69,
+          "score": 27.117
+        },
+        {
+          "chunk_id": 1809,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 48,
+          "score": 26.584
+        },
+        {
+          "chunk_id": 1843,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 59,
+          "score": 26.123
+        },
+        {
+          "chunk_id": 1849,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 60,
+          "score": 25.619
+        },
+        {
+          "chunk_id": 1916,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 76,
+          "score": 25.539
+        },
+        {
+          "chunk_id": 1892,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 70,
+          "score": 25.438
+        },
+        {
+          "chunk_id": 1881,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 68,
+          "score": 24.947
+        }
+      ],
+      "pasajes_en_contexto": 10,
+      "query_embedding_tokens_aprox": 23,
+      "prompt_caracteres": 14372,
+      "respuesta": "Las funciones principales del revestimiento (cobertura) del electrodo en SMAW son:\n\n1.  **Estabilizar el arco:** Ayuda a mantener un arco de soldadura constante.\n2.  **Proteger el metal derretido de la atmósfera:** Genera gases que protegen el charco de soldadura de la contaminación por oxígeno y nitrógeno del aire.\n3.  **Suministrar limpiadores, desoxidantes y agentes fundentes:** Purifican la soldadura y evitan el crecimiento excesivo de granos.\n4.  **Establecer las características eléctricas del electrodo:** Influye en cómo se comporta el electrodo eléctricamente.\n5.  **Proporcionar un manto de escoria:** Protege el metal de soldadura caliente del aire, mejora las propiedades mecánicas, la forma del cordón y la limpieza superficial.\n6.  **Añadir elementos de aleación:** Modifican las propiedades mecánicas del metal de soldadura.\n\nFuentes: AWS_Tomo1_SMAW_cap1-2.pdf (pág. 58), AWS_Tomo1_SMAW_cap1-2.pdf (pág. 59), AWS_Tomo1_SMAW_cap1-2.pdf (pág. 81)",
+      "finishReason": "STOP",
+      "usage": {
+        "promptTokenCount": 3791,
+        "candidatesTokenCount": 285,
+        "totalTokenCount": 4076,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3791
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "modelVersion": "gemini-2.5-flash",
+      "latency_ms": 1584,
+      "citas": [
+        {
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 58
+        },
+        {
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 59
+        },
+        {
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 81
+        }
+      ]
+    },
+    {
+      "id": "C1",
+      "categoria": "Diagnóstico/seguridad",
+      "pregunta": "Si la ventilación natural no es suficiente, ¿qué se debe hacer?",
+      "intent": "SEGURIDAD",
+      "ruta": "rag",
+      "pasajes": [
+        {
+          "chunk_id": 1196,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 25,
+          "score": 30.509
+        },
+        {
+          "chunk_id": 1215,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 30,
+          "score": 18.855
+        },
+        {
+          "chunk_id": 1193,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 24,
+          "score": 18.719
+        },
+        {
+          "chunk_id": 1197,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 25,
+          "score": 18.545
+        },
+        {
+          "chunk_id": 1194,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 24,
+          "score": 18.317
+        },
+        {
+          "chunk_id": 1245,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 36,
+          "score": 18.243
+        },
+        {
+          "chunk_id": 1190,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 23,
+          "score": 17.794
+        },
+        {
+          "chunk_id": 1208,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 28,
+          "score": 17.638
+        },
+        {
+          "chunk_id": 1951,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 84,
+          "score": 17.382
+        },
+        {
+          "chunk_id": 1953,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 84,
+          "score": 16.663
+        }
+      ],
+      "pasajes_en_contexto": 10,
+      "query_embedding_tokens_aprox": 16,
+      "prompt_caracteres": 14308,
+      "respuesta": "Si la ventilación natural no es suficiente para mantener los contaminantes por debajo de los límites permitidos, se debe proveer ventilación mecánica o respiradores.\n\nFuentes: AWS_Z49.1-2012-SP.pdf (pág. 25)",
+      "finishReason": "STOP",
+      "usage": {
+        "promptTokenCount": 3764,
+        "candidatesTokenCount": 60,
+        "totalTokenCount": 3824,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3764
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "modelVersion": "gemini-2.5-flash",
+      "latency_ms": 641,
+      "citas": [
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 25
+        }
+      ]
+    },
+    {
+      "id": "C2",
+      "categoria": "Diagnóstico/seguridad",
+      "pregunta": "¿Cuáles son las causas comunes de la porosidad en una soldadura y cómo se puede prevenir?",
+      "intent": "DEFECTOS",
+      "ruta": "rag",
+      "pasajes": [
+        {
+          "chunk_id": 1943,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 83,
+          "score": 29.519
+        },
+        {
+          "chunk_id": 1945,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 83,
+          "score": 25.016
+        },
+        {
+          "chunk_id": 1890,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 70,
+          "score": 24.784
+        },
+        {
+          "chunk_id": 1923,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 78,
+          "score": 23.072
+        },
+        {
+          "chunk_id": 1883,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 69,
+          "score": 22.77
+        },
+        {
+          "chunk_id": 1924,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 78,
+          "score": 22.669
+        },
+        {
+          "chunk_id": 1900,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 72,
+          "score": 22.614
+        },
+        {
+          "chunk_id": 1934,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 81,
+          "score": 22.592
+        },
+        {
+          "chunk_id": 1947,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 83,
+          "score": 22.068
+        },
+        {
+          "chunk_id": 1892,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 70,
+          "score": 21.767
+        }
+      ],
+      "pasajes_en_contexto": 10,
+      "query_embedding_tokens_aprox": 23,
+      "prompt_caracteres": 14365,
+      "respuesta": "La porosidad en una soldadura, que se describe como bolsas de gas o huecos en el metal de soldadura, es el resultado de la formación de gases por reacciones químicas durante la soldadura.\n\nLas causas comunes de la porosidad incluyen:\n\n*   **Amperaje o longitud de arco incorrectos:** Un amperaje elevado o un arco largo pueden hacer que los desoxidantes del electrodo cubierto se pierdan fácilmente.\n*   **Electrodos húmedos:** La humedad en la cobertura de los electrodos se disocia durante la soldadura, produciendo hidrógeno y oxígeno, lo que puede causar porosidad. Esto es especialmente crítico en electrodos de bajo hidrógeno y en electrodos para soldar aluminio.\n*   **Velocidad de recorrido inadecuada:** Una velocidad de recorrido muy alta puede atrapar gas en el metal de soldadura.\n*   **Arco inestable:** Un arco inestable puede provocar defectos como la porosidad.\n*   **Superficies de la unión o tira de respaldo sucias:** La presencia de suciedad en estas áreas puede contribuir a la porosidad.\n\nPara prevenir la porosidad, se recomienda:\n\n*   **Emplear el amperaje apropiado y mantener un arco con la longitud correcta.**\n*   **Utilizar electrodos secos y acondicionarlos correctamente.** Esto implica un embalaje, almacenamiento y manejo adecuados para minimizar la absorción de humedad. Para electrodos de aluminio, deben guardarse en un gabinete con calefacción cuando no se usen.\n*   **Ajustar la velocidad de recorrido** para que el arco vaya un poco adelante del charco de soldadura.\n*   **Asegurar un arco estable.**\n*   **Mantener limpias las superficies de la unión y la tira de respaldo.**\n\nFuentes: AWS_Tomo1_SMAW_cap1-2.pdf (pág. 83), AWS_Tomo1_SMAW_cap1-2.pdf (pág. 70), AWS_Tomo1_SMAW_cap1-2.pdf (pág. 78), AWS_Tomo1_SMAW_cap1-2.pdf (pág. 69), AWS_Tomo1_SMAW_cap1-2.pdf (pág. 72), AWS_Tomo1_SMAW_cap1-2.pdf (pág. 81)",
+      "finishReason": "STOP",
+      "usage": {
+        "promptTokenCount": 3821,
+        "candidatesTokenCount": 516,
+        "totalTokenCount": 4337,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3821
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "modelVersion": "gemini-2.5-flash",
+      "latency_ms": 2725,
+      "citas": [
+        {
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 83
+        },
+        {
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 70
+        },
+        {
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 78
+        },
+        {
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 69
+        },
+        {
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 72
+        },
+        {
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 81
+        }
+      ]
+    },
+    {
+      "id": "C3",
+      "categoria": "Diagnóstico/seguridad",
+      "pregunta": "¿Qué medidas de prevención y protección contra incendios deben tomarse antes de soldar?",
+      "intent": "EMERGENCIA",
+      "ruta": "emergencia",
+      "respuesta": "⚠️ Posible emergencia industrial detectada.\n\n1. Detén la operación si es seguro hacerlo.\n2. Corta energía o suministro de gas si aplica y si estás capacitado.\n3. Evacúa la zona si hay riesgo inmediato.\n4. Activa el protocolo interno de seguridad y contacta al responsable HSE/supervisor.\n5. Si hay lesionados o peligro grave, llama a emergencias locales de inmediato.\n\nNo continúes soldando hasta controlar la situación.",
+      "usage": null,
+      "latency_ms": 0,
+      "pasajes": []
+    },
+    {
+      "id": "C4",
+      "categoria": "Diagnóstico/seguridad",
+      "pregunta": "¿Por qué no debe usarse oxígeno para ventilar un espacio de trabajo y qué riesgo implica?",
+      "intent": "SEGURIDAD",
+      "ruta": "rag",
+      "pasajes": [
+        {
+          "chunk_id": 1217,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 30,
+          "score": 26.31
+        },
+        {
+          "chunk_id": 1218,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 30,
+          "score": 26.197
+        },
+        {
+          "chunk_id": 1223,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 32,
+          "score": 25.734
+        },
+        {
+          "chunk_id": 1254,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 38,
+          "score": 23.635
+        },
+        {
+          "chunk_id": 1168,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 16,
+          "score": 22.936
+        },
+        {
+          "chunk_id": 1158,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 11,
+          "score": 22.807
+        },
+        {
+          "chunk_id": 1216,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 30,
+          "score": 22.024
+        },
+        {
+          "chunk_id": 1233,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 32,
+          "score": 21.911
+        },
+        {
+          "chunk_id": 1215,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 30,
+          "score": 21.875
+        },
+        {
+          "chunk_id": 1251,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 38,
+          "score": 21.866
+        }
+      ],
+      "pasajes_en_contexto": 10,
+      "query_embedding_tokens_aprox": 23,
+      "prompt_caracteres": 14329,
+      "respuesta": "No se debe usar oxígeno para ventilar un espacio de trabajo porque las atmósferas enriquecidas en oxígeno intensifican considerablemente la combustión y pueden provocar rápidamente quemaduras graves y frecuentemente fatales. Además, no se debe utilizar oxígeno, o cualquier otro gas o mezclas de gases, excepto aire, para ventilación.\n\nFuentes: AWS_Z49.1-2012-SP.pdf (pág. 30)",
+      "finishReason": "STOP",
+      "usage": {
+        "promptTokenCount": 4054,
+        "candidatesTokenCount": 97,
+        "totalTokenCount": 4151,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 4054
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "modelVersion": "gemini-2.5-flash",
+      "latency_ms": 847,
+      "citas": [
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 30
+        }
+      ]
+    }
+  ]
+}

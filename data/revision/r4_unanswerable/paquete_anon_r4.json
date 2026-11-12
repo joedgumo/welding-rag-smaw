@@ -1,0 +1,389 @@
+{
+ "meta": {
+  "seed": 20261106,
+  "nota": "Page texts given to the judges were removed (copyrighted AWS documents); only the cited page identifiers are kept."
+ },
+ "items": [
+  {
+   "pregunta": "¿Qué criterios de aceptación de socavado establece AWS D1.1 para estructuras cargadas estáticamente?",
+   "tipo": "fuera_de_corpus",
+   "respuesta": "El contexto proporcionado no contiene información sobre los criterios de aceptación de socavado establecidos por AWS D1.1 para estructuras cargadas estáticamente.\n\nFuentes: AWS_Z49.1-2012-SP (pág. 3), AWS_Tomo1_SMAW_cap1-2 (pág. 65), AWS_Tomo1_SMAW_cap1-2 (pág. 58), AWS_Tomo1_SMAW_cap1-2 (pág. 50), AWS_Tomo1_SMAW_cap1-2 (pág. 46), AWS_Z49.1-2012-SP (pág. 49), AWS_Tomo1_SMAW_cap1-2 (pág. 81), AWS_Tomo1_SMAW_cap1-2 (pág. 28), AWS_Tomo1_SMAW_cap1-2 (pág. 82), AWS_Tomo1_SMAW_cap1-2 (pág. 78)",
+   "paginas_citadas": [
+    {
+     "fuente": "AWS_Tomo1_SMAW_cap1-2.pdf (pág. 28 del PDF)"
+    },
+    {
+     "fuente": "AWS_Tomo1_SMAW_cap1-2.pdf (pág. 28 leída como paginación impresa = pág. 42 del PDF)"
+    },
+    {
+     "fuente": "AWS_Tomo1_SMAW_cap1-2.pdf (pág. 46 del PDF)"
+    },
+    {
+     "fuente": "AWS_Tomo1_SMAW_cap1-2.pdf (pág. 46 leída como paginación impresa = pág. 60 del PDF)"
+    },
+    {
+     "fuente": "AWS_Tomo1_SMAW_cap1-2.pdf (pág. 50 del PDF)"
+    },
+    {
+     "fuente": "AWS_Tomo1_SMAW_cap1-2.pdf (pág. 50 leída como paginación impresa = pág. 64 del PDF)"
+    },
+    {
+     "fuente": "AWS_Tomo1_SMAW_cap1-2.pdf (pág. 58 del PDF)"
+    },
+    {
+     "fuente": "AWS_Tomo1_SMAW_cap1-2.pdf (pág. 58 leída como paginación impresa = pág. 72 del PDF)"
+    },
+    {
+     "fuente": "AWS_Tomo1_SMAW_cap1-2.pdf (pág. 65 del PDF)"
+    },
+    {
+     "fuente": "AWS_Tomo1_SMAW_cap1-2.pdf (pág. 65 leída como paginación impresa = pág. 79 del PDF)"
+    },
+    {
+     "fuente": "AWS_Tomo1_SMAW_cap1-2.pdf (pág. 78 del PDF)"
+    },
+    {
+     "fuente": "AWS_Tomo1_SMAW_cap1-2.pdf (pág. 81 del PDF)"
+    },
+    {
+     "fuente": "AWS_Tomo1_SMAW_cap1-2.pdf (pág. 82 del PDF)"
+    },
+    {
+     "fuente": "AWS_Z49.1-2012-SP.pdf (pág. 3 del PDF)"
+    },
+    {
+     "fuente": "AWS_Z49.1-2012-SP.pdf (pág. 3 leída como paginación impresa = pág. 16 del PDF)"
+    },
+    {
+     "fuente": "AWS_Z49.1-2012-SP.pdf (pág. 49 del PDF)"
+    }
+   ],
+   "item": 1
+  },
+  {
+   "pregunta": "¿Qué significa la clasificación ER70S-6 de la especificación AWS A5.18 para alambres de GMAW?",
+   "tipo": "fuera_de_corpus",
+   "respuesta": "La clasificación ER70S-6 de la especificación AWS A5.18 para alambres de GMAW (Gas Metal Arc Welding) significa lo siguiente:\n\n*   **ER:** Indica que es un electrodo o varilla de aporte (Electrode or Rod).\n*   **70:** Representa la resistencia mínima a la tracción del metal de soldadura depositado, en miles de libras por pulgada cuadrada (psi). En este caso, 70,000 psi (aproximadamente 480 MPa).\n*   **S:** Indica que es un alambre sólido (Solid wire).\n*   **-6:** Es un sufijo que especifica la composición química del alambre y el tipo de desoxidantes que contiene. Un alambre \"-6\" generalmente tiene un contenido de manganeso y silicio más alto que otros alambres de la serie \"S\", lo que le proporciona una excelente capacidad de desoxidación y es adecuado para soldar aceros con cascarilla o óxido ligero, así como para aplicaciones de soldadura de pasada múltiple. También influye en las propiedades mecánicas y la facilidad de uso.",
+   "paginas_citadas": [],
+   "item": 2
+  },
+  {
+   "pregunta": "¿Qué parámetros se recomiendan para soldar aluminio 6061 con TIG de corriente pulsada?",
+   "tipo": "fuera_de_corpus",
+   "respuesta": "El contexto proporcionado no contiene información específica sobre los parámetros recomendados para soldar aluminio 6061 con TIG de corriente pulsada. La información se centra en aspectos generales de seguridad, tipos de fuentes de potencia y características de los electrodos, pero no detalla parámetros de soldadura para materiales específicos.\n\nPara obtener los parámetros recomendados para soldar aluminio 6061 con TIG de corriente pulsada, necesitaría información adicional que no está presente en los documentos proporcionados.",
+   "paginas_citadas": [],
+   "item": 3
+  },
+  {
+   "pregunta": "¿Cuánto cuesta en promedio la certificación como inspector CWI en México?",
+   "tipo": "fuera_de_corpus",
+   "respuesta": "No tengo información precisa y actualizada sobre el costo promedio de la certificación CWI en México. Los precios pueden variar significativamente dependiendo de la institución que ofrece el curso y el examen, la ubicación, si incluye materiales de estudio, etc.\n\nPara obtener esta información, te recomiendo contactar directamente a las instituciones certificadoras o centros de capacitación que ofrecen la certificación CWI en México.",
+   "paginas_citadas": [],
+   "item": 4
+  },
+  {
+   "pregunta": "¿Qué es COMESPOL y qué funciones tiene en México?",
+   "tipo": "entidad_inexistente",
+   "respuesta": "Como asistente técnico especializado en soldadura, mi conocimiento se centra en los aspectos técnicos de la soldadura (parámetros, defectos, consumibles, seguridad, equipo, materiales e inspección).\n\nNo tengo información sobre \"COMESPOL\" ni sus funciones en México. Es posible que sea una entidad o concepto fuera de mi área de especialización.",
+   "paginas_citadas": [],
+   "item": 5
+  },
+  {
+   "pregunta": "¿Qué parámetros se recomiendan para soldar aluminio 6061 con TIG de corriente pulsada?",
+   "tipo": "fuera_de_corpus",
+   "respuesta": "Para soldar aluminio 6061 con TIG de corriente pulsada, los parámetros recomendados pueden variar según el espesor del material y la posición de soldadura. Sin embargo, puedo darte una guía general:\n\n**Parámetros TIG Pulsado para Aluminio 6061 (Guía General):**\n\n*   **Tipo de Corriente:** Corriente Alterna (CA) con balance de onda para limpieza.\n*   **Gas de Protección:** Argón puro (100%).\n*   **Electrodo:** Tungsteno puro (verde) o aleado con zirconio (marrón) o lantano (negro/dorado) con punta esférica o ligeramente roma. El diámetro dependerá del amperaje.\n*   **Amperaje Pico (Ip):** Se ajusta según el espesor del material. Como referencia, para 3mm de espesor, podrías empezar alrededor de 120-150 Amperios.\n*   **Amperaje Base (Ib):** Generalmente entre el 20% y el 50% del amperaje pico. Ayuda a mantener el arco y controlar el calor.\n*   **Frecuencia de Pulso (Hz):**\n    *   **Baja (0.5 - 5 Hz):** Para un mayor control del charco, mejor penetración y apariencia de \"monedas apiladas\". Útil en posiciones difíciles o para materiales más gruesos.\n    *   **Media (5 - 50 Hz):** Un buen equilibrio para la mayoría de las aplicaciones.\n    *   **Alta (50 - 200 Hz o más):** Para un arco más estrecho y enfocado, mayor velocidad de soldadura y menor zona afectada por el calor.\n*   **Ancho de Pulso (Tiempo de Pico) (%):** Representa el porcentaje del ciclo de pulso que se mantiene en el amperaje pico. Un valor común es entre 30% y 60%.\n*   **Balance de Onda (CA):** Generalmente entre 65% y 75% de EN (Electrodo Negativo) para una buena limpieza y penetración.\n*   **Frecuencia de CA (Hz):** Entre 80 Hz y 200 Hz. Una frecuencia más alta estrecha el arco y mejora la estabilidad.\n*   **Diámetro de la Boquilla:** Depende del diámetro del electrodo y la aplicación, pero comúnmente #6 a #8.\n*   **Velocidad de Flujo de Gas:** 8-15 litros por minuto (LPM), dependiendo del tamaño de la boquilla y las condiciones ambientales.\n*   **Material de Aporte:** ER4043 o ER5356. El ER4043 es más común para 6061 debido a su buena fluidez y resistencia al agrietamiento en caliente. El ER5356 ofrece mayor resistencia y ductilidad, pero puede ser más propenso al agrietamiento en caliente en ciertas aplicaciones.\n\n**Para darte una recomendación más precisa, necesitaría saber:**\n\n1.  **Espesor del aluminio 6061 a soldar.**\n2.  **Posición de soldadura (plana, horizontal, vertical, sobrecabeza).**\n3.  **Si es una soldadura de filete, a tope, etc.**\n\n**Prioridad de Seguridad Industrial:**\n\n*   Siempre usa equipo de protección personal (EPP) adecuado: casco de soldar con filtro auto-oscurecible, guantes de soldar de cuero, chaqueta ignífuga, pantalones largos y calzado de seguridad.\n*   Asegura una ventilación adecuada para evitar la inhalación de humos de soldadura.\n*   Protege a otras personas de la luz del arco.\n*   Verifica que el equipo esté en buen estado y conectado correctamente a tierra.",
+   "paginas_citadas": [],
+   "item": 6
+  },
+  {
+   "pregunta": "¿Qué significa la clasificación ER70S-6 de la especificación AWS A5.18 para alambres de GMAW?",
+   "tipo": "fuera_de_corpus",
+   "respuesta": "El contexto proporcionado no contiene información específica sobre la clasificación ER70S-6 de la especificación AWS A5.18 para alambres de GMAW. El documento se enfoca en la seguridad en los procesos de soldadura, corte y afines, y menciona clasificaciones de electrodos cubiertos para SMAW (AWS A5.1, A5.5, A5.4, A5.15, A5.3, A5.6, A5.11, A5.13 y A5.21), pero no detalla la clasificación específica que solicitas para GMAW.\n\nFuentes: AWS_Z49.1-2012-SP.pdf (pág. 52), AWS_Tomo1_SMAW_cap1-2.pdf (pág. 52)",
+   "paginas_citadas": [
+    {
+     "fuente": "AWS_Tomo1_SMAW_cap1-2.pdf (pág. 52 del PDF)"
+    },
+    {
+     "fuente": "AWS_Tomo1_SMAW_cap1-2.pdf (pág. 52 leída como paginación impresa = pág. 66 del PDF)"
+    },
+    {
+     "fuente": "AWS_Z49.1-2012-SP.pdf (pág. 52 del PDF)"
+    },
+    {
+     "fuente": "AWS_Z49.1-2012-SP.pdf (pág. 52 leída como paginación impresa = pág. 65 del PDF)"
+    }
+   ],
+   "item": 7
+  },
+  {
+   "pregunta": "¿Cuál es el procedimiento para calificar un WPS según ASME Sección IX?",
+   "tipo": "fuera_de_corpus",
+   "respuesta": "Para calificar un WPS (Especificación de Procedimiento de Soldadura) según ASME Sección IX, el procedimiento general es el siguiente:\n\n1.  **Desarrollo del WPS Preliminar (pWPS):**\n    *   Se redacta un pWPS que detalla todos los parámetros esenciales, no esenciales y suplementarios (si aplica) que se planean usar. Esto incluye tipo de proceso, materiales base, metales de aporte, gases de protección, rangos de amperaje/voltaje, velocidad de avance, temperatura de precalentamiento, temperatura entre pasadas, tratamiento térmico post-soldadura (PWHT), etc.\n\n2.  **Soldadura de la Probeta de Calificación:**\n    *   Un soldador o soldador-operador calificado (o en proceso de calificación) realiza una soldadura de prueba siguiendo estrictamente los parámetros establecidos en el pWPS.\n    *   La probeta debe representar la junta más crítica o las condiciones más restrictivas que el WPS cubrirá en producción. El tipo y tamaño de la probeta dependen del rango de calificación deseado (espesor, diámetro, tipo de junta).\n\n3.  **Inspección Visual y Ensayos No Destructivos (END):**\n    *   La probeta soldada se somete a una inspección visual para detectar defectos superficiales.\n    *   Se realizan END, típicamente radiografía (RT) o ultrasonido (UT), según lo especificado por el código o el cliente, para asegurar la integridad interna de la soldadura. Los criterios de aceptación se basan en ASME Sección IX y/o el código de construcción aplicable.\n\n4.  **Preparación de Muestras para Ensayos Destructivos:**\n    *   Si la probeta pasa los END, se cortan muestras de la soldadura para ensayos destructivos. El número y tipo de muestras dependen del tipo de junta y del material.\n    *   Las muestras típicas incluyen:\n        *   **Ensayos de Tensión Transversal:** Para determinar la resistencia a la tracción de la junta soldada.\n        *   **Ensayos de Doblez Guiado:** Para evaluar la ductilidad de la soldadura y la zona afectada por el calor (ZAC). Se realizan dobleces de cara y de raíz, y a veces laterales.\n        *   **Ensayos de Impacto Charpy (si aplica):** Requeridos para ciertos materiales o aplicaciones donde se necesita tenacidad a bajas temperaturas.\n        *   **Macrografía (opcional pero recomendado):** Para examinar la estructura de la soldadura, la penetración y la fusión.\n\n5.  **Realización de Ensayos Destructivos:**\n    *   Las muestras se ensayan en un laboratorio acreditado.\n    *   Los resultados deben cumplir con los valores mínimos especificados en ASME Sección IX y/o el código de construcción aplicable para el material y el tipo de ensayo.\n\n6.  **Documentación y Calificación del WPS (PQR):**\n    *   Si todos los ensayos (visual, END y destructivos) son satisfactorios, se documentan los resultados en un **Registro de Calificación de Procedimiento (PQR - Procedure Qualification Record)**.\n    *   El PQR es un registro de los parámetros *reales* utilizados durante la soldadura de la probeta y los *resultados* de todos los ensayos.\n    *   Una vez que el PQR es aprobado, el WPS preliminar (pWPS) se convierte en un **WPS calificado**, y el PQR sirve como evidencia de su calificación.\n\n7.  **Revisión y Aprobación:**\n    *   El WPS calificado y su PQR de respaldo son revisados y aprobados por personal autorizado (ingeniero de soldadura, inspector certificado, etc.).\n\n**Puntos Clave de Seguridad:**\n*   Durante la soldadura de la probeta, se deben seguir todas las normas de seguridad industrial aplicables (EPP, ventilación, prevención de incendios, etc.).\n*   La manipulación de probetas y muestras cortadas debe hacerse con precaución para evitar cortes o lesiones.\n*   Los ensayos destructivos deben ser realizados por personal capacitado en un entorno seguro.\n\n**Nota:** ASME Sección IX es un código de calificación de procedimientos y soldadores. No es un código de construcción. Los requisitos específicos de aplicación (qué ensayos se requieren, qué rangos de calificación se obtienen) a menudo se complementan con un código de construcción (ej., ASME B31.1, ASME Sección VIII División 1, AWS D1.1).",
+   "paginas_citadas": [],
+   "item": 8
+  },
+  {
+   "pregunta": "¿Cómo funciona la soldadura por fricción-agitación (FSW) en aleaciones de aluminio?",
+   "tipo": "fuera_de_corpus",
+   "respuesta": "No se encontró información específica sobre el funcionamiento de la soldadura por fricción-agitación (FSW) en aleaciones de aluminio en el contexto proporcionado. El documento menciona la soldadura por fricción con agitación (FSW) como un proceso de soldadura de estado sólido, pero no detalla su funcionamiento ni su aplicación específica en aleaciones de aluminio.\n\nFuentes: AWS_Tomo1_SMAW_cap1-2.pdf (pág. 68)",
+   "paginas_citadas": [
+    {
+     "fuente": "AWS_Tomo1_SMAW_cap1-2.pdf (pág. 68 del PDF)"
+    },
+    {
+     "fuente": "AWS_Tomo1_SMAW_cap1-2.pdf (pág. 68 leída como paginación impresa = pág. 82 del PDF)"
+    }
+   ],
+   "item": 9
+  },
+  {
+   "pregunta": "¿Qué criterios de aceptación de socavado establece AWS D1.1 para estructuras cargadas estáticamente?",
+   "tipo": "fuera_de_corpus",
+   "respuesta": "No puedo responder a tu pregunta sobre los criterios de aceptación de socavado según AWS D1.1 para estructuras cargadas estáticamente, ya que la información proporcionada en el contexto (AWS_Z49.1-2012-SP.pdf y AWS_Tomo1_SMAW_cap1-2.pdf) no contiene detalles sobre los requisitos específicos de la norma AWS D1.1. El contexto se enfoca en la seguridad en soldadura, los principios de funcionamiento de las fuentes de potencia y los fundamentos del proceso SMAW, pero no en los criterios de aceptación de defectos según AWS D1.1.",
+   "paginas_citadas": [],
+   "item": 10
+  },
+  {
+   "pregunta": "¿Qué dice la NOM-027-STPS-2008 sobre la autorización por escrito para trabajos de soldadura y corte?",
+   "tipo": "fuera_de_corpus",
+   "respuesta": "El contexto proporcionado no contiene información sobre la NOM-027-STPS-2008 ni sobre la autorización por escrito para trabajos de soldadura y corte.\n\nSin embargo, la norma ANSI Z49.1:2012 sí menciona la necesidad de una autorización para trabajos en caliente y en espacios confinados:\n\n*   **Autorización para el trabajo en caliente:** Antes de iniciar trabajos de soldadura o corte en un lugar no diseñado para tal fin, se requiere la inspección y autorización de un representante designado de la administración. Esta autorización se realiza, por lo general, en forma de un permiso escrito.\n*   **Espacios confinados:** La autorización para las operaciones de soldadura o corte se debe obtener del representante designado de la administración antes del comienzo del trabajo en caliente o del ingreso en un espacio confinado. Los supervisores deben controlar que el soldador tenga la aprobación de que las condiciones son seguras antes de proseguir. Existen algunos casos en los que la autorización debe ser por escrito, por ejemplo, el ingreso en espacios confinados con exigencia de permiso.\n\nFuentes: AWS_Z49.1-2012-SP.pdf (pág. 16), AWS_Z49.1-2012-SP.pdf (pág. 5)",
+   "paginas_citadas": [
+    {
+     "fuente": "AWS_Z49.1-2012-SP.pdf (pág. 5 del PDF)"
+    },
+    {
+     "fuente": "AWS_Z49.1-2012-SP.pdf (pág. 5 leída como paginación impresa = pág. 18 del PDF)"
+    },
+    {
+     "fuente": "AWS_Z49.1-2012-SP.pdf (pág. 16 del PDF)"
+    },
+    {
+     "fuente": "AWS_Z49.1-2012-SP.pdf (pág. 16 leída como paginación impresa = pág. 29 del PDF)"
+    }
+   ],
+   "item": 11
+  },
+  {
+   "pregunta": "¿Qué dice la NOM-027-STPS-2008 sobre la autorización por escrito para trabajos de soldadura y corte?",
+   "tipo": "fuera_de_corpus",
+   "respuesta": "SISTEMA:\nLa NOM-027-STPS-2008, en su apartado **5.10**, establece que el patrón debe **autorizar por escrito** la realización de trabajos de soldadura y corte.\n\nEsta autorización debe contener, al menos:\n\n*   El nombre del trabajador o trabajadores que realizarán la actividad.\n*   El tipo de trabajo a realizar (soldadura, corte, etc.).\n*   El lugar específico donde se realizará el trabajo.\n*   La fecha y hora de inicio y término de la actividad.\n*   Las medidas de seguridad y salud que se deberán implementar.\n\nEs importante destacar que esta autorización es un requisito fundamental para asegurar que se han evaluado los riesgos y se han tomado las precauciones necesarias antes de iniciar cualquier trabajo de soldadura o corte, priorizando siempre la seguridad industrial.",
+   "paginas_citadas": [],
+   "item": 12
+  },
+  {
+   "pregunta": "¿Cuál es el procedimiento para calificar un WPS según ASME Sección IX?",
+   "tipo": "fuera_de_corpus",
+   "respuesta": "El contexto proporcionado no contiene información sobre el procedimiento para calificar un WPS según ASME Sección IX.\n\nFuentes: No aplica.",
+   "paginas_citadas": [],
+   "item": 13
+  },
+  {
+   "pregunta": "¿Qué amperaje exacto exige la AWS Z49.1 para soldar con electrodo E7018 de 1/8 de pulgada?",
+   "tipo": "premisa_falsa",
+   "respuesta": "El documento AWS Z49.1 no especifica un amperaje exacto para soldar con un electrodo E7018 de 1/8 de pulgada. Sin embargo, proporciona una guía de números de tono para la protección ocular en la soldadura por arco con electrodo metálico revestido (SMAW), que es el proceso para el E7018.\n\nPara un electrodo de 3/32-5/32 pulg. (2.4-4.0 mm), que incluye 1/8 de pulgada, la corriente del arco sugerida está en el rango de 60-160 Amperios.\n\nFuentes: AWS_Z49.1-2012-SP (pág. 21)",
+   "paginas_citadas": [
+    {
+     "fuente": "AWS_Z49.1-2012-SP.pdf (pág. 21 del PDF)"
+    },
+    {
+     "fuente": "AWS_Z49.1-2012-SP.pdf (pág. 21 leída como paginación impresa = pág. 34 del PDF)"
+    }
+   ],
+   "item": 14
+  },
+  {
+   "pregunta": "¿Cómo funciona la soldadura por fricción-agitación (FSW) en aleaciones de aluminio?",
+   "tipo": "fuera_de_corpus",
+   "respuesta": "La soldadura por fricción-agitación (FSW, por sus siglas en inglés, Friction Stir Welding) es un proceso de soldadura en estado sólido, lo que significa que no hay fusión del material base. Funciona de la siguiente manera en aleaciones de aluminio:\n\n1.  **Herramienta Rotatoria:** Se utiliza una herramienta no consumible, con un perfil específico (generalmente un hombro y un pin o vástago), que gira a alta velocidad.\n\n2.  **Penetración y Fricción:** La herramienta se introduce en la línea de unión entre las dos piezas de aluminio a soldar. La fricción entre el hombro de la herramienta y la superficie de las piezas, así como la fricción del pin dentro del material, genera calor localizado.\n\n3.  **Ablandamiento del Material:** Este calor ablanda el aluminio hasta un estado plástico (sin llegar a fundirse). El aluminio, en este estado semi-sólido, se vuelve maleable.\n\n4.  **Agitación y Mezclado:** A medida que la herramienta avanza a lo largo de la línea de unión, el pin agita y mezcla mecánicamente el material ablandado de ambas piezas. El material de la parte delantera de la herramienta es forzado alrededor del pin hacia la parte trasera.\n\n5.  **Forjado y Consolidación:** El hombro de la herramienta, que ejerce una presión descendente, forja el material mezclado y consolidado en una unión sólida a medida que la herramienta se aleja.\n\n**En resumen:** La FSW transforma el material de aluminio en un estado plástico mediante calor de fricción y luego lo mezcla y forja mecánicamente para formar una unión metalúrgica sólida, sin pasar por la fase líquida. Esto es particularmente beneficioso para aleaciones de aluminio, ya que evita muchos de los problemas asociados con la soldadura por fusión (como la porosidad, la distorsión y la degradación de las propiedades mecánicas en la zona afectada por el calor).",
+   "paginas_citadas": [],
+   "item": 15
+  },
+  {
+   "pregunta": "¿Qué amperaje exacto exige la AWS Z49.1 para soldar con electrodo E7018 de 1/8 de pulgada?",
+   "tipo": "premisa_falsa",
+   "respuesta": "El documento AWS Z49.1-2012-SP.pdf no especifica un amperaje exacto para soldar con un electrodo E7018 de 1/8 de pulgada. La Tabla 1 \"Guía de números de tono\" (pág. 21) proporciona rangos de amperaje sugeridos para diferentes procesos y tamaños de electrodo, pero no establece requisitos obligatorios ni valores exactos para clasificaciones específicas de electrodos como el E7018.\n\nPara el proceso SMAW (Soldadura por arco con electrodo metálico revestido), la tabla indica:\n*   Para electrodos de 3/32–5/32 pulg. (2.4–4.0 mm), el rango de corriente del arco es de 60–160 Amperios.\n*   Para electrodos de 5/32–1/4 pulg. (4.0–6.4 mm), el rango de corriente del arco es de 160–250 Amperios.\n\nUn electrodo de 1/8 de pulgada (que es 3.2 mm) caería en el primer rango (3/32–5/32 pulg.), sugiriendo un amperaje entre 60 y 160 Amperios. Sin embargo, esta es una guía y no un requisito exacto.\n\nFuentes: AWS_Z49.1-2012-SP.pdf (pág. 21)",
+   "paginas_citadas": [
+    {
+     "fuente": "AWS_Z49.1-2012-SP.pdf (pág. 21 del PDF)"
+    },
+    {
+     "fuente": "AWS_Z49.1-2012-SP.pdf (pág. 21 leída como paginación impresa = pág. 34 del PDF)"
+    }
+   ],
+   "item": 16
+  },
+  {
+   "pregunta": "¿Por qué la norma AWS Z49.1 recomienda ventilar los espacios confinados con oxígeno puro?",
+   "tipo": "premisa_falsa",
+   "respuesta": "El contexto proporcionado no indica que la norma AWS Z49.1 recomiende ventilar los espacios confinados con oxígeno puro. De hecho, la norma establece explícitamente lo contrario.\n\nSegún el documento:\n*   \"No se debe utilizar oxígeno, o cualquier otro gas o mezclas de gases, excepto aire, para ventilación.\" (AWS_Z49.1-2012-SP.pdf, pág. 30, sección 7.1.5)\n*   \"Las atmósferas enriquecidas en oxígeno intensifican considerablemente la combustión y pueden provocar rápidamente quemaduras graves y frecuentemente fatales.\" (AWS_Z49.1-2012-SP.pdf, pág. 17, sección E7.1)\n\nLa norma enfatiza la importancia de una ventilación adecuada para asegurar la cantidad correcta de oxígeno para la vida, evitar la acumulación de mezclas asfixiantes, inflamables o explosivas, y **evitar las atmósferas enriquecidas en oxígeno**.\n\nFuentes: AWS_Z49.1-2012-SP.pdf (pág. 17, 30)",
+   "paginas_citadas": [
+    {
+     "fuente": "AWS_Z49.1-2012-SP.pdf (pág. 17 del PDF)"
+    },
+    {
+     "fuente": "AWS_Z49.1-2012-SP.pdf (pág. 17 leída como paginación impresa = pág. 30 del PDF)"
+    },
+    {
+     "fuente": "AWS_Z49.1-2012-SP.pdf (pág. 30 del PDF)"
+    },
+    {
+     "fuente": "AWS_Z49.1-2012-SP.pdf (pág. 30 leída como paginación impresa = pág. 43 del PDF)"
+    }
+   ],
+   "item": 17
+  },
+  {
+   "pregunta": "¿Cuál es el procedimiento para calificar un WPS según ASME Sección IX?",
+   "tipo": "fuera_de_corpus",
+   "respuesta": "El contexto proporcionado no contiene información sobre el procedimiento para calificar un WPS (Especificación de Procedimiento de Soldadura) según ASME Sección IX. El documento se centra en la seguridad en los procesos de soldadura, corte y afines (ANSI Z49.1:2012).",
+   "paginas_citadas": [],
+   "item": 18
+  },
+  {
+   "pregunta": "¿Cuánto cuesta en promedio la certificación como inspector CWI en México?",
+   "tipo": "fuera_de_corpus",
+   "respuesta": "El contexto proporcionado no contiene información sobre el costo promedio de la certificación como inspector CWI en México.\n\nFuentes: AWS_Tomo1_SMAW_cap1-2.pdf, AWS_Z49.1-2012-SP.pdf",
+   "paginas_citadas": [],
+   "item": 19
+  },
+  {
+   "pregunta": "¿En qué año prohibió la AWS el uso de electrodos E6013 en estructuras metálicas y por qué?",
+   "tipo": "entidad_inexistente",
+   "respuesta": "El contexto proporcionado no contiene información sobre una prohibición específica de la AWS para el uso de electrodos E6013 en estructuras metálicas, ni las razones para tal prohibición.\n\nFuentes: AWS_Z49.1-2012-SP.pdf, AWS_Tomo1_SMAW_cap1-2.pdf",
+   "paginas_citadas": [],
+   "item": 20
+  },
+  {
+   "pregunta": "¿Qué es COMESPOL y qué funciones tiene en México?",
+   "tipo": "entidad_inexistente",
+   "respuesta": "No se encontró información sobre \"COMESPOL\" en el contexto proporcionado. El documento se centra en la seguridad de los procesos de soldadura, corte y afines según la norma ANSI Z49.1:2012, y no incluye detalles sobre organizaciones o entidades específicas de México.",
+   "paginas_citadas": [],
+   "item": 21
+  },
+  {
+   "pregunta": "¿Qué amperaje exacto exige la AWS Z49.1 para soldar con electrodo E7018 de 1/8 de pulgada?",
+   "tipo": "premisa_falsa",
+   "respuesta": "No puedo darte un amperaje exacto exigido por la AWS Z49.1 para soldar con un electrodo E7018 de 1/8 de pulgada.\n\nLa AWS Z49.1 es una norma de seguridad para soldadura, corte y procesos afines. No especifica parámetros de soldadura como el amperaje.\n\nLos rangos de amperaje para electrodos se encuentran en las especificaciones del fabricante del electrodo o en tablas de referencia de soldadura. Para un E7018 de 1/8 de pulgada, un rango típico podría ser de 100 a 150 amperios, pero esto puede variar.\n\nPara obtener el amperaje exacto, te recomiendo consultar la ficha técnica del fabricante del electrodo que estás utilizando.",
+   "paginas_citadas": [],
+   "item": 22
+  },
+  {
+   "pregunta": "¿Cuánto cuesta en promedio la certificación como inspector CWI en México?",
+   "tipo": "fuera_de_corpus",
+   "respuesta": "No tengo información sobre el costo promedio de la certificación como inspector CWI en México. El contexto proporcionado se enfoca en la seguridad en soldadura y no incluye detalles sobre costos de certificación.",
+   "paginas_citadas": [],
+   "item": 23
+  },
+  {
+   "pregunta": "¿En qué año prohibió la AWS el uso de electrodos E6013 en estructuras metálicas y por qué?",
+   "tipo": "entidad_inexistente",
+   "respuesta": "No tengo conocimiento de que la AWS haya prohibido el uso de electrodos E6013 en estructuras metálicas en un año específico.\n\nLos electrodos E6013 son de uso general, con buenas características de soldadura en todas las posiciones y con corriente alterna o continua. Son adecuados para aplicaciones donde la resistencia no es crítica y la apariencia es importante, como en trabajos de chapa fina, fabricación ligera, y reparaciones.\n\nSin embargo, es importante destacar que para estructuras metálicas donde la integridad estructural es crítica y se requieren propiedades mecánicas específicas (alta resistencia, tenacidad, etc.), **generalmente se prefieren otros tipos de electrodos**, como los E7018 (bajo hidrógeno) o E70S-6 (GMAW), debido a sus superiores propiedades mecánicas y menor susceptibilidad a defectos como el agrietamiento por hidrógeno.\n\nLa elección del electrodo siempre debe basarse en el diseño de la estructura, los requisitos de resistencia, las especificaciones del material base, el código de soldadura aplicable (por ejemplo, AWS D1.1 para estructuras de acero), y las condiciones de servicio.",
+   "paginas_citadas": [],
+   "item": 24
+  },
+  {
+   "pregunta": "¿Por qué la norma AWS Z49.1 recomienda ventilar los espacios confinados con oxígeno puro?",
+   "tipo": "premisa_falsa",
+   "respuesta": "El contexto proporcionado no indica que la norma AWS Z49.1 recomiende ventilar los espacios confinados con oxígeno puro. De hecho, menciona que las atmósferas enriquecidas en oxígeno intensifican considerablemente la combustión y pueden provocar quemaduras graves y fatales. La norma enfatiza la importancia de una ventilación suficiente para asegurar la cantidad adecuada de oxígeno para la vida, evitar la acumulación de mezclas asfixiantes, inflamables o explosivas, y evitar las atmósferas enriquecidas en oxígeno.\n\nFuentes: AWS_Z49.1-2012-SP (pág. 30), AWS_Z49.1-2012-SP (pág. 30)",
+   "paginas_citadas": [
+    {
+     "fuente": "AWS_Z49.1-2012-SP.pdf (pág. 30 del PDF)"
+    },
+    {
+     "fuente": "AWS_Z49.1-2012-SP.pdf (pág. 30 leída como paginación impresa = pág. 43 del PDF)"
+    }
+   ],
+   "item": 25
+  },
+  {
+   "pregunta": "¿Qué criterios de aceptación de socavado establece AWS D1.1 para estructuras cargadas estáticamente?",
+   "tipo": "fuera_de_corpus",
+   "respuesta": "Para estructuras cargadas estáticamente, la AWS D1.1 establece los siguientes criterios de aceptación para el socavado:\n\n*   **Socavado no mayor a 1/32 pulgada (0.8 mm):** Es aceptable sin reparación.\n*   **Socavado mayor a 1/32 pulgada (0.8 mm) pero no mayor a 1/16 pulgada (1.6 mm):** Es aceptable si no hay más de 2 pulgadas (50 mm) de socavado en cualquier longitud de 12 pulgadas (300 mm) de soldadura, o si la longitud total de socavado excede el 10% de la longitud de la soldadura.\n*   **Socavado mayor a 1/16 pulgada (1.6 mm):** No es aceptable y debe ser reparado.\n\nEs importante recordar que estos son los criterios generales. Siempre se debe consultar la edición más reciente de la AWS D1.1 y los planos y especificaciones del proyecto para confirmar los requisitos exactos.",
+   "paginas_citadas": [],
+   "item": 26
+  },
+  {
+   "pregunta": "¿En qué año prohibió la AWS el uso de electrodos E6013 en estructuras metálicas y por qué?",
+   "tipo": "entidad_inexistente",
+   "respuesta": "El contexto proporcionado no contiene información sobre una prohibición específica por parte de la AWS del uso de electrodos E6013 en estructuras metálicas, ni las razones para tal prohibición.\n\nFuentes: AWS_Tomo1_SMAW_cap1-2.pdf (pág. 77)",
+   "paginas_citadas": [
+    {
+     "fuente": "AWS_Tomo1_SMAW_cap1-2.pdf (pág. 77 del PDF)"
+    }
+   ],
+   "item": 27
+  },
+  {
+   "pregunta": "¿Por qué la norma AWS Z49.1 recomienda ventilar los espacios confinados con oxígeno puro?",
+   "tipo": "premisa_falsa",
+   "respuesta": "No estoy seguro de que la norma AWS Z49.1 recomiende ventilar espacios confinados con oxígeno puro. De hecho, **ventilar con oxígeno puro es extremadamente peligroso y no es una práctica recomendada en soldadura ni en ningún trabajo en espacios confinados.**\n\nLa ventilación en espacios confinados, especialmente cuando se realizan trabajos de soldadura, tiene como objetivo:\n\n1.  **Eliminar humos y gases tóxicos:** Producidos por la soldadura, como óxidos de nitrógeno, monóxido de carbono, ozono, etc.\n2.  **Mantener una atmósfera respirable:** Asegurando niveles adecuados de oxígeno (generalmente entre 19.5% y 23.5%).\n3.  **Controlar la acumulación de gases inflamables:** Como los gases de protección o los combustibles.\n4.  **Disipar el calor.**\n\n**Ventilar con oxígeno puro aumentaría drásticamente el riesgo de incendio y explosión**, ya que el oxígeno es un comburente que acelera la combustión de cualquier material inflamable.\n\nLa norma AWS Z49.1, \"Safety in Welding, Cutting, and Allied Processes\", enfatiza la importancia de una ventilación adecuada, pero siempre con **aire fresco o aire de calidad respirable**, no con oxígeno puro.\n\nSi tienes dudas sobre las recomendaciones de ventilación, te sugiero consultar directamente la norma AWS Z49.1 o a un especialista en seguridad industrial.",
+   "paginas_citadas": [],
+   "item": 28
+  },
+  {
+   "pregunta": "¿Qué es COMESPOL y qué funciones tiene en México?",
+   "tipo": "entidad_inexistente",
+   "respuesta": "El contexto proporcionado no contiene información sobre \"COMESPOL\" ni sus funciones en México. Por lo tanto, no puedo responder a tu pregunta con la información disponible.",
+   "paginas_citadas": [],
+   "item": 29
+  },
+  {
+   "pregunta": "¿Qué significa la clasificación ER70S-6 de la especificación AWS A5.18 para alambres de GMAW?",
+   "tipo": "fuera_de_corpus",
+   "respuesta": "El contexto proporcionado no contiene información sobre la clasificación ER70S-6 de la especificación AWS A5.18 para alambres de GMAW. El contexto se enfoca en la clasificación de electrodos cubiertos para SMAW (Soldadura por Arco de Metal Protegido) de diferentes tipos de acero y aleaciones.",
+   "paginas_citadas": [],
+   "item": 30
+  },
+  {
+   "pregunta": "¿Qué dice la NOM-027-STPS-2008 sobre la autorización por escrito para trabajos de soldadura y corte?",
+   "tipo": "fuera_de_corpus",
+   "respuesta": "El contexto proporcionado no contiene información sobre la NOM-027-STPS-2008. Por lo tanto, no puedo responder qué dice esa norma sobre la autorización por escrito para trabajos de soldadura y corte.\n\nSin embargo, el contexto sí menciona que la autorización para trabajos en caliente (que incluye soldadura y corte) se realiza, por lo general, en la forma de un permiso escrito, especialmente en casos como el ingreso a espacios confinados con exigencia de permiso. También indica que antes de comenzar la soldadura o el corte en un lugar no diseñado para tal fin, se debe requerir la inspección y autorización de un representante designado de la administración.\n\nFuentes: AWS_Z49.1-2012-SP (pág. 18), AWS_Z49.1-2012-SP (pág. 29)",
+   "paginas_citadas": [
+    {
+     "fuente": "AWS_Z49.1-2012-SP.pdf (pág. 18 del PDF)"
+    },
+    {
+     "fuente": "AWS_Z49.1-2012-SP.pdf (pág. 18 leída como paginación impresa = pág. 31 del PDF)"
+    },
+    {
+     "fuente": "AWS_Z49.1-2012-SP.pdf (pág. 29 del PDF)"
+    },
+    {
+     "fuente": "AWS_Z49.1-2012-SP.pdf (pág. 29 leída como paginación impresa = pág. 42 del PDF)"
+    }
+   ],
+   "item": 31
+  },
+  {
+   "pregunta": "¿Cómo funciona la soldadura por fricción-agitación (FSW) en aleaciones de aluminio?",
+   "tipo": "fuera_de_corpus",
+   "respuesta": "El contexto proporcionado menciona la soldadura por fricción con agitación (FSW) como un proceso de soldadura de estado sólido, pero no describe cómo funciona específicamente en aleaciones de aluminio ni en ningún otro material.\n\nFuentes: AWS_Z49.1-2012-SP.pdf (pág. 68)",
+   "paginas_citadas": [
+    {
+     "fuente": "AWS_Z49.1-2012-SP.pdf (pág. 68 del PDF)"
+    }
+   ],
+   "item": 32
+  },
+  {
+   "pregunta": "¿Qué parámetros se recomiendan para soldar aluminio 6061 con TIG de corriente pulsada?",
+   "tipo": "fuera_de_corpus",
+   "respuesta": "El contexto menciona que para soldar aluminio grueso con GTAW (TIG) de corriente alterna, un ajuste de tiempo típico podría ser 19 ms de CCEN (corriente continua con electrodo negativo) y 3 ms de CCEP (corriente continua con electrodo positivo). También indica que la GTAW a pulsos se caracteriza por una variación repetitiva de la corriente del arco desde un valor de fondo (bajo) hasta un valor pico (alto), y que los niveles de corriente, tanto de pico como de fondo, se pueden ajustar en un intervalo amplio. Las frecuencias de pulso en GTAW generalmente van desde 2 segundos por pulso hasta 10 pulsos por segundo, siendo las frecuencias bajas las de uso más común.\n\nSin embargo, el contexto no especifica parámetros exactos como amperaje pico, amperaje de fondo, porcentaje de tiempo de pulso o frecuencia de pulso para soldar específicamente aluminio 6061 con TIG de corriente pulsada. Tampoco proporciona una guía sobre cómo seleccionar estos parámetros para este material en particular.\n\nFuentes: AWS_Tomo1_SMAW_cap1-2.pdf (pág. 41), AWS_Tomo1_SMAW_cap1-2.pdf (pág. 52)",
+   "paginas_citadas": [
+    {
+     "fuente": "AWS_Tomo1_SMAW_cap1-2.pdf (pág. 41 del PDF)"
+    },
+    {
+     "fuente": "AWS_Tomo1_SMAW_cap1-2.pdf (pág. 41 leída como paginación impresa = pág. 55 del PDF)"
+    },
+    {
+     "fuente": "AWS_Tomo1_SMAW_cap1-2.pdf (pág. 52 del PDF)"
+    },
+    {
+     "fuente": "AWS_Tomo1_SMAW_cap1-2.pdf (pág. 52 leída como paginación impresa = pág. 66 del PDF)"
+    }
+   ],
+   "item": 33
+  }
+ ]
+}

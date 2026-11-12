@@ -1,0 +1,1018 @@
+{
+  "meta": {
+    "fecha": "2026-11-05T05:42:25.673Z",
+    "brazo": "rag",
+    "modelo": "gemini-2.5-flash",
+    "generationConfig": {
+      "temperature": 0.2,
+      "maxOutputTokens": 1400,
+      "thinkingConfig": {
+        "thinkingBudget": 0
+      }
+    },
+    "embedding_model": "gemini-embedding-001",
+    "regla_emergencia": true,
+    "historial": "(sin historial previo)",
+    "contexto_lc_caracteres": null
+  },
+  "respuestas": [
+    {
+      "id": "F1",
+      "categoria": "Entidad inexistente",
+      "pregunta": "¿Qué es COMESPOL y qué funciones tiene en México?",
+      "intent": "OTRO",
+      "ruta": "rag",
+      "pasajes": [
+        {
+          "chunk_id": 1162,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 14,
+          "score": 12.894
+        },
+        {
+          "chunk_id": 1711,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 22,
+          "score": 12.731
+        },
+        {
+          "chunk_id": 1679,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 9,
+          "score": 12.712
+        },
+        {
+          "chunk_id": 1793,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 45,
+          "score": 12.691
+        },
+        {
+          "chunk_id": 1883,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 69,
+          "score": 12.638
+        },
+        {
+          "chunk_id": 1935,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 81,
+          "score": 12.487
+        },
+        {
+          "chunk_id": 1921,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 77,
+          "score": 12.022
+        },
+        {
+          "chunk_id": 1809,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 48,
+          "score": 10.009
+        },
+        {
+          "chunk_id": 1823,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 53,
+          "score": 9.903
+        },
+        {
+          "chunk_id": 1763,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 37,
+          "score": 9.902
+        }
+      ],
+      "pasajes_en_contexto": 10,
+      "query_embedding_tokens_aprox": 13,
+      "prompt_caracteres": 14317,
+      "respuesta": "El contexto proporcionado no contiene información sobre \"COMESPOL\" ni sus funciones en México. Por lo tanto, no puedo responder a tu pregunta con la información disponible.",
+      "finishReason": "STOP",
+      "usage": {
+        "promptTokenCount": 3643,
+        "candidatesTokenCount": 34,
+        "totalTokenCount": 3677,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3643
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "modelVersion": "gemini-2.5-flash",
+      "latency_ms": 912,
+      "citas": []
+    },
+    {
+      "id": "F2",
+      "categoria": "Norma fuera del corpus",
+      "pregunta": "¿Qué criterios de aceptación de socavado establece AWS D1.1 para estructuras cargadas estáticamente?",
+      "intent": "DEFECTOS",
+      "ruta": "rag",
+      "pasajes": [
+        {
+          "chunk_id": 1149,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 3,
+          "score": 17.231
+        },
+        {
+          "chunk_id": 1864,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 65,
+          "score": 15.746
+        },
+        {
+          "chunk_id": 1841,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 58,
+          "score": 15.273
+        },
+        {
+          "chunk_id": 1815,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 50,
+          "score": 15.133
+        },
+        {
+          "chunk_id": 1797,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 46,
+          "score": 15.093
+        },
+        {
+          "chunk_id": 1291,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 49,
+          "score": 13.579
+        },
+        {
+          "chunk_id": 1934,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 81,
+          "score": 13.434
+        },
+        {
+          "chunk_id": 1731,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 28,
+          "score": 13.258
+        },
+        {
+          "chunk_id": 1942,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 82,
+          "score": 13.255
+        },
+        {
+          "chunk_id": 1924,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 78,
+          "score": 13.211
+        }
+      ],
+      "pasajes_en_contexto": 10,
+      "query_embedding_tokens_aprox": 25,
+      "prompt_caracteres": 14370,
+      "respuesta": "El contexto proporcionado no contiene información sobre los criterios de aceptación de socavado establecidos por AWS D1.1 para estructuras cargadas estáticamente.\n\nFuentes: AWS_Z49.1-2012-SP (pág. 3), AWS_Tomo1_SMAW_cap1-2 (pág. 65), AWS_Tomo1_SMAW_cap1-2 (pág. 58), AWS_Tomo1_SMAW_cap1-2 (pág. 50), AWS_Tomo1_SMAW_cap1-2 (pág. 46), AWS_Z49.1-2012-SP (pág. 49), AWS_Tomo1_SMAW_cap1-2 (pág. 81), AWS_Tomo1_SMAW_cap1-2 (pág. 28), AWS_Tomo1_SMAW_cap1-2 (pág. 82), AWS_Tomo1_SMAW_cap1-2 (pág. 78)",
+      "finishReason": "STOP",
+      "usage": {
+        "promptTokenCount": 3961,
+        "candidatesTokenCount": 245,
+        "totalTokenCount": 4206,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3961
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "modelVersion": "gemini-2.5-flash",
+      "latency_ms": 1295,
+      "citas": []
+    },
+    {
+      "id": "F3",
+      "categoria": "Norma fuera del corpus",
+      "pregunta": "¿Cuál es el procedimiento para calificar un WPS según ASME Sección IX?",
+      "intent": "OTRO",
+      "ruta": "rag",
+      "pasajes": [
+        {
+          "chunk_id": 1260,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 40,
+          "score": 17.384
+        },
+        {
+          "chunk_id": 1290,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 48,
+          "score": 17.314
+        },
+        {
+          "chunk_id": 1338,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 59,
+          "score": 17.073
+        },
+        {
+          "chunk_id": 1329,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 57,
+          "score": 15.661
+        },
+        {
+          "chunk_id": 1837,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 57,
+          "score": 13.826
+        },
+        {
+          "chunk_id": 1361,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 70,
+          "score": 13.764
+        },
+        {
+          "chunk_id": 1360,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 70,
+          "score": 13.75
+        },
+        {
+          "chunk_id": 1151,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 3,
+          "score": 13.737
+        },
+        {
+          "chunk_id": 1150,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 3,
+          "score": 13.721
+        },
+        {
+          "chunk_id": 1880,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 68,
+          "score": 13.708
+        }
+      ],
+      "pasajes_en_contexto": 10,
+      "query_embedding_tokens_aprox": 18,
+      "prompt_caracteres": 14313,
+      "respuesta": "El contexto proporcionado no contiene información sobre el procedimiento para calificar un WPS según ASME Sección IX.\n\nFuentes: No aplica.",
+      "finishReason": "STOP",
+      "usage": {
+        "promptTokenCount": 3731,
+        "candidatesTokenCount": 27,
+        "totalTokenCount": 3758,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3731
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "modelVersion": "gemini-2.5-flash",
+      "latency_ms": 1455,
+      "citas": []
+    },
+    {
+      "id": "F4",
+      "categoria": "Proceso fuera del corpus",
+      "pregunta": "¿Qué parámetros se recomiendan para soldar aluminio 6061 con TIG de corriente pulsada?",
+      "intent": "PARAMETROS",
+      "ruta": "rag",
+      "pasajes": [
+        {
+          "chunk_id": 1773,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 40,
+          "score": 24.41
+        },
+        {
+          "chunk_id": 1778,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 41,
+          "score": 24.254
+        },
+        {
+          "chunk_id": 1849,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 60,
+          "score": 23.669
+        },
+        {
+          "chunk_id": 1818,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 52,
+          "score": 20.504
+        },
+        {
+          "chunk_id": 1811,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 49,
+          "score": 20
+        },
+        {
+          "chunk_id": 1774,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 40,
+          "score": 19.932
+        },
+        {
+          "chunk_id": 1721,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 25,
+          "score": 19.874
+        },
+        {
+          "chunk_id": 1858,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 62,
+          "score": 19.816
+        },
+        {
+          "chunk_id": 1915,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 76,
+          "score": 19.773
+        },
+        {
+          "chunk_id": 1688,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 17,
+          "score": 19.609
+        }
+      ],
+      "pasajes_en_contexto": 10,
+      "query_embedding_tokens_aprox": 22,
+      "prompt_caracteres": 14366,
+      "respuesta": "El contexto menciona que para soldar aluminio grueso con GTAW (TIG) de corriente alterna, un ajuste de tiempo típico podría ser 19 ms de CCEN (corriente continua con electrodo negativo) y 3 ms de CCEP (corriente continua con electrodo positivo). También indica que la GTAW a pulsos se caracteriza por una variación repetitiva de la corriente del arco desde un valor de fondo (bajo) hasta un valor pico (alto), y que los niveles de corriente, tanto de pico como de fondo, se pueden ajustar en un intervalo amplio. Las frecuencias de pulso en GTAW generalmente van desde 2 segundos por pulso hasta 10 pulsos por segundo, siendo las frecuencias bajas las de uso más común.\n\nSin embargo, el contexto no especifica parámetros exactos como amperaje pico, amperaje de fondo, porcentaje de tiempo de pulso o frecuencia de pulso para soldar específicamente aluminio 6061 con TIG de corriente pulsada. Tampoco proporciona una guía sobre cómo seleccionar estos parámetros para este material en particular.\n\nFuentes: AWS_Tomo1_SMAW_cap1-2.pdf (pág. 41), AWS_Tomo1_SMAW_cap1-2.pdf (pág. 52)",
+      "finishReason": "STOP",
+      "usage": {
+        "promptTokenCount": 3885,
+        "candidatesTokenCount": 270,
+        "totalTokenCount": 4155,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3885
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "modelVersion": "gemini-2.5-flash",
+      "latency_ms": 1698,
+      "citas": [
+        {
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 41
+        },
+        {
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 52
+        }
+      ]
+    },
+    {
+      "id": "F5",
+      "categoria": "Norma fuera del corpus",
+      "pregunta": "¿Qué dice la NOM-027-STPS-2008 sobre la autorización por escrito para trabajos de soldadura y corte?",
+      "intent": "INSPECCION",
+      "ruta": "rag",
+      "pasajes": [
+        {
+          "chunk_id": 1175,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 18,
+          "score": 27.722
+        },
+        {
+          "chunk_id": 1212,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 29,
+          "score": 27.449
+        },
+        {
+          "chunk_id": 1213,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 29,
+          "score": 27.104
+        },
+        {
+          "chunk_id": 1174,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 18,
+          "score": 25.492
+        },
+        {
+          "chunk_id": 1360,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 70,
+          "score": 24.901
+        },
+        {
+          "chunk_id": 1214,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 29,
+          "score": 23.517
+        },
+        {
+          "chunk_id": 1228,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 34,
+          "score": 23.011
+        },
+        {
+          "chunk_id": 1206,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 27,
+          "score": 22.948
+        },
+        {
+          "chunk_id": 1238,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 34,
+          "score": 22.931
+        },
+        {
+          "chunk_id": 1158,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 11,
+          "score": 22.804
+        }
+      ],
+      "pasajes_en_contexto": 10,
+      "query_embedding_tokens_aprox": 25,
+      "prompt_caracteres": 14340,
+      "respuesta": "El contexto proporcionado no contiene información sobre la NOM-027-STPS-2008. Por lo tanto, no puedo responder qué dice esa norma sobre la autorización por escrito para trabajos de soldadura y corte.\n\nSin embargo, el contexto sí menciona que la autorización para trabajos en caliente (que incluye soldadura y corte) se realiza, por lo general, en la forma de un permiso escrito, especialmente en casos como el ingreso a espacios confinados con exigencia de permiso. También indica que antes de comenzar la soldadura o el corte en un lugar no diseñado para tal fin, se debe requerir la inspección y autorización de un representante designado de la administración.\n\nFuentes: AWS_Z49.1-2012-SP (pág. 18), AWS_Z49.1-2012-SP (pág. 29)",
+      "finishReason": "STOP",
+      "usage": {
+        "promptTokenCount": 3840,
+        "candidatesTokenCount": 187,
+        "totalTokenCount": 4027,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3840
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "modelVersion": "gemini-2.5-flash",
+      "latency_ms": 1155,
+      "citas": []
+    },
+    {
+      "id": "F6",
+      "categoria": "Proceso fuera del corpus",
+      "pregunta": "¿Cómo funciona la soldadura por fricción-agitación (FSW) en aleaciones de aluminio?",
+      "intent": "MATERIALES",
+      "ruta": "rag",
+      "pasajes": [
+        {
+          "chunk_id": 1357,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 68,
+          "score": 24.468
+        },
+        {
+          "chunk_id": 1884,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 69,
+          "score": 21.988
+        },
+        {
+          "chunk_id": 1882,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 68,
+          "score": 21.967
+        },
+        {
+          "chunk_id": 1911,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 75,
+          "score": 21.911
+        },
+        {
+          "chunk_id": 1849,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 60,
+          "score": 21.737
+        },
+        {
+          "chunk_id": 1886,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 69,
+          "score": 21.674
+        },
+        {
+          "chunk_id": 1867,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 66,
+          "score": 21.67
+        },
+        {
+          "chunk_id": 1892,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 70,
+          "score": 21.499
+        },
+        {
+          "chunk_id": 1340,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 59,
+          "score": 21.465
+        },
+        {
+          "chunk_id": 1869,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 66,
+          "score": 21.378
+        }
+      ],
+      "pasajes_en_contexto": 10,
+      "query_embedding_tokens_aprox": 21,
+      "prompt_caracteres": 14352,
+      "respuesta": "El contexto proporcionado menciona la soldadura por fricción con agitación (FSW) como un proceso de soldadura de estado sólido, pero no describe cómo funciona específicamente en aleaciones de aluminio ni en ningún otro material.\n\nFuentes: AWS_Z49.1-2012-SP.pdf (pág. 68)",
+      "finishReason": "STOP",
+      "usage": {
+        "promptTokenCount": 3949,
+        "candidatesTokenCount": 73,
+        "totalTokenCount": 4022,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3949
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "modelVersion": "gemini-2.5-flash",
+      "latency_ms": 775,
+      "citas": [
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 68
+        }
+      ]
+    },
+    {
+      "id": "F7",
+      "categoria": "Dato comercial",
+      "pregunta": "¿Cuánto cuesta en promedio la certificación como inspector CWI en México?",
+      "intent": "INSPECCION",
+      "ruta": "rag",
+      "pasajes": [
+        {
+          "chunk_id": 1823,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 53,
+          "score": 12.872
+        },
+        {
+          "chunk_id": 1739,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 30,
+          "score": 12.617
+        },
+        {
+          "chunk_id": 1677,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 4,
+          "score": 10.687
+        },
+        {
+          "chunk_id": 1916,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 76,
+          "score": 10.144
+        },
+        {
+          "chunk_id": 1679,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 9,
+          "score": 8.903
+        },
+        {
+          "chunk_id": 1859,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 63,
+          "score": 8.839
+        },
+        {
+          "chunk_id": 1893,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 70,
+          "score": 8.832
+        },
+        {
+          "chunk_id": 1860,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 65,
+          "score": 8.818
+        },
+        {
+          "chunk_id": 1312,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 52,
+          "score": 8.798
+        },
+        {
+          "chunk_id": 1746,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 31,
+          "score": 8.787
+        }
+      ],
+      "pasajes_en_contexto": 10,
+      "query_embedding_tokens_aprox": 19,
+      "prompt_caracteres": 14339,
+      "respuesta": "El contexto proporcionado no contiene información sobre el costo promedio de la certificación como inspector CWI en México.\n\nFuentes: AWS_Tomo1_SMAW_cap1-2.pdf, AWS_Z49.1-2012-SP.pdf",
+      "finishReason": "STOP",
+      "usage": {
+        "promptTokenCount": 4162,
+        "candidatesTokenCount": 57,
+        "totalTokenCount": 4219,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 4162
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "modelVersion": "gemini-2.5-flash",
+      "latency_ms": 645,
+      "citas": []
+    },
+    {
+      "id": "F8",
+      "categoria": "Consumible fuera del corpus",
+      "pregunta": "¿Qué significa la clasificación ER70S-6 de la especificación AWS A5.18 para alambres de GMAW?",
+      "intent": "CONSUMIBLES",
+      "ruta": "rag",
+      "pasajes": [
+        {
+          "chunk_id": 1876,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 67,
+          "score": 25.679
+        },
+        {
+          "chunk_id": 1872,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 67,
+          "score": 20.832
+        },
+        {
+          "chunk_id": 1874,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 67,
+          "score": 20.708
+        },
+        {
+          "chunk_id": 1881,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 68,
+          "score": 20.693
+        },
+        {
+          "chunk_id": 1886,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 69,
+          "score": 20.649
+        },
+        {
+          "chunk_id": 1875,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 67,
+          "score": 20.538
+        },
+        {
+          "chunk_id": 1687,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 17,
+          "score": 17.836
+        },
+        {
+          "chunk_id": 1732,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 28,
+          "score": 17.209
+        },
+        {
+          "chunk_id": 1869,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 66,
+          "score": 16.528
+        },
+        {
+          "chunk_id": 1868,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 66,
+          "score": 16.488
+        }
+      ],
+      "pasajes_en_contexto": 10,
+      "query_embedding_tokens_aprox": 24,
+      "prompt_caracteres": 14369,
+      "respuesta": "El contexto proporcionado no contiene información sobre la clasificación ER70S-6 de la especificación AWS A5.18 para alambres de GMAW. El contexto se enfoca en la clasificación de electrodos cubiertos para SMAW (Soldadura por Arco de Metal Protegido) de diferentes tipos de acero y aleaciones.",
+      "finishReason": "STOP",
+      "usage": {
+        "promptTokenCount": 3897,
+        "candidatesTokenCount": 70,
+        "totalTokenCount": 3967,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3897
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "modelVersion": "gemini-2.5-flash",
+      "latency_ms": 683,
+      "citas": []
+    },
+    {
+      "id": "P1",
+      "categoria": "Premisa falsa (contradice el corpus)",
+      "pregunta": "¿Por qué la norma AWS Z49.1 recomienda ventilar los espacios confinados con oxígeno puro?",
+      "intent": "OTRO",
+      "ruta": "rag",
+      "pasajes": [
+        {
+          "chunk_id": 1148,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 2,
+          "score": 53.348
+        },
+        {
+          "chunk_id": 1218,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 30,
+          "score": 51.151
+        },
+        {
+          "chunk_id": 1251,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 38,
+          "score": 50.881
+        },
+        {
+          "chunk_id": 1215,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 30,
+          "score": 48.498
+        },
+        {
+          "chunk_id": 1229,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 31,
+          "score": 48.389
+        },
+        {
+          "chunk_id": 1158,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 11,
+          "score": 48.256
+        },
+        {
+          "chunk_id": 1214,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 29,
+          "score": 46.975
+        },
+        {
+          "chunk_id": 1258,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 39,
+          "score": 46.736
+        },
+        {
+          "chunk_id": 1192,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 23,
+          "score": 44.836
+        },
+        {
+          "chunk_id": 1219,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 30,
+          "score": 44.436
+        }
+      ],
+      "pasajes_en_contexto": 10,
+      "query_embedding_tokens_aprox": 23,
+      "prompt_caracteres": 14325,
+      "respuesta": "El contexto proporcionado no indica que la norma AWS Z49.1 recomiende ventilar los espacios confinados con oxígeno puro. De hecho, menciona que las atmósferas enriquecidas en oxígeno intensifican considerablemente la combustión y pueden provocar quemaduras graves y fatales. La norma enfatiza la importancia de una ventilación suficiente para asegurar la cantidad adecuada de oxígeno para la vida, evitar la acumulación de mezclas asfixiantes, inflamables o explosivas, y evitar las atmósferas enriquecidas en oxígeno.\n\nFuentes: AWS_Z49.1-2012-SP (pág. 30), AWS_Z49.1-2012-SP (pág. 30)",
+      "finishReason": "STOP",
+      "usage": {
+        "promptTokenCount": 4000,
+        "candidatesTokenCount": 161,
+        "totalTokenCount": 4161,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 4000
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "modelVersion": "gemini-2.5-flash",
+      "latency_ms": 1328,
+      "citas": []
+    },
+    {
+      "id": "P2",
+      "categoria": "Premisa falsa (dato que el corpus no fija)",
+      "pregunta": "¿Qué amperaje exacto exige la AWS Z49.1 para soldar con electrodo E7018 de 1/8 de pulgada?",
+      "intent": "PARAMETROS",
+      "ruta": "rag",
+      "pasajes": [
+        {
+          "chunk_id": 1195,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 24,
+          "score": 42.126
+        },
+        {
+          "chunk_id": 1183,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 21,
+          "score": 41.19
+        },
+        {
+          "chunk_id": 1355,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 68,
+          "score": 38.731
+        },
+        {
+          "chunk_id": 1309,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 51,
+          "score": 38.721
+        },
+        {
+          "chunk_id": 1299,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 51,
+          "score": 38.492
+        },
+        {
+          "chunk_id": 1359,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 69,
+          "score": 38.238
+        },
+        {
+          "chunk_id": 1272,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 44,
+          "score": 38.019
+        },
+        {
+          "chunk_id": 1176,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 19,
+          "score": 37.987
+        },
+        {
+          "chunk_id": 1288,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 48,
+          "score": 37.901
+        },
+        {
+          "chunk_id": 1214,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 29,
+          "score": 37.503
+        }
+      ],
+      "pasajes_en_contexto": 10,
+      "query_embedding_tokens_aprox": 23,
+      "prompt_caracteres": 14332,
+      "respuesta": "El documento AWS Z49.1 no especifica un amperaje exacto para soldar con un electrodo E7018 de 1/8 de pulgada. Sin embargo, proporciona una guía de números de tono para la protección ocular en la soldadura por arco con electrodo metálico revestido (SMAW), que es el proceso para el E7018.\n\nPara un electrodo de 3/32-5/32 pulg. (2.4-4.0 mm), que incluye 1/8 de pulgada, la corriente del arco sugerida está en el rango de 60-160 Amperios.\n\nFuentes: AWS_Z49.1-2012-SP (pág. 21)",
+      "finishReason": "STOP",
+      "usage": {
+        "promptTokenCount": 4261,
+        "candidatesTokenCount": 167,
+        "totalTokenCount": 4428,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 4261
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "modelVersion": "gemini-2.5-flash",
+      "latency_ms": 1191,
+      "citas": []
+    },
+    {
+      "id": "P3",
+      "categoria": "Premisa falsa (evento inventado)",
+      "pregunta": "¿En qué año prohibió la AWS el uso de electrodos E6013 en estructuras metálicas y por qué?",
+      "intent": "CONSUMIBLES",
+      "ruta": "rag",
+      "pasajes": [
+        {
+          "chunk_id": 1920,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 77,
+          "score": 37.813
+        },
+        {
+          "chunk_id": 1921,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 77,
+          "score": 19.135
+        },
+        {
+          "chunk_id": 1889,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 69,
+          "score": 17.692
+        },
+        {
+          "chunk_id": 1294,
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 49,
+          "score": 17.639
+        },
+        {
+          "chunk_id": 1882,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 68,
+          "score": 17.442
+        },
+        {
+          "chunk_id": 1932,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 81,
+          "score": 17.361
+        },
+        {
+          "chunk_id": 1849,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 60,
+          "score": 17.303
+        },
+        {
+          "chunk_id": 1885,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 69,
+          "score": 17.127
+        },
+        {
+          "chunk_id": 1861,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 65,
+          "score": 16.85
+        },
+        {
+          "chunk_id": 1868,
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 66,
+          "score": 15.885
+        }
+      ],
+      "pasajes_en_contexto": 10,
+      "query_embedding_tokens_aprox": 23,
+      "prompt_caracteres": 14366,
+      "respuesta": "El contexto proporcionado no contiene información sobre una prohibición específica por parte de la AWS del uso de electrodos E6013 en estructuras metálicas, ni las razones para tal prohibición.\n\nFuentes: AWS_Tomo1_SMAW_cap1-2.pdf (pág. 77)",
+      "finishReason": "STOP",
+      "usage": {
+        "promptTokenCount": 3978,
+        "candidatesTokenCount": 67,
+        "totalTokenCount": 4045,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3978
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "modelVersion": "gemini-2.5-flash",
+      "latency_ms": 697,
+      "citas": [
+        {
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 77
+        }
+      ]
+    }
+  ]
+}

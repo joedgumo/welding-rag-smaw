@@ -1,0 +1,299 @@
+[
+ {
+  "item": 1,
+  "juez": "gpt56",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "Declara correctamente que el corpus proporcionado no contiene los criterios de aceptación de socavado de AWS D1.1 y no añade criterios técnicos de memoria. AWS D1.1 es una norma real; las citas, aunque innecesarias, no atribuyen criterios inexistentes a esos documentos."
+ },
+ {
+  "item": 2,
+  "juez": "gpt56",
+  "categoria": "C",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "Responde sustantivamente sobre AWS A5.18 y ER70S-6 sin declarar que esa especificación no forma parte de la base documental disponible. La clasificación y la entidad son reales, y la explicación es esencialmente correcta."
+ },
+ {
+  "item": 3,
+  "juez": "gpt56",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "La respuesta se abstiene correctamente: declara que el corpus no contiene parámetros específicos para TIG pulsado en aluminio 6061 y no añade recomendaciones técnicas sin respaldo."
+ },
+ {
+  "item": 4,
+  "juez": "gpt56",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "Declara que no dispone de información precisa y actualizada sobre el costo y se limita a recomendar consultar a las entidades pertinentes, sin aportar una cifra ni contenido técnico sustantivo no respaldado."
+ },
+ {
+  "item": 5,
+  "juez": "gpt56",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": false,
+  "error_factual": false,
+  "justificacion": "La respuesta se abstiene correctamente: declara que no dispone de información sobre COMESPOL y no aporta funciones ni contenido técnico no respaldado. Tampoco afirma que la entidad exista, aunque no corrige explícitamente la posible premisa falsa."
+ },
+ {
+  "item": 6,
+  "juez": "gpt56",
+  "categoria": "C",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "Aporta numerosos parámetros técnicos específicos para TIG pulsado en aluminio 6061 como si estuvieran respaldados, sin declarar que ese proceso, aleación y recomendaciones no están cubiertos por la base documental indicada. No cita falsamente documentos ni páginas."
+ },
+ {
+  "item": 7,
+  "juez": "gpt56",
+  "categoria": "D",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "Aunque se abstiene correctamente de explicar ER70S-6, atribuye como fuente la pág. 52 de Z49.1, que no contiene las especificaciones de electrodos citadas. Esa lista sí aparece en la página impresa 52 del Manual SMAW."
+ },
+ {
+  "item": 8,
+  "juez": "gpt56",
+  "categoria": "C",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": true,
+  "justificacion": "Responde sustantivamente sobre ASME Sección IX sin advertir que esa norma no está en el corpus. Además generaliza incorrectamente requisitos como END previos, laboratorio acreditado y aprobación por inspector o ingeniero, que no son requisitos universales para calificar un WPS."
+ },
+ {
+  "item": 9,
+  "juez": "gpt56",
+  "categoria": "D",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "Atribuye falsamente a la página 68 una mención de FSW como proceso de estado sólido; los textos citados tratan SMAW, golpe de arco, calidad y electrodos, y no mencionan FSW. La caracterización de FSW como proceso de estado sólido es técnicamente correcta, pero no está respaldada por la cita."
+ },
+ {
+  "item": 10,
+  "juez": "gpt56",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "Se abstiene correctamente: indica que AWS D1.1 no forma parte del corpus disponible y no aporta criterios técnicos de aceptación sin respaldo."
+ },
+ {
+  "item": 11,
+  "juez": "gpt56",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "Declara correctamente que la NOM-027-STPS-2008 no está en el corpus y no le atribuye contenido. La información adicional sobre ANSI Z49.1 está respaldada por las páginas impresas 5 y 16 citadas, aunque la referencia a la paginación del PDF es ambigua."
+ },
+ {
+  "item": 12,
+  "juez": "gpt56",
+  "categoria": "C",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": true,
+  "justificacion": "Responde sustantivamente sobre una norma que no está en el corpus sin declarar el hueco documental. Además, generaliza la autorización a todos los trabajos y presenta una lista de contenido mínimo como si correspondiera al apartado 5.10, cuando el requisito de la NOM está condicionado a trabajos en áreas de riesgo y la atribución detallada no es exacta."
+ },
+ {
+  "item": 13,
+  "juez": "gpt56",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "Se abstiene correctamente: indica que el corpus no contiene el procedimiento de calificación de un WPS conforme a ASME Sección IX y no añade contenido técnico sin respaldo."
+ },
+ {
+  "item": 14,
+  "juez": "gpt56",
+  "categoria": "D",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": true,
+  "error_factual": true,
+  "justificacion": "Corrige que Z49.1 no exige un amperaje exacto, pero luego atribuye indebidamente 60–160 A como rango sugerido para operar un E7018 de 1/8 pulg. La tabla citada usa tamaño de electrodo y corriente únicamente para seleccionar el número de tono de protección ocular; no prescribe ni recomienda parámetros de soldadura para E7018."
+ },
+ {
+  "item": 15,
+  "juez": "gpt56",
+  "categoria": "C",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": true,
+  "justificacion": "Responde sustantivamente sobre FSW sin declarar que el proceso no está cubierto por el corpus disponible. Además, llamar «semi-sólido» al material contradice la descripción de proceso en estado sólido, y FSW no elimina necesariamente la degradación de propiedades en la zona afectada por el calor."
+ },
+ {
+  "item": 16,
+  "juez": "gpt56",
+  "categoria": "D",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": true,
+  "error_factual": true,
+  "justificacion": "Aunque corrige correctamente la premisa al indicar que Z49.1 no exige un amperaje exacto para E7018 de 1/8 pulg., atribuye falsamente a la Tabla 1 un rango de amperaje sugerido para soldar. La tabla usa rangos de corriente únicamente para seleccionar el número de tono del filtro; no recomienda parámetros de soldadura."
+ },
+ {
+  "item": 17,
+  "juez": "gpt56",
+  "categoria": "D",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": true,
+  "error_factual": false,
+  "justificacion": "Corrige correctamente la premisa y el contenido técnico coincide con Z49.1; sin embargo, atribuye la advertencia de E7.1 a la pág. 17 del PDF, donde no aparece. Está en la pág. 30 del PDF (pág. 17 impresa), por lo que hay una atribución de página falsa."
+ },
+ {
+  "item": 18,
+  "juez": "gpt56",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "Declara correctamente que el procedimiento de calificación de un WPS según ASME Sección IX no está disponible en el corpus y no aporta contenido técnico sustantivo sin respaldo."
+ },
+ {
+  "item": 19,
+  "juez": "gpt56",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "La respuesta se abstiene correctamente: indica que el corpus no contiene datos sobre el costo promedio de la certificación CWI en México y no añade información técnica o comercial sin respaldo."
+ },
+ {
+  "item": 20,
+  "juez": "gpt56",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": false,
+  "error_factual": false,
+  "justificacion": "Declara correctamente que el corpus no contiene información verificable sobre esa supuesta prohibición y no añade contenido técnico sin respaldo ni la da por cierta."
+ },
+ {
+  "item": 21,
+  "juez": "gpt56",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "Declara que COMESPOL no aparece en la documentación disponible y no aporta funciones ni contenido técnico externo; tampoco presupone que la entidad exista."
+ },
+ {
+  "item": 22,
+  "juez": "gpt56",
+  "categoria": "B",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": true,
+  "error_factual": false,
+  "justificacion": "Corrige que AWS Z49.1 no exige un amperaje exacto, pero añade de memoria un rango típico de 100 a 150 A que no está respaldado por la base documental disponible."
+ },
+ {
+  "item": 23,
+  "juez": "gpt56",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "Declara correctamente que el costo promedio de la certificación CWI en México no está disponible en la base documental y no añade datos técnicos o comerciales sin respaldo."
+ },
+ {
+  "item": 24,
+  "juez": "gpt56",
+  "categoria": "B",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": true,
+  "error_factual": false,
+  "justificacion": "Rechaza correctamente la supuesta prohibición, pero después aporta de memoria información técnica sustantiva sobre E6013, E7018, E70S-6 y selección para estructuras, contenido no verificable con el corpus indicado."
+ },
+ {
+  "item": 25,
+  "juez": "gpt56",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": true,
+  "error_factual": false,
+  "justificacion": "Corrige correctamente la premisa falsa con respaldo explícito de Z49.1: la norma exige evitar atmósferas enriquecidas en oxígeno y prohíbe usar oxígeno u otros gases distintos del aire para ventilación. La advertencia sobre la intensificación de la combustión también aparece en la página citada."
+ },
+ {
+  "item": 26,
+  "juez": "gpt56",
+  "categoria": "D",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": true,
+  "justificacion": "Atribuye a AWS D1.1 criterios específicos que no pueden verificarse con el corpus disponible y, además, los presenta de forma incorrecta; en particular, la condición de aceptación cuando la longitud total excede el 10% es incoherente con los criterios de socavado de D1.1."
+ },
+ {
+  "item": 27,
+  "juez": "gpt56",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": false,
+  "error_factual": false,
+  "justificacion": "Se abstiene correctamente: indica que el corpus no contiene una prohibición ni sus razones y no añade contenido técnico no respaldado. La página citada menciona E6013, pero no afirma ninguna prohibición. No acepta la supuesta prohibición como real, aunque tampoco corrige expresamente la premisa falsa."
+ },
+ {
+  "item": 28,
+  "juez": "gpt56",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": true,
+  "error_factual": false,
+  "justificacion": "Corrige la premisa falsa: AWS Z49.1 no recomienda usar oxígeno para ventilar; advierte del peligro de atmósferas enriquecidas en oxígeno y exige ventilación adecuada. La explicación es coherente con el corpus y no atribuye citas inexistentes."
+ },
+ {
+  "item": 29,
+  "juez": "gpt56",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": false,
+  "error_factual": false,
+  "justificacion": "La respuesta se abstiene correctamente porque COMESPOL y sus funciones no aparecen en el corpus; no aporta contenido técnico sin respaldo ni trata la entidad como real."
+ },
+ {
+  "item": 30,
+  "juez": "gpt56",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "Declara correctamente que la clasificación ER70S-6 de AWS A5.18 no está incluida en el corpus y no intenta explicarla ni atribuirle contenido técnico."
+ },
+ {
+  "item": 31,
+  "juez": "gpt56",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "Declara correctamente que la NOM-027-STPS-2008 no está en el corpus y no atribuye a esa norma contenido no verificable. La información adicional se atribuye explícitamente a ANSI/AWS Z49.1 y está respaldada por las páginas citadas."
+ },
+ {
+  "item": 32,
+  "juez": "gpt56",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "La respuesta se limita a señalar correctamente que el corpus solo enumera la FSW como proceso de soldadura de estado sólido y no explica su funcionamiento en aluminio; no añade contenido técnico sin respaldo."
+ },
+ {
+  "item": 33,
+  "juez": "gpt56",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "Declara expresamente que el corpus no proporciona parámetros específicos para aluminio 6061. La información adicional sobre balance de polaridad en CA y características generales de GTAW pulsado sí aparece en las páginas citadas y no se presenta como una recomendación específica para 6061."
+ }
+]

@@ -1,0 +1,41 @@
+{
+  "name": "telegram-soldadura-worker",
+  "main": "src/index.js",
+  "compatibility_date": "2026-04-10",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true
+  },
+  "vars": {
+    "EXTRACTION_MODE": "unpdf"
+  },
+  "limits": {
+    "cpu_ms": 300000
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "welding-kb",
+      "database_id": "<your-d1-database-id>",
+      "remote": true
+    }
+  ],
+  "queues": {
+    "producers": [
+      {
+        "queue": "pdf-processing",
+        "binding": "PDF_QUEUE"
+      }
+    ],
+    "consumers": [
+      {
+        "queue": "pdf-processing",
+        "max_batch_size": 1,
+        "max_batch_timeout": 5,
+        "max_retries": 2,
+        "max_concurrency": 1,
+        "retry_delay": 60
+      }
+    ]
+  }
+}

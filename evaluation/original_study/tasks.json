@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "proyecto": "Asistente RAG de soldadura — IMRC 2026 / MRS Advances",
+    "alcance": "Proceso SMAW + seguridad (AWS Z49.1)",
+    "sistemas": {
+      "A_RAG": "chatbot-RAG (corpus: AWS Z49.1 + AWS Welding Handbook Tomo I)",
+      "B_base": "Gemini 2.5 Flash sin RAG (mismo generador, sin contexto documental)"
+    }
+  },
+  "tareas": [
+    {"id": "A1", "categoria": "Selección de parámetros", "pregunta": "En el proceso SMAW, ¿qué criterios se deben considerar para seleccionar el amperaje de soldadura?"},
+    {"id": "A2", "categoria": "Selección de parámetros", "pregunta": "¿Qué tipos de polaridad existen en SMAW (soldadura por arco con electrodo revestido) y en qué se diferencian?"},
+    {"id": "A3", "categoria": "Selección de parámetros", "pregunta": "¿Qué factores se deben considerar al seleccionar el electrodo adecuado en SMAW?"},
+    {"id": "A4", "categoria": "Selección de parámetros", "pregunta": "¿Cómo se selecciona el tono (shade) del lente de filtro para protección ocular?"},
+    {"id": "B1", "categoria": "Documental/procedimental", "pregunta": "¿Cuáles son los factores para determinar una ventilación adecuada al soldar?"},
+    {"id": "B2", "categoria": "Documental/procedimental", "pregunta": "¿Qué requisitos deben cumplir los equipos de protección de ojos y cara?"},
+    {"id": "B3", "categoria": "Documental/procedimental", "pregunta": "¿Qué condiciones deben cumplirse para la ventilación en espacios confinados?"},
+    {"id": "B4", "categoria": "Documental/procedimental", "pregunta": "¿Cuáles son las funciones principales del revestimiento (cobertura) del electrodo en SMAW?"},
+    {"id": "C1", "categoria": "Diagnóstico/seguridad", "pregunta": "Si la ventilación natural no es suficiente, ¿qué se debe hacer?"},
+    {"id": "C2", "categoria": "Diagnóstico/seguridad", "pregunta": "¿Cuáles son las causas comunes de la porosidad en una soldadura y cómo se puede prevenir?"},
+    {"id": "C3", "categoria": "Diagnóstico/seguridad", "pregunta": "¿Qué medidas de prevención y protección contra incendios deben tomarse antes de soldar?"},
+    {"id": "C4", "categoria": "Diagnóstico/seguridad", "pregunta": "¿Por qué no debe usarse oxígeno para ventilar un espacio de trabajo y qué riesgo implica?"}
+  ]
+}

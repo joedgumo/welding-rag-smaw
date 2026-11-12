@@ -1,0 +1,1344 @@
+{
+ "meta": {
+  "fecha": "2026-11-05T05:41:45.975Z",
+  "chunks": "production D1 export (not redistributed)",
+  "embedding_model": "gemini-embedding-001",
+  "k": 10,
+  "total_chunks": 499,
+  "searched": 499,
+  "limit_600_binding": false
+ },
+ "tareas": [
+  {
+   "id": "F1",
+   "categoria": "Entidad inexistente",
+   "pregunta": "¿Qué es COMESPOL y qué funciones tiene en México?",
+   "intent": "OTRO",
+   "contexto_truncado": false,
+   "pasajes_en_contexto": 10,
+   "top": [
+    {
+     "rank": 1,
+     "chunk_id": 1162,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 14,
+     "score": 12.894,
+     "sem": 0.5194,
+     "kw": 3.17,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 2,
+     "chunk_id": 1711,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 22,
+     "score": 12.731,
+     "sem": 0.5031,
+     "kw": 3.17,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 3,
+     "chunk_id": 1679,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 9,
+     "score": 12.712,
+     "sem": 0.5012,
+     "kw": 4,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 4,
+     "chunk_id": 1793,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 45,
+     "score": 12.691,
+     "sem": 0.4991,
+     "kw": 3.17,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 5,
+     "chunk_id": 1883,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 69,
+     "score": 12.638,
+     "sem": 0.4938,
+     "kw": 3.17,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 6,
+     "chunk_id": 1935,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 81,
+     "score": 12.487,
+     "sem": 0.4787,
+     "kw": 3.17,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 7,
+     "chunk_id": 1921,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 77,
+     "score": 12.022,
+     "sem": 0.4322,
+     "kw": 4,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 8,
+     "chunk_id": 1809,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 48,
+     "score": 10.009,
+     "sem": 0.5209,
+     "kw": 1.83,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 9,
+     "chunk_id": 1823,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 53,
+     "score": 9.903,
+     "sem": 0.5103,
+     "kw": 1.83,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 10,
+     "chunk_id": 1763,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 37,
+     "score": 9.902,
+     "sem": 0.5102,
+     "kw": 1.83,
+     "sec": 0,
+     "phr": 0
+    }
+   ],
+   "fidelidad": null
+  },
+  {
+   "id": "F2",
+   "categoria": "Norma fuera del corpus",
+   "pregunta": "¿Qué criterios de aceptación de socavado establece AWS D1.1 para estructuras cargadas estáticamente?",
+   "intent": "DEFECTOS",
+   "contexto_truncado": false,
+   "pasajes_en_contexto": 10,
+   "top": [
+    {
+     "rank": 1,
+     "chunk_id": 1149,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 3,
+     "score": 17.231,
+     "sem": 0.5549,
+     "kw": 4.55,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 2,
+     "chunk_id": 1864,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 65,
+     "score": 15.746,
+     "sem": 0.6465,
+     "kw": 4.05,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 3,
+     "chunk_id": 1841,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 58,
+     "score": 15.273,
+     "sem": 0.5992,
+     "kw": 4.05,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 4,
+     "chunk_id": 1815,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 50,
+     "score": 15.133,
+     "sem": 0.5851,
+     "kw": 4.05,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 5,
+     "chunk_id": 1797,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 46,
+     "score": 15.093,
+     "sem": 0.5811,
+     "kw": 4.05,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 6,
+     "chunk_id": 1291,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 49,
+     "score": 13.579,
+     "sem": 0.6425,
+     "kw": 2.86,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 7,
+     "chunk_id": 1934,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 81,
+     "score": 13.434,
+     "sem": 0.628,
+     "kw": 2.86,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 8,
+     "chunk_id": 1731,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 28,
+     "score": 13.258,
+     "sem": 0.6103,
+     "kw": 2.86,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 9,
+     "chunk_id": 1942,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 82,
+     "score": 13.255,
+     "sem": 0.61,
+     "kw": 2.86,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 10,
+     "chunk_id": 1924,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 78,
+     "score": 13.211,
+     "sem": 0.6056,
+     "kw": 2.86,
+     "sec": 0,
+     "phr": 0
+    }
+   ],
+   "fidelidad": null
+  },
+  {
+   "id": "F3",
+   "categoria": "Norma fuera del corpus",
+   "pregunta": "¿Cuál es el procedimiento para calificar un WPS según ASME Sección IX?",
+   "intent": "OTRO",
+   "contexto_truncado": false,
+   "pasajes_en_contexto": 10,
+   "top": [
+    {
+     "rank": 1,
+     "chunk_id": 1260,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 40,
+     "score": 17.384,
+     "sem": 0.5834,
+     "kw": 4.75,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 2,
+     "chunk_id": 1290,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 48,
+     "score": 17.314,
+     "sem": 0.5764,
+     "kw": 4.75,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 3,
+     "chunk_id": 1338,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 59,
+     "score": 17.073,
+     "sem": 0.5523,
+     "kw": 4.75,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 4,
+     "chunk_id": 1329,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 57,
+     "score": 15.661,
+     "sem": 0.6011,
+     "kw": 4.25,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 5,
+     "chunk_id": 1837,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 57,
+     "score": 13.826,
+     "sem": 0.6426,
+     "kw": 3,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 6,
+     "chunk_id": 1361,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 70,
+     "score": 13.764,
+     "sem": 0.6364,
+     "kw": 3,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 7,
+     "chunk_id": 1360,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 70,
+     "score": 13.75,
+     "sem": 0.635,
+     "kw": 3,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 8,
+     "chunk_id": 1151,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 3,
+     "score": 13.737,
+     "sem": 0.6337,
+     "kw": 3,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 9,
+     "chunk_id": 1150,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 3,
+     "score": 13.721,
+     "sem": 0.6321,
+     "kw": 3,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 10,
+     "chunk_id": 1880,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 68,
+     "score": 13.708,
+     "sem": 0.6308,
+     "kw": 3,
+     "sec": 0,
+     "phr": 0
+    }
+   ],
+   "fidelidad": null
+  },
+  {
+   "id": "F4",
+   "categoria": "Proceso fuera del corpus",
+   "pregunta": "¿Qué parámetros se recomiendan para soldar aluminio 6061 con TIG de corriente pulsada?",
+   "intent": "PARAMETROS",
+   "contexto_truncado": false,
+   "pasajes_en_contexto": 10,
+   "top": [
+    {
+     "rank": 1,
+     "chunk_id": 1773,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 40,
+     "score": 24.41,
+     "sem": 0.7074,
+     "kw": 7.41,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 2,
+     "chunk_id": 1778,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 41,
+     "score": 24.254,
+     "sem": 0.6918,
+     "kw": 7.41,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 3,
+     "chunk_id": 1849,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 60,
+     "score": 23.669,
+     "sem": 0.6333,
+     "kw": 7.41,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 4,
+     "chunk_id": 1818,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 52,
+     "score": 20.504,
+     "sem": 0.7195,
+     "kw": 5.73,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 5,
+     "chunk_id": 1811,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 49,
+     "score": 20,
+     "sem": 0.6691,
+     "kw": 5.73,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 6,
+     "chunk_id": 1774,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 40,
+     "score": 19.932,
+     "sem": 0.6623,
+     "kw": 5.73,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 7,
+     "chunk_id": 1721,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 25,
+     "score": 19.874,
+     "sem": 0.6565,
+     "kw": 5.73,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 8,
+     "chunk_id": 1858,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 62,
+     "score": 19.816,
+     "sem": 0.6506,
+     "kw": 5.73,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 9,
+     "chunk_id": 1915,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 76,
+     "score": 19.773,
+     "sem": 0.6464,
+     "kw": 5.73,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 10,
+     "chunk_id": 1688,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 17,
+     "score": 19.609,
+     "sem": 0.63,
+     "kw": 5.73,
+     "sec": 0,
+     "phr": 0
+    }
+   ],
+   "fidelidad": null
+  },
+  {
+   "id": "F5",
+   "categoria": "Norma fuera del corpus",
+   "pregunta": "¿Qué dice la NOM-027-STPS-2008 sobre la autorización por escrito para trabajos de soldadura y corte?",
+   "intent": "INSPECCION",
+   "contexto_truncado": false,
+   "pasajes_en_contexto": 10,
+   "top": [
+    {
+     "rank": 1,
+     "chunk_id": 1175,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 18,
+     "score": 27.722,
+     "sem": 0.768,
+     "kw": 8.36,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 2,
+     "chunk_id": 1212,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 29,
+     "score": 27.449,
+     "sem": 0.7406,
+     "kw": 8.36,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 3,
+     "chunk_id": 1213,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 29,
+     "score": 27.104,
+     "sem": 0.7061,
+     "kw": 8.36,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 4,
+     "chunk_id": 1174,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 18,
+     "score": 25.492,
+     "sem": 0.7506,
+     "kw": 7.21,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 5,
+     "chunk_id": 1360,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 70,
+     "score": 24.901,
+     "sem": 0.6758,
+     "kw": 7.86,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 6,
+     "chunk_id": 1214,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 29,
+     "score": 23.517,
+     "sem": 0.6774,
+     "kw": 7.36,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 7,
+     "chunk_id": 1228,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 34,
+     "score": 23.011,
+     "sem": 0.6768,
+     "kw": 7.36,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 8,
+     "chunk_id": 1206,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 27,
+     "score": 22.948,
+     "sem": 0.6862,
+     "kw": 6.71,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 9,
+     "chunk_id": 1238,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 34,
+     "score": 22.931,
+     "sem": 0.6688,
+     "kw": 7.36,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 10,
+     "chunk_id": 1158,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 11,
+     "score": 22.804,
+     "sem": 0.6718,
+     "kw": 6.71,
+     "sec": 0,
+     "phr": 0
+    }
+   ],
+   "fidelidad": null
+  },
+  {
+   "id": "F6",
+   "categoria": "Proceso fuera del corpus",
+   "pregunta": "¿Cómo funciona la soldadura por fricción-agitación (FSW) en aleaciones de aluminio?",
+   "intent": "MATERIALES",
+   "contexto_truncado": false,
+   "pasajes_en_contexto": 10,
+   "top": [
+    {
+     "rank": 1,
+     "chunk_id": 1357,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 68,
+     "score": 24.468,
+     "sem": 0.6768,
+     "kw": 7.61,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 2,
+     "chunk_id": 1884,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 69,
+     "score": 21.988,
+     "sem": 0.6488,
+     "kw": 6.39,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 3,
+     "chunk_id": 1882,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 68,
+     "score": 21.967,
+     "sem": 0.6467,
+     "kw": 6.39,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 4,
+     "chunk_id": 1911,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 75,
+     "score": 21.911,
+     "sem": 0.6411,
+     "kw": 6.39,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 5,
+     "chunk_id": 1849,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 60,
+     "score": 21.737,
+     "sem": 0.6237,
+     "kw": 6.39,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 6,
+     "chunk_id": 1886,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 69,
+     "score": 21.674,
+     "sem": 0.6174,
+     "kw": 6.39,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 7,
+     "chunk_id": 1867,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 66,
+     "score": 21.67,
+     "sem": 0.617,
+     "kw": 6.39,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 8,
+     "chunk_id": 1892,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 70,
+     "score": 21.499,
+     "sem": 0.5999,
+     "kw": 6.39,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 9,
+     "chunk_id": 1340,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 59,
+     "score": 21.465,
+     "sem": 0.5965,
+     "kw": 6.39,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 10,
+     "chunk_id": 1869,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 66,
+     "score": 21.378,
+     "sem": 0.5878,
+     "kw": 6.39,
+     "sec": 0,
+     "phr": 0
+    }
+   ],
+   "fidelidad": null
+  },
+  {
+   "id": "F7",
+   "categoria": "Dato comercial",
+   "pregunta": "¿Cuánto cuesta en promedio la certificación como inspector CWI en México?",
+   "intent": "INSPECCION",
+   "contexto_truncado": false,
+   "pasajes_en_contexto": 10,
+   "top": [
+    {
+     "rank": 1,
+     "chunk_id": 1823,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 53,
+     "score": 12.872,
+     "sem": 0.5972,
+     "kw": 3,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 2,
+     "chunk_id": 1739,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 30,
+     "score": 12.617,
+     "sem": 0.5717,
+     "kw": 3,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 3,
+     "chunk_id": 1677,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 4,
+     "score": 10.687,
+     "sem": 0.6537,
+     "kw": 1.75,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 4,
+     "chunk_id": 1916,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 76,
+     "score": 10.144,
+     "sem": 0.5994,
+     "kw": 1.75,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 5,
+     "chunk_id": 1679,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 9,
+     "score": 8.903,
+     "sem": 0.6153,
+     "kw": 1.25,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 6,
+     "chunk_id": 1859,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 63,
+     "score": 8.839,
+     "sem": 0.6089,
+     "kw": 1.25,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 7,
+     "chunk_id": 1893,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 70,
+     "score": 8.832,
+     "sem": 0.6082,
+     "kw": 1.25,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 8,
+     "chunk_id": 1860,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 65,
+     "score": 8.818,
+     "sem": 0.6068,
+     "kw": 1.25,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 9,
+     "chunk_id": 1312,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 52,
+     "score": 8.798,
+     "sem": 0.6048,
+     "kw": 1.25,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 10,
+     "chunk_id": 1746,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 31,
+     "score": 8.787,
+     "sem": 0.6037,
+     "kw": 1.25,
+     "sec": 0,
+     "phr": 0
+    }
+   ],
+   "fidelidad": null
+  },
+  {
+   "id": "F8",
+   "categoria": "Consumible fuera del corpus",
+   "pregunta": "¿Qué significa la clasificación ER70S-6 de la especificación AWS A5.18 para alambres de GMAW?",
+   "intent": "CONSUMIBLES",
+   "contexto_truncado": false,
+   "pasajes_en_contexto": 10,
+   "top": [
+    {
+     "rank": 1,
+     "chunk_id": 1876,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 67,
+     "score": 25.679,
+     "sem": 0.7179,
+     "kw": 7.5,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 2,
+     "chunk_id": 1872,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 67,
+     "score": 20.832,
+     "sem": 0.6892,
+     "kw": 5.8,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 3,
+     "chunk_id": 1874,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 67,
+     "score": 20.708,
+     "sem": 0.6768,
+     "kw": 5.8,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 4,
+     "chunk_id": 1881,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 68,
+     "score": 20.693,
+     "sem": 0.6753,
+     "kw": 5.8,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 5,
+     "chunk_id": 1886,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 69,
+     "score": 20.649,
+     "sem": 0.6709,
+     "kw": 5.8,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 6,
+     "chunk_id": 1875,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 67,
+     "score": 20.538,
+     "sem": 0.6598,
+     "kw": 5.8,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 7,
+     "chunk_id": 1687,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 17,
+     "score": 17.836,
+     "sem": 0.6056,
+     "kw": 4.6,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 8,
+     "chunk_id": 1732,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 28,
+     "score": 17.209,
+     "sem": 0.5429,
+     "kw": 4.6,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 9,
+     "chunk_id": 1869,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 66,
+     "score": 16.528,
+     "sem": 0.7148,
+     "kw": 4.1,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 10,
+     "chunk_id": 1868,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 66,
+     "score": 16.488,
+     "sem": 0.7108,
+     "kw": 4.1,
+     "sec": 0,
+     "phr": 0
+    }
+   ],
+   "fidelidad": null
+  },
+  {
+   "id": "P1",
+   "categoria": "Premisa falsa (contradice el corpus)",
+   "pregunta": "¿Por qué la norma AWS Z49.1 recomienda ventilar los espacios confinados con oxígeno puro?",
+   "intent": "OTRO",
+   "contexto_truncado": false,
+   "pasajes_en_contexto": 10,
+   "top": [
+    {
+     "rank": 1,
+     "chunk_id": 1148,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 2,
+     "score": 53.348,
+     "sem": 0.7455,
+     "kw": 11.88,
+     "sec": 8,
+     "phr": 0
+    },
+    {
+     "rank": 2,
+     "chunk_id": 1218,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 30,
+     "score": 51.151,
+     "sem": 0.7335,
+     "kw": 10.73,
+     "sec": 8,
+     "phr": 0
+    },
+    {
+     "rank": 3,
+     "chunk_id": 1251,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 38,
+     "score": 50.881,
+     "sem": 0.7065,
+     "kw": 10.73,
+     "sec": 8,
+     "phr": 0
+    },
+    {
+     "rank": 4,
+     "chunk_id": 1215,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 30,
+     "score": 48.498,
+     "sem": 0.726,
+     "kw": 9.58,
+     "sec": 8,
+     "phr": 0
+    },
+    {
+     "rank": 5,
+     "chunk_id": 1229,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 31,
+     "score": 48.389,
+     "sem": 0.715,
+     "kw": 9.58,
+     "sec": 8,
+     "phr": 0
+    },
+    {
+     "rank": 6,
+     "chunk_id": 1158,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 11,
+     "score": 48.256,
+     "sem": 0.7018,
+     "kw": 9.58,
+     "sec": 8,
+     "phr": 0
+    },
+    {
+     "rank": 7,
+     "chunk_id": 1214,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 29,
+     "score": 46.975,
+     "sem": 0.7137,
+     "kw": 9.08,
+     "sec": 8,
+     "phr": 0
+    },
+    {
+     "rank": 8,
+     "chunk_id": 1258,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 39,
+     "score": 46.736,
+     "sem": 0.6898,
+     "kw": 9.08,
+     "sec": 8,
+     "phr": 0
+    },
+    {
+     "rank": 9,
+     "chunk_id": 1192,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 23,
+     "score": 44.836,
+     "sem": 0.7074,
+     "kw": 7.92,
+     "sec": 8,
+     "phr": 0
+    },
+    {
+     "rank": 10,
+     "chunk_id": 1219,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 30,
+     "score": 44.436,
+     "sem": 0.7174,
+     "kw": 7.92,
+     "sec": 8,
+     "phr": 0
+    }
+   ],
+   "fidelidad": null
+  },
+  {
+   "id": "P2",
+   "categoria": "Premisa falsa (dato que el corpus no fija)",
+   "pregunta": "¿Qué amperaje exacto exige la AWS Z49.1 para soldar con electrodo E7018 de 1/8 de pulgada?",
+   "intent": "PARAMETROS",
+   "contexto_truncado": false,
+   "pasajes_en_contexto": 10,
+   "top": [
+    {
+     "rank": 1,
+     "chunk_id": 1195,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 24,
+     "score": 42.126,
+     "sem": 0.6326,
+     "kw": 6.83,
+     "sec": 8,
+     "phr": 0
+    },
+    {
+     "rank": 2,
+     "chunk_id": 1183,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 21,
+     "score": 41.19,
+     "sem": 0.729,
+     "kw": 6.33,
+     "sec": 8,
+     "phr": 0
+    },
+    {
+     "rank": 3,
+     "chunk_id": 1355,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 68,
+     "score": 38.731,
+     "sem": 0.6931,
+     "kw": 5.17,
+     "sec": 8,
+     "phr": 0
+    },
+    {
+     "rank": 4,
+     "chunk_id": 1309,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 51,
+     "score": 38.721,
+     "sem": 0.6921,
+     "kw": 5.17,
+     "sec": 8,
+     "phr": 0
+    },
+    {
+     "rank": 5,
+     "chunk_id": 1299,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 51,
+     "score": 38.492,
+     "sem": 0.6692,
+     "kw": 5.17,
+     "sec": 8,
+     "phr": 0
+    },
+    {
+     "rank": 6,
+     "chunk_id": 1359,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 69,
+     "score": 38.238,
+     "sem": 0.6438,
+     "kw": 5.17,
+     "sec": 8,
+     "phr": 0
+    },
+    {
+     "rank": 7,
+     "chunk_id": 1272,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 44,
+     "score": 38.019,
+     "sem": 0.6219,
+     "kw": 5.17,
+     "sec": 8,
+     "phr": 0
+    },
+    {
+     "rank": 8,
+     "chunk_id": 1176,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 19,
+     "score": 37.987,
+     "sem": 0.6687,
+     "kw": 5.17,
+     "sec": 8,
+     "phr": 0
+    },
+    {
+     "rank": 9,
+     "chunk_id": 1288,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 48,
+     "score": 37.901,
+     "sem": 0.6601,
+     "kw": 5.17,
+     "sec": 8,
+     "phr": 0
+    },
+    {
+     "rank": 10,
+     "chunk_id": 1214,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 29,
+     "score": 37.503,
+     "sem": 0.6203,
+     "kw": 5.17,
+     "sec": 8,
+     "phr": 0
+    }
+   ],
+   "fidelidad": null
+  },
+  {
+   "id": "P3",
+   "categoria": "Premisa falsa (evento inventado)",
+   "pregunta": "¿En qué año prohibió la AWS el uso de electrodos E6013 en estructuras metálicas y por qué?",
+   "intent": "CONSUMIBLES",
+   "contexto_truncado": false,
+   "pasajes_en_contexto": 10,
+   "top": [
+    {
+     "rank": 1,
+     "chunk_id": 1920,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 77,
+     "score": 37.813,
+     "sem": 0.6404,
+     "kw": 5.23,
+     "sec": 8,
+     "phr": 0
+    },
+    {
+     "rank": 2,
+     "chunk_id": 1921,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 77,
+     "score": 19.135,
+     "sem": 0.6099,
+     "kw": 6.41,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 3,
+     "chunk_id": 1889,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 69,
+     "score": 17.692,
+     "sem": 0.6783,
+     "kw": 5.23,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 4,
+     "chunk_id": 1294,
+     "source": "AWS_Z49.1-2012-SP.pdf",
+     "page": 49,
+     "score": 17.639,
+     "sem": 0.673,
+     "kw": 5.23,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 5,
+     "chunk_id": 1882,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 68,
+     "score": 17.442,
+     "sem": 0.6533,
+     "kw": 5.23,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 6,
+     "chunk_id": 1932,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 81,
+     "score": 17.361,
+     "sem": 0.6452,
+     "kw": 5.23,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 7,
+     "chunk_id": 1849,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 60,
+     "score": 17.303,
+     "sem": 0.6394,
+     "kw": 5.23,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 8,
+     "chunk_id": 1885,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 69,
+     "score": 17.127,
+     "sem": 0.6218,
+     "kw": 5.23,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 9,
+     "chunk_id": 1861,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 65,
+     "score": 16.85,
+     "sem": 0.5941,
+     "kw": 5.23,
+     "sec": 0,
+     "phr": 0
+    },
+    {
+     "rank": 10,
+     "chunk_id": 1868,
+     "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "page": 66,
+     "score": 15.885,
+     "sem": 0.7103,
+     "kw": 4.05,
+     "sec": 0,
+     "phr": 0
+    }
+   ],
+   "fidelidad": null
+  }
+ ]
+}

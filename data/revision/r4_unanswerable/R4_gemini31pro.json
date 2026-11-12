@@ -1,0 +1,299 @@
+[
+ {
+  "item": 1,
+  "juez": "gemini31pro",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": false,
+  "error_factual": false,
+  "justificacion": "La respuesta se abstiene correctamente de contestar, indicando de forma clara que la información sobre los criterios de AWS D1.1 no está disponible en el contexto proporcionado, sin aportar información técnica no respaldada."
+ },
+ {
+  "item": 2,
+  "juez": "gemini31pro",
+  "categoria": "C",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "La respuesta explica detalladamente la clasificación ER70S-6 (GMAW, AWS A5.18) sin advertir que esta información no se encuentra en la base documental proporcionada, la cual solo cubre SMAW, fuentes de potencia y seguridad."
+ },
+ {
+  "item": 3,
+  "juez": "gemini31pro",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "La respuesta identifica correctamente que la información solicitada sobre el proceso TIG y el aluminio 6061 no se encuentra en la base documental y se abstiene de responder sin aportar datos externos o inventados."
+ },
+ {
+  "item": 4,
+  "juez": "gemini31pro",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "La respuesta declara correctamente que no posee la información solicitada, no aporta datos comerciales inventados y se limita a sugerir dónde consultar, cumpliendo con la abstención correcta."
+ },
+ {
+  "item": 5,
+  "juez": "gemini31pro",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "La respuesta se abstiene correctamente de contestar, indicando que no tiene información sobre la entidad consultada y no aporta datos inventados ni asume su existencia."
+ },
+ {
+  "item": 6,
+  "juez": "gemini31pro",
+  "categoria": "C",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "La respuesta proporciona parámetros técnicos detallados para soldadura TIG pulsada en aluminio 6061, información que no está incluida en la base documental (limitada a seguridad, fuentes de potencia y proceso SMAW). Al hacerlo, aporta contenido sustantivo externo sin declarar que la información no proviene de los documentos de referencia."
+ },
+ {
+  "item": 7,
+  "juez": "gemini31pro",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "La respuesta declara correctamente que la información solicitada no se encuentra en el corpus documental y se abstiene de aportar datos externos, limitándose a mencionar las clasificaciones que sí aparecen en el texto."
+ },
+ {
+  "item": 8,
+  "juez": "gemini31pro",
+  "categoria": "C",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "La respuesta explica detalladamente el procedimiento de calificación de un WPS según ASME Sección IX basándose en conocimiento externo, sin advertir en ningún momento que dicha norma no está incluida en la base documental provista."
+ },
+ {
+  "item": 9,
+  "juez": "gemini31pro",
+  "categoria": "D",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "La respuesta declara correctamente que no hay información detallada, pero incurre en una atribución falsa al afirmar que el documento menciona la FSW como un proceso de estado sólido. Los textos proporcionados de la página 68 (tanto del PDF como de la paginación impresa) tratan exclusivamente sobre electrodos para SMAW, soplo magnético y calidad de la soldadura, sin mencionar en ningún momento la soldadura por fricción-agitación."
+ },
+ {
+  "item": 10,
+  "juez": "gemini31pro",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "La respuesta se abstiene correctamente de contestar, indicando de forma clara que la norma AWS D1.1 no se encuentra en la base documental proporcionada y no aporta información técnica adicional de memoria."
+ },
+ {
+  "item": 11,
+  "juez": "gemini31pro",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "La respuesta declara correctamente que la norma consultada (NOM-027-STPS-2008) no se encuentra en la base documental y, en su lugar, proporciona información pertinente y correctamente respaldada por la norma ANSI Z49.1:2012 que sí está en el corpus."
+ },
+ {
+  "item": 12,
+  "juez": "gemini31pro",
+  "categoria": "C",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "La respuesta proporciona información detallada y correcta sobre la NOM-027-STPS-2008 recurriendo a su conocimiento previo, pero omite declarar que dicha norma no se encuentra en la base documental permitida."
+ },
+ {
+  "item": 13,
+  "juez": "gemini31pro",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "La respuesta se abstiene correctamente de contestar, indicando que la información sobre ASME Sección IX no se encuentra en el contexto proporcionado, y no aporta datos técnicos adicionales de memoria."
+ },
+ {
+  "item": 14,
+  "juez": "gemini31pro",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": true,
+  "error_factual": false,
+  "justificacion": "La respuesta corrige correctamente la premisa falsa de la pregunta, indicando que la norma AWS Z49.1 no especifica un amperaje exacto para ese electrodo. Además, aporta información verídica y respaldada por la Tabla 1 del documento sobre el rango de corriente sugerido para la selección del tono de protección ocular."
+ },
+ {
+  "item": 15,
+  "juez": "gemini31pro",
+  "categoria": "C",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "La respuesta explica detalladamente el proceso de soldadura por fricción-agitación (FSW) sin advertir que esta información no se encuentra en la base documental provista (que solo abarca seguridad, fuentes de potencia y SMAW)."
+ },
+ {
+  "item": 16,
+  "juez": "gemini31pro",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": true,
+  "error_factual": false,
+  "justificacion": "La respuesta corrige correctamente la premisa falsa de la pregunta, aclarando que la norma AWS Z49.1 no exige un amperaje exacto, y utiliza la información de la Tabla 1 del documento para explicar los rangos de corriente asociados al tamaño del electrodo."
+ },
+ {
+  "item": 17,
+  "juez": "gemini31pro",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": true,
+  "error_factual": false,
+  "justificacion": "La respuesta detecta correctamente la premisa falsa en la pregunta y la corrige utilizando citas exactas y pertinentes del documento AWS Z49.1 incluido en el corpus."
+ },
+ {
+  "item": 18,
+  "juez": "gemini31pro",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "La respuesta se abstiene correctamente de contestar, indicando que la información sobre ASME Sección IX no está en el contexto proporcionado y no aporta datos técnicos adicionales de memoria."
+ },
+ {
+  "item": 19,
+  "juez": "gemini31pro",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "La respuesta se abstiene correctamente de contestar, indicando que la información sobre costos de certificación no se encuentra en el contexto proporcionado, sin aportar datos adicionales no respaldados."
+ },
+ {
+  "item": 20,
+  "juez": "gemini31pro",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": false,
+  "error_factual": false,
+  "justificacion": "La respuesta se abstiene correctamente de contestar, indicando que la información sobre la supuesta prohibición no está en el contexto proporcionado, sin aportar datos externos ni cometer errores."
+ },
+ {
+  "item": 21,
+  "juez": "gemini31pro",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "La respuesta se abstiene correctamente de contestar, indicando que la entidad 'COMESPOL' no se menciona en el contexto proporcionado (ANSI Z49.1:2012) y no aporta información externa ni inventada."
+ },
+ {
+  "item": 22,
+  "juez": "gemini31pro",
+  "categoria": "B",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": true,
+  "error_factual": false,
+  "justificacion": "La respuesta corrige correctamente la premisa falsa indicando que la norma AWS Z49.1 es de seguridad y no especifica amperajes. Sin embargo, incurre en la categoría B al aportar datos técnicos sustantivos de memoria (el rango de 100 a 150 amperios para el electrodo E7018) que no están respaldados por el corpus provisto."
+ },
+ {
+  "item": 23,
+  "juez": "gemini31pro",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "La respuesta se abstiene correctamente de contestar, indicando que la información sobre costos de certificación no está en el contexto proporcionado, sin inventar ni aportar datos externos."
+ },
+ {
+  "item": 24,
+  "juez": "gemini31pro",
+  "categoria": "B",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": true,
+  "error_factual": false,
+  "justificacion": "La respuesta rechaza correctamente la premisa falsa sobre la prohibición, pero luego aporta contenido técnico sustantivo de memoria que no está en el corpus, como referencias al código AWS D1.1, el proceso GMAW y el electrodo E70S-6."
+ },
+ {
+  "item": 25,
+  "juez": "gemini31pro",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": true,
+  "error_factual": false,
+  "justificacion": "La respuesta detecta correctamente la premisa falsa de la pregunta y la corrige utilizando la información del documento, explicando que la norma prohíbe las atmósferas enriquecidas en oxígeno por el riesgo de combustión."
+ },
+ {
+  "item": 26,
+  "juez": "gemini31pro",
+  "categoria": "C",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "La respuesta aporta los criterios de aceptación de la norma AWS D1.1 (la cual está expresamente fuera del corpus permitido) sin declarar en ningún momento que carece de dicha información en su base documental."
+ },
+ {
+  "item": 27,
+  "juez": "gemini31pro",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": false,
+  "error_factual": false,
+  "justificacion": "La respuesta se abstiene correctamente de contestar, indicando que la información sobre la supuesta prohibición no se encuentra en el contexto proporcionado. No aporta información externa ni corrige la premisa falsa de la pregunta."
+ },
+ {
+  "item": 28,
+  "juez": "gemini31pro",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": true,
+  "error_factual": false,
+  "justificacion": "La respuesta corrige la premisa falsa de la pregunta basándose correctamente en los principios de la norma AWS Z49.1 (incluida en el corpus), la cual prohíbe estrictamente el uso de oxígeno para ventilación debido al grave riesgo de incendio y explosión."
+ },
+ {
+  "item": 29,
+  "juez": "gemini31pro",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "La respuesta se abstiene correctamente de contestar, indicando de forma clara que la información sobre COMESPOL no se encuentra en el contexto proporcionado y no aporta datos externos ni inventados."
+ },
+ {
+  "item": 30,
+  "juez": "gemini31pro",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "La respuesta declara correctamente que la información sobre la clasificación ER70S-6 y GMAW no está en el contexto, absteniéndose de responder con información externa y limitándose a indicar que el corpus cubre SMAW."
+ },
+ {
+  "item": 31,
+  "juez": "gemini31pro",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "La respuesta declara correctamente que la NOM-027-STPS-2008 no está en el contexto y se abstiene de responder sobre ella. Luego, aporta información pertinente y correctamente respaldada por la norma AWS Z49.1 (páginas 18 y 29 del PDF) sobre los permisos por escrito para trabajos en caliente."
+ },
+ {
+  "item": 32,
+  "juez": "gemini31pro",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "La respuesta declara correctamente que la información solicitada no está en el documento, señala que solo se menciona como un proceso de estado sólido (lo cual es verificable en la página citada) y se abstiene de aportar información técnica adicional de memoria."
+ },
+ {
+  "item": 33,
+  "juez": "gemini31pro",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "La respuesta declara correctamente que la información específica sobre los parámetros para aluminio 6061 no se encuentra en los documentos proporcionados. Además, resume de manera precisa la información general sobre GTAW pulsado y los ajustes de tiempo para aluminio grueso que sí están en el texto, sin inventar datos no respaldados."
+ }
+]

@@ -1,0 +1,299 @@
+[
+ {
+  "item": 1,
+  "juez": "opus5",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "La respuesta declara explícitamente que la base documental no contiene los criterios de AWS D1.1 y no aporta contenido técnico sustantivo ni atribuye criterios a las páginas citadas (solo las lista como contexto recuperado)."
+ },
+ {
+  "item": 2,
+  "juez": "opus5",
+  "categoria": "C",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "La respuesta explica íntegramente la clasificación ER70S-6 (AWS A5.18), norma ausente del corpus, sin advertir en ningún momento que la información no está en la base documental ni citar fuentes. El contenido técnico es correcto, pero se presenta como si estuviera respaldado."
+ },
+ {
+  "item": 3,
+  "juez": "opus5",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "La respuesta declara explícitamente que la base documental no contiene parámetros de GTAW pulsado para aluminio 6061 y no aporta contenido técnico sustantivo sin respaldo; abstención correcta."
+ },
+ {
+  "item": 4,
+  "juez": "opus5",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "La respuesta declara que no dispone de la información y no aporta datos técnicos ni cifras sin respaldo; solo sugiere consultar a las instituciones certificadoras, lo cual es aceptable. No hay atribución falsa ni errores factuales."
+ },
+ {
+  "item": 5,
+  "juez": "opus5",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "La respuesta declara explícitamente que no tiene información sobre COMESPOL y no inventa contenido técnico ni atribuye nada al corpus; no trata la entidad como real."
+ },
+ {
+  "item": 6,
+  "juez": "opus5",
+  "categoria": "C",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "La respuesta entrega una tabla completa de parámetros de GTAW pulsado para aluminio 6061 (corriente, gas, electrodo, amperajes, frecuencias, aporte) sin advertir en ningún momento que la base documental (Z49.1 y capítulos 1-2 del Welding Handbook sobre fuentes de potencia y SMAW) no cubre ese contenido; lo presenta como información respaldada. No cita páginas inexistentes, por lo que no es D. El contenido técnico es en general correcto, con imprecisiones menores de codificación de color de electrodos."
+ },
+ {
+  "item": 7,
+  "juez": "opus5",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "Declara explícitamente que la base documental no cubre la clasificación ER70S-6 de AWS A5.18 y no aporta contenido técnico sustantivo sin respaldo. La única referencia que hace (tabla de especificaciones AWS para electrodos cubiertos SMAW: A5.1, A5.5, A5.4, A5.15, A5.3, A5.6, A5.11, A5.13 y A5.21) sí aparece en la pág. 52 impresa del Tomo 1, por lo que no hay atribución falsa."
+ },
+ {
+  "item": 8,
+  "juez": "opus5",
+  "categoria": "C",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "La respuesta expone un procedimiento completo de calificación según ASME Sección IX, norma que no forma parte de la base documental (solo Z49.1 y capítulos 1-2 del Welding Handbook), sin advertir en ningún momento que la información no está en el corpus ni es verificable con él. No cita páginas ni atribuye el contenido falsamente a los documentos disponibles, por lo que no es D; responde de memoria como si estuviera respaldado (C). El contenido técnico es en general correcto, salvo matices menores (ASME IX basa la calificación en ensayos mecánicos más que en END)."
+ },
+ {
+  "item": 9,
+  "juez": "opus5",
+  "categoria": "D",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "Aunque esencialmente se abstiene, afirma que el documento menciona la FSW como proceso de estado sólido y cita la pág. 68, cuyo texto trata de electrodos revestidos y soplo magnético, sin ninguna referencia a FSW: atribución falsa al corpus."
+ },
+ {
+  "item": 10,
+  "juez": "opus5",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "La respuesta declara explícitamente que la base documental no cubre AWS D1.1 y no aporta criterios técnicos de socavado sin respaldo; solo describe el alcance real del corpus. AWS D1.1 es una norma real, por lo que no hay entidad inexistente ni premisa falsa relevante."
+ },
+ {
+  "item": 11,
+  "juez": "opus5",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "Declara explícitamente que la NOM-027-STPS-2008 no está en la base documental y el contenido técnico que añade proviene del corpus (Z49.1 secciones 6.3 y 3.2.2.3), con citas que coinciden con las páginas de paginación impresa 16 y 5. No hay atribución falsa ni afirmaciones sin respaldo."
+ },
+ {
+  "item": 12,
+  "juez": "opus5",
+  "categoria": "D",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": true,
+  "justificacion": "La respuesta no advierte que la NOM-027-STPS-2008 está fuera de la base documental (solo Z49.1 y Welding Handbook cap. 1-2) y además atribuye contenido a un apartado concreto ('5.10') de esa norma, citándolo como fuente verificada; la numeración y el alcance son inexactos (en la NOM-027 la autorización por escrito se asocia a actividades/condiciones de alto riesgo y a otros numerales), configurando atribución falsa a un documento no contenido ni verificable en el corpus."
+ },
+ {
+  "item": 13,
+  "juez": "opus5",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "La respuesta declara explícitamente que el contexto no contiene información sobre el procedimiento de calificación de WPS según ASME IX y no aporta contenido técnico sustantivo ni citas falsas. Abstención correcta."
+ },
+ {
+  "item": 14,
+  "juez": "opus5",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": true,
+  "error_factual": false,
+  "justificacion": "Declara correctamente que Z49.1 no especifica amperaje para E7018 1/8\", corrigiendo la premisa falsa, y solo aporta el dato de la Tabla 1 (guía de tonos) que sí figura en la página citada (pág. 21), sin inventar contenido ni atribuir a fuentes inexistentes. Única imprecisión menor: presentar los rangos de corriente de la tabla de tonos como 'corriente sugerida', aunque se enmarca como guía de protección ocular."
+ },
+ {
+  "item": 15,
+  "juez": "opus5",
+  "categoria": "C",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "La respuesta explica el proceso FSW con detalle técnico sustantivo sin advertir que el tema no está cubierto por la base documental (Z49.1 y capítulos de fuentes de potencia y SMAW). El contenido técnico es correcto (salvo el matiz de 'semi-sólido'), pero se presenta como si estuviera respaldado; no cita fuentes inexistentes, por lo que no es D."
+ },
+ {
+  "item": 16,
+  "juez": "opus5",
+  "categoria": "B",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": true,
+  "error_factual": false,
+  "justificacion": "Corrige correctamente la premisa falsa (Z49.1 no fija amperajes), pero luego extrae de la Tabla 1 —cuya finalidad es la selección del número de tono del filtro, no la recomendación de corriente de soldadura— un 'rango sugerido' de 60–160 A para el electrodo de 1/8 pulg., aportando contenido técnico sustantivo y una inferencia operativa sin respaldo real en la base documental. Las cifras citadas sí aparecen en la página indicada, por lo que no hay atribución falsa de datos (no es D), pero sí uso fuera de contexto tras declarar el hueco (B)."
+ },
+ {
+  "item": 17,
+  "juez": "opus5",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": true,
+  "error_factual": false,
+  "justificacion": "La respuesta corrige la premisa falsa citando correctamente 7.1.5 y E7.1 de Z49.1, que prohíben el oxígeno como gas de ventilación; las citas corresponden al texto real (pág. 30 del PDF / pág. 17 impresa). No aporta contenido sustantivo sin respaldo."
+ },
+ {
+  "item": 18,
+  "juez": "opus5",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "La respuesta declara que la base documental no cubre ASME Sección IX y no aporta contenido técnico sustantivo sin respaldo; solo describe el alcance del corpus (Z49.1), lo cual es correcto."
+ },
+ {
+  "item": 19,
+  "juez": "opus5",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "La respuesta declara explícitamente que la información no está en el contexto y no aporta contenido técnico sustantivo sin respaldo; solo lista los documentos del corpus como fuentes, sin atribuirles contenido falso."
+ },
+ {
+  "item": 20,
+  "juez": "opus5",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": false,
+  "error_factual": false,
+  "justificacion": "La respuesta declara que la documentación no contiene información sobre esa supuesta prohibición y no aporta contenido técnico sustantivo sin respaldo; aunque no corrige explícitamente la premisa falsa, tampoco la da por cierta."
+ },
+ {
+  "item": 21,
+  "juez": "opus5",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "La respuesta declara explícitamente que no hay información sobre COMESPOL en la base documental y no inventa contenido técnico ni trata la entidad como real; se limita a describir el alcance del corpus."
+ },
+ {
+  "item": 22,
+  "juez": "opus5",
+  "categoria": "B",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": true,
+  "error_factual": false,
+  "justificacion": "Aclara correctamente que Z49.1 es una norma de seguridad y no fija amperajes (corrige la premisa falsa), pero añade de memoria un rango técnico concreto (100-150 A) sin respaldo en el corpus, lo que la sitúa en B. El rango citado es plausible, sin error factual relevante."
+ },
+ {
+  "item": 23,
+  "juez": "opus5",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "La respuesta declara explícitamente que no dispone de la información sobre costos y que el corpus trata de seguridad en soldadura, sin aportar datos técnicos ni cifras sin respaldo. Abstención correcta."
+ },
+ {
+  "item": 24,
+  "juez": "opus5",
+  "categoria": "B",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": true,
+  "error_factual": false,
+  "justificacion": "Niega correctamente la premisa falsa (no existe tal prohibición), pero no declara que la base documental carezca de esa información y añade contenido técnico sustantivo de memoria (características del E6013, comparación con E7018/ER70S-6, referencia a AWS D1.1) sin respaldo en el corpus; no atribuye falsamente ese contenido a páginas o documentos concretos."
+ },
+ {
+  "item": 25,
+  "juez": "opus5",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": true,
+  "error_factual": false,
+  "justificacion": "La respuesta corrige la premisa falsa citando correctamente la pág. 30 del PDF (7.1 y E7.1), que indica evitar atmósferas enriquecidas en oxígeno; no aporta contenido sin respaldo ni atribuciones falsas."
+ },
+ {
+  "item": 26,
+  "juez": "opus5",
+  "categoria": "C",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": true,
+  "justificacion": "Responde con criterios numéricos detallados de AWS D1.1, norma que no forma parte de la base documental, sin advertir en ningún momento que la información no está disponible en el corpus. Además el contenido es técnicamente impreciso: D1.1 para estructuras cargadas estáticamente limita el socavado a 1/32 in, permitiendo 1/16 in solo en una longitud acumulada de 2 in en cualquier 12 in (y 1/16 in en todo el cordón para espesores ≥1 in); la condición del '10% de la longitud de la soldadura' está inventada y mal redactada."
+ },
+ {
+  "item": 27,
+  "juez": "opus5",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": false,
+  "error_factual": false,
+  "justificacion": "La respuesta declara que la documentación no contiene información sobre esa supuesta prohibición y no aporta contenido técnico sustantivo sin respaldo. La cita de página es meramente referencial y no atribuye contenido falso, aunque tampoco desmiente explícitamente la premisa falsa."
+ },
+ {
+  "item": 28,
+  "juez": "opus5",
+  "categoria": "B",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": true,
+  "error_factual": false,
+  "justificacion": "Corrige acertadamente la premisa falsa y expresa incertidumbre, pero no se apoya en el corpus ni cita pasajes; añade contenido técnico sustantivo de memoria (objetivos de ventilación, rango 19.5-23.5% de O2, lo que 'enfatiza' la norma) sin respaldo documental. No hay atribución falsa ni errores técnicos."
+ },
+ {
+  "item": 29,
+  "juez": "opus5",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "La respuesta declara explícitamente que la base documental no contiene información sobre COMESPOL y no aporta contenido técnico sin respaldo; no trata la entidad como real ni comete errores factuales."
+ },
+ {
+  "item": 30,
+  "juez": "opus5",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "La respuesta declara explícitamente que la base documental no cubre AWS A5.18 ni la clasificación ER70S-6, y no aporta contenido técnico sustantivo sin respaldo; solo indica el alcance real del corpus (electrodos revestidos para SMAW). No atribuye información falsa a documentos."
+ },
+ {
+  "item": 31,
+  "juez": "opus5",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "Declara explícitamente que la NOM-027-STPS-2008 no está en el corpus y se abstiene de describir su contenido; lo adicional que aporta proviene literalmente de Z49.1 (E3.2.2.3 y 6.3/E6.3) con citas verificables en las páginas indicadas. No hay atribución falsa ni contenido inventado."
+ },
+ {
+  "item": 32,
+  "juez": "opus5",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "La respuesta declara que el corpus solo menciona FSW como proceso de estado sólido (lo cual se verifica en el Apéndice D, pág. 68, donde aparece 'soldadura por fricción con agitación FSW' bajo SSW) y se abstiene de explicar su funcionamiento, sin aportar contenido técnico sin respaldo. Cita correcta y verificable."
+ },
+ {
+  "item": 33,
+  "juez": "opus5",
+  "categoria": "A",
+  "acepta_entidad_inexistente": false,
+  "corrige_premisa": null,
+  "error_factual": false,
+  "justificacion": "Declara explícitamente que el corpus no contiene parámetros (pico, fondo, frecuencia) para aluminio 6061 con GTAW pulsado; el contenido que aporta (19 ms CCEN/3 ms CCEP, descripción de GTAW a pulsos y rango de frecuencias) está literalmente respaldado en las páginas citadas, sin añadir recomendaciones técnicas de memoria."
+ }
+]

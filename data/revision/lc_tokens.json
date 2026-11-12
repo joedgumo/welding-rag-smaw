@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "fecha": "2026-11-05T05:34:48.538Z",
+    "brazo": "lc",
+    "modelo": "gemini-2.5-flash",
+    "generationConfig": {
+      "temperature": 0.2,
+      "maxOutputTokens": 1400,
+      "thinkingConfig": {
+        "thinkingBudget": 0
+      }
+    },
+    "embedding_model": null,
+    "regla_emergencia": null,
+    "historial": "(sin historial previo)",
+    "contexto_lc_caracteres": 576494
+  },
+  "respuestas": [
+    {
+      "id": "A1",
+      "categoria": "Selección de parámetros",
+      "pregunta": "En el proceso SMAW, ¿qué criterios se deben considerar para seleccionar el amperaje de soldadura?",
+      "intent": "PARAMETROS",
+      "ruta": "contexto_largo",
+      "prompt_caracteres": 577746,
+      "prompt_tokens": 176845
+    },
+    {
+      "id": "A2",
+      "categoria": "Selección de parámetros",
+      "pregunta": "¿Qué tipos de polaridad existen en SMAW (soldadura por arco con electrodo revestido) y en qué se diferencian?",
+      "intent": "CONSUMIBLES",
+      "ruta": "contexto_largo",
+      "prompt_caracteres": 577759,
+      "prompt_tokens": 176853
+    },
+    {
+      "id": "A3",
+      "categoria": "Selección de parámetros",
+      "pregunta": "¿Qué factores se deben considerar al seleccionar el electrodo adecuado en SMAW?",
+      "intent": "CONSUMIBLES",
+      "ruta": "contexto_largo",
+      "prompt_caracteres": 577729,
+      "prompt_tokens": 176840
+    },
+    {
+      "id": "A4",
+      "categoria": "Selección de parámetros",
+      "pregunta": "¿Cómo se selecciona el tono (shade) del lente de filtro para protección ocular?",
+      "intent": "OTRO",
+      "ruta": "contexto_largo",
+      "prompt_caracteres": 577722,
+      "prompt_tokens": 176840
+    },
+    {
+      "id": "B1",
+      "categoria": "Documental/procedimental",
+      "pregunta": "¿Cuáles son los factores para determinar una ventilación adecuada al soldar?",
+      "intent": "SEGURIDAD",
+      "ruta": "contexto_largo",
+      "prompt_caracteres": 577724,
+      "prompt_tokens": 176839
+    },
+    {
+      "id": "B2",
+      "categoria": "Documental/procedimental",
+      "pregunta": "¿Qué requisitos deben cumplir los equipos de protección de ojos y cara?",
+      "intent": "EQUIPO",
+      "ruta": "contexto_largo",
+      "prompt_caracteres": 577716,
+      "prompt_tokens": 176837
+    },
+    {
+      "id": "B3",
+      "categoria": "Documental/procedimental",
+      "pregunta": "¿Qué condiciones deben cumplirse para la ventilación en espacios confinados?",
+      "intent": "SEGURIDAD",
+      "ruta": "contexto_largo",
+      "prompt_caracteres": 577724,
+      "prompt_tokens": 176839
+    },
+    {
+      "id": "B4",
+      "categoria": "Documental/procedimental",
+      "pregunta": "¿Cuáles son las funciones principales del revestimiento (cobertura) del electrodo en SMAW?",
+      "intent": "CONSUMIBLES",
+      "ruta": "contexto_largo",
+      "prompt_caracteres": 577740,
+      "prompt_tokens": 176845
+    },
+    {
+      "id": "C1",
+      "categoria": "Diagnóstico/seguridad",
+      "pregunta": "Si la ventilación natural no es suficiente, ¿qué se debe hacer?",
+      "intent": "SEGURIDAD",
+      "ruta": "contexto_largo",
+      "prompt_caracteres": 577711,
+      "prompt_tokens": 176839
+    },
+    {
+      "id": "C2",
+      "categoria": "Diagnóstico/seguridad",
+      "pregunta": "¿Cuáles son las causas comunes de la porosidad en una soldadura y cómo se puede prevenir?",
+      "intent": "DEFECTOS",
+      "ruta": "contexto_largo",
+      "prompt_caracteres": 577736,
+      "prompt_tokens": 176844
+    },
+    {
+      "id": "C3",
+      "categoria": "Diagnóstico/seguridad",
+      "pregunta": "¿Qué medidas de prevención y protección contra incendios deben tomarse antes de soldar?",
+      "intent": "EMERGENCIA",
+      "ruta": "contexto_largo",
+      "prompt_caracteres": 577736,
+      "prompt_tokens": 176841
+    },
+    {
+      "id": "C4",
+      "categoria": "Diagnóstico/seguridad",
+      "pregunta": "¿Por qué no debe usarse oxígeno para ventilar un espacio de trabajo y qué riesgo implica?",
+      "intent": "SEGURIDAD",
+      "ruta": "contexto_largo",
+      "prompt_caracteres": 577737,
+      "prompt_tokens": 176844
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "welding-rag-v15-repro",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Reproduction and evaluation harness for the v15 welding RAG assistant (MRS Advances revision).",
+  "scripts": {
+    "test": "node test/selftest.mjs"
+  },
+  "dependencies": {
+    "unpdf": "^1.0.0"
+  },
+  "engines": { "node": ">=20" }
+}

@@ -1,0 +1,18 @@
+{
+  "fleiss_kappa": 0.706,
+  "por_sistema": {
+    "RAG": {
+      "A": 11
+    },
+    "baseline": {
+      "C": 6,
+      "A": 3,
+      "B": 2
+    },
+    "LC": {
+      "A": 9,
+      "D": 1,
+      "sin mayoría": 1
+    }
+  }
+}

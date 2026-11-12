@@ -1,0 +1,13 @@
+orden_presentacion,tarea_id,categoria,Sistema_A_es,Sistema_B_es
+1,B1,Documental/procedimental,RAG,baseline
+2,B3,Documental/procedimental,baseline,RAG
+3,B4,Documental/procedimental,baseline,RAG
+4,A2,Selección de parámetros,baseline,RAG
+5,C3,Diagnóstico/seguridad,RAG,baseline
+6,C1,Diagnóstico/seguridad,baseline,RAG
+7,A1,Selección de parámetros,RAG,baseline
+8,A4,Selección de parámetros,baseline,RAG
+9,C4,Diagnóstico/seguridad,RAG,baseline
+10,A3,Selección de parámetros,RAG,baseline
+11,B2,Documental/procedimental,baseline,RAG
+12,C2,Diagnóstico/seguridad,RAG,baseline

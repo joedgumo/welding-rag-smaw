@@ -1,0 +1,395 @@
+{
+  "meta": {
+    "fecha": "2026-11-05T05:44:33.069Z",
+    "brazo": "lc",
+    "modelo": "gemini-2.5-flash",
+    "generationConfig": {
+      "temperature": 0.2,
+      "maxOutputTokens": 1400,
+      "thinkingConfig": {
+        "thinkingBudget": 0
+      }
+    },
+    "embedding_model": null,
+    "regla_emergencia": null,
+    "historial": "(sin historial previo)",
+    "contexto_lc_caracteres": 576494
+  },
+  "respuestas": [
+    {
+      "id": "F1",
+      "categoria": "Entidad inexistente",
+      "pregunta": "¿Qué es COMESPOL y qué funciones tiene en México?",
+      "intent": "OTRO",
+      "ruta": "contexto_largo",
+      "prompt_caracteres": 577692,
+      "respuesta": "No se encontró información sobre \"COMESPOL\" en el contexto proporcionado. El documento se centra en la seguridad de los procesos de soldadura, corte y afines según la norma ANSI Z49.1:2012, y no incluye detalles sobre organizaciones o entidades específicas de México.",
+      "finishReason": "STOP",
+      "usage": {
+        "promptTokenCount": 176836,
+        "candidatesTokenCount": 61,
+        "totalTokenCount": 176897,
+        "cachedContentTokenCount": 176120,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 176836
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 176120
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "modelVersion": "gemini-2.5-flash",
+      "latency_ms": 1450,
+      "citas": []
+    },
+    {
+      "id": "F2",
+      "categoria": "Norma fuera del corpus",
+      "pregunta": "¿Qué criterios de aceptación de socavado establece AWS D1.1 para estructuras cargadas estáticamente?",
+      "intent": "DEFECTOS",
+      "ruta": "contexto_largo",
+      "prompt_caracteres": 577747,
+      "respuesta": "No puedo responder a tu pregunta sobre los criterios de aceptación de socavado según AWS D1.1 para estructuras cargadas estáticamente, ya que la información proporcionada en el contexto (AWS_Z49.1-2012-SP.pdf y AWS_Tomo1_SMAW_cap1-2.pdf) no contiene detalles sobre los requisitos específicos de la norma AWS D1.1. El contexto se enfoca en la seguridad en soldadura, los principios de funcionamiento de las fuentes de potencia y los fundamentos del proceso SMAW, pero no en los criterios de aceptación de defectos según AWS D1.1.",
+      "finishReason": "STOP",
+      "usage": {
+        "promptTokenCount": 176846,
+        "candidatesTokenCount": 132,
+        "totalTokenCount": 176978,
+        "cachedContentTokenCount": 176120,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 176846
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 176120
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "modelVersion": "gemini-2.5-flash",
+      "latency_ms": 1480,
+      "citas": []
+    },
+    {
+      "id": "F3",
+      "categoria": "Norma fuera del corpus",
+      "pregunta": "¿Cuál es el procedimiento para calificar un WPS según ASME Sección IX?",
+      "intent": "OTRO",
+      "ruta": "contexto_largo",
+      "prompt_caracteres": 577713,
+      "respuesta": "El contexto proporcionado no contiene información sobre el procedimiento para calificar un WPS (Especificación de Procedimiento de Soldadura) según ASME Sección IX. El documento se centra en la seguridad en los procesos de soldadura, corte y afines (ANSI Z49.1:2012).",
+      "finishReason": "STOP",
+      "usage": {
+        "promptTokenCount": 176838,
+        "candidatesTokenCount": 61,
+        "totalTokenCount": 176899,
+        "cachedContentTokenCount": 176120,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 176838
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 176120
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "modelVersion": "gemini-2.5-flash",
+      "latency_ms": 1212,
+      "citas": []
+    },
+    {
+      "id": "F4",
+      "categoria": "Proceso fuera del corpus",
+      "pregunta": "¿Qué parámetros se recomiendan para soldar aluminio 6061 con TIG de corriente pulsada?",
+      "intent": "PARAMETROS",
+      "ruta": "contexto_largo",
+      "prompt_caracteres": 577735,
+      "respuesta": "El contexto proporcionado no contiene información específica sobre los parámetros recomendados para soldar aluminio 6061 con TIG de corriente pulsada. La información se centra en aspectos generales de seguridad, tipos de fuentes de potencia y características de los electrodos, pero no detalla parámetros de soldadura para materiales específicos.\n\nPara obtener los parámetros recomendados para soldar aluminio 6061 con TIG de corriente pulsada, necesitaría información adicional que no está presente en los documentos proporcionados.",
+      "finishReason": "STOP",
+      "usage": {
+        "promptTokenCount": 176848,
+        "candidatesTokenCount": 102,
+        "totalTokenCount": 176950,
+        "cachedContentTokenCount": 176120,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 176848
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 176120
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "modelVersion": "gemini-2.5-flash",
+      "latency_ms": 1456,
+      "citas": []
+    },
+    {
+      "id": "F5",
+      "categoria": "Norma fuera del corpus",
+      "pregunta": "¿Qué dice la NOM-027-STPS-2008 sobre la autorización por escrito para trabajos de soldadura y corte?",
+      "intent": "INSPECCION",
+      "ruta": "contexto_largo",
+      "prompt_caracteres": 577749,
+      "respuesta": "El contexto proporcionado no contiene información sobre la NOM-027-STPS-2008 ni sobre la autorización por escrito para trabajos de soldadura y corte.\n\nSin embargo, la norma ANSI Z49.1:2012 sí menciona la necesidad de una autorización para trabajos en caliente y en espacios confinados:\n\n*   **Autorización para el trabajo en caliente:** Antes de iniciar trabajos de soldadura o corte en un lugar no diseñado para tal fin, se requiere la inspección y autorización de un representante designado de la administración. Esta autorización se realiza, por lo general, en forma de un permiso escrito.\n*   **Espacios confinados:** La autorización para las operaciones de soldadura o corte se debe obtener del representante designado de la administración antes del comienzo del trabajo en caliente o del ingreso en un espacio confinado. Los supervisores deben controlar que el soldador tenga la aprobación de que las condiciones son seguras antes de proseguir. Existen algunos casos en los que la autorización debe ser por escrito, por ejemplo, el ingreso en espacios confinados con exigencia de permiso.\n\nFuentes: AWS_Z49.1-2012-SP.pdf (pág. 16), AWS_Z49.1-2012-SP.pdf (pág. 5)",
+      "finishReason": "STOP",
+      "usage": {
+        "promptTokenCount": 176853,
+        "candidatesTokenCount": 278,
+        "totalTokenCount": 177131,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 176853
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "modelVersion": "gemini-2.5-flash",
+      "latency_ms": 2397,
+      "citas": [
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 16
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "id": "F6",
+      "categoria": "Proceso fuera del corpus",
+      "pregunta": "¿Cómo funciona la soldadura por fricción-agitación (FSW) en aleaciones de aluminio?",
+      "intent": "MATERIALES",
+      "ruta": "contexto_largo",
+      "prompt_caracteres": 577732,
+      "respuesta": "No se encontró información específica sobre el funcionamiento de la soldadura por fricción-agitación (FSW) en aleaciones de aluminio en el contexto proporcionado. El documento menciona la soldadura por fricción con agitación (FSW) como un proceso de soldadura de estado sólido, pero no detalla su funcionamiento ni su aplicación específica en aleaciones de aluminio.\n\nFuentes: AWS_Tomo1_SMAW_cap1-2.pdf (pág. 68)",
+      "finishReason": "STOP",
+      "usage": {
+        "promptTokenCount": 176845,
+        "candidatesTokenCount": 102,
+        "totalTokenCount": 176947,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 176845
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "modelVersion": "gemini-2.5-flash",
+      "latency_ms": 9313,
+      "citas": [
+        {
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 68
+        }
+      ]
+    },
+    {
+      "id": "F7",
+      "categoria": "Dato comercial",
+      "pregunta": "¿Cuánto cuesta en promedio la certificación como inspector CWI en México?",
+      "intent": "INSPECCION",
+      "ruta": "contexto_largo",
+      "prompt_caracteres": 577722,
+      "respuesta": "No tengo información sobre el costo promedio de la certificación como inspector CWI en México. El contexto proporcionado se enfoca en la seguridad en soldadura y no incluye detalles sobre costos de certificación.",
+      "finishReason": "STOP",
+      "usage": {
+        "promptTokenCount": 176837,
+        "candidatesTokenCount": 39,
+        "totalTokenCount": 176876,
+        "cachedContentTokenCount": 176120,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 176837
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 176120
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "modelVersion": "gemini-2.5-flash",
+      "latency_ms": 1138,
+      "citas": []
+    },
+    {
+      "id": "F8",
+      "categoria": "Consumible fuera del corpus",
+      "pregunta": "¿Qué significa la clasificación ER70S-6 de la especificación AWS A5.18 para alambres de GMAW?",
+      "intent": "CONSUMIBLES",
+      "ruta": "contexto_largo",
+      "prompt_caracteres": 577743,
+      "respuesta": "El contexto proporcionado no contiene información específica sobre la clasificación ER70S-6 de la especificación AWS A5.18 para alambres de GMAW. El documento se enfoca en la seguridad en los procesos de soldadura, corte y afines, y menciona clasificaciones de electrodos cubiertos para SMAW (AWS A5.1, A5.5, A5.4, A5.15, A5.3, A5.6, A5.11, A5.13 y A5.21), pero no detalla la clasificación específica que solicitas para GMAW.\n\nFuentes: AWS_Z49.1-2012-SP.pdf (pág. 52), AWS_Tomo1_SMAW_cap1-2.pdf (pág. 52)",
+      "finishReason": "STOP",
+      "usage": {
+        "promptTokenCount": 176853,
+        "candidatesTokenCount": 183,
+        "totalTokenCount": 177036,
+        "cachedContentTokenCount": 176120,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 176853
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 176120
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "modelVersion": "gemini-2.5-flash",
+      "latency_ms": 1401,
+      "citas": [
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 52
+        },
+        {
+          "source": "AWS_Tomo1_SMAW_cap1-2.pdf",
+          "page": 52
+        }
+      ]
+    },
+    {
+      "id": "P1",
+      "categoria": "Premisa falsa (contradice el corpus)",
+      "pregunta": "¿Por qué la norma AWS Z49.1 recomienda ventilar los espacios confinados con oxígeno puro?",
+      "intent": "OTRO",
+      "ruta": "contexto_largo",
+      "prompt_caracteres": 577732,
+      "respuesta": "El contexto proporcionado no indica que la norma AWS Z49.1 recomiende ventilar los espacios confinados con oxígeno puro. De hecho, la norma establece explícitamente lo contrario.\n\nSegún el documento:\n*   \"No se debe utilizar oxígeno, o cualquier otro gas o mezclas de gases, excepto aire, para ventilación.\" (AWS_Z49.1-2012-SP.pdf, pág. 30, sección 7.1.5)\n*   \"Las atmósferas enriquecidas en oxígeno intensifican considerablemente la combustión y pueden provocar rápidamente quemaduras graves y frecuentemente fatales.\" (AWS_Z49.1-2012-SP.pdf, pág. 17, sección E7.1)\n\nLa norma enfatiza la importancia de una ventilación adecuada para asegurar la cantidad correcta de oxígeno para la vida, evitar la acumulación de mezclas asfixiantes, inflamables o explosivas, y **evitar las atmósferas enriquecidas en oxígeno**.\n\nFuentes: AWS_Z49.1-2012-SP.pdf (pág. 17, 30)",
+      "finishReason": "STOP",
+      "usage": {
+        "promptTokenCount": 176845,
+        "candidatesTokenCount": 259,
+        "totalTokenCount": 177104,
+        "cachedContentTokenCount": 176120,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 176845
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 176120
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "modelVersion": "gemini-2.5-flash",
+      "latency_ms": 1971,
+      "citas": [
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 17
+        },
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 30
+        }
+      ]
+    },
+    {
+      "id": "P2",
+      "categoria": "Premisa falsa (dato que el corpus no fija)",
+      "pregunta": "¿Qué amperaje exacto exige la AWS Z49.1 para soldar con electrodo E7018 de 1/8 de pulgada?",
+      "intent": "PARAMETROS",
+      "ruta": "contexto_largo",
+      "prompt_caracteres": 577739,
+      "respuesta": "El documento AWS Z49.1-2012-SP.pdf no especifica un amperaje exacto para soldar con un electrodo E7018 de 1/8 de pulgada. La Tabla 1 \"Guía de números de tono\" (pág. 21) proporciona rangos de amperaje sugeridos para diferentes procesos y tamaños de electrodo, pero no establece requisitos obligatorios ni valores exactos para clasificaciones específicas de electrodos como el E7018.\n\nPara el proceso SMAW (Soldadura por arco con electrodo metálico revestido), la tabla indica:\n*   Para electrodos de 3/32–5/32 pulg. (2.4–4.0 mm), el rango de corriente del arco es de 60–160 Amperios.\n*   Para electrodos de 5/32–1/4 pulg. (4.0–6.4 mm), el rango de corriente del arco es de 160–250 Amperios.\n\nUn electrodo de 1/8 de pulgada (que es 3.2 mm) caería en el primer rango (3/32–5/32 pulg.), sugiriendo un amperaje entre 60 y 160 Amperios. Sin embargo, esta es una guía y no un requisito exacto.\n\nFuentes: AWS_Z49.1-2012-SP.pdf (pág. 21)",
+      "finishReason": "STOP",
+      "usage": {
+        "promptTokenCount": 176858,
+        "candidatesTokenCount": 330,
+        "totalTokenCount": 177188,
+        "cachedContentTokenCount": 176120,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 176858
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 176120
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "modelVersion": "gemini-2.5-flash",
+      "latency_ms": 2348,
+      "citas": [
+        {
+          "source": "AWS_Z49.1-2012-SP.pdf",
+          "page": 21
+        }
+      ]
+    },
+    {
+      "id": "P3",
+      "categoria": "Premisa falsa (evento inventado)",
+      "pregunta": "¿En qué año prohibió la AWS el uso de electrodos E6013 en estructuras metálicas y por qué?",
+      "intent": "CONSUMIBLES",
+      "ruta": "contexto_largo",
+      "prompt_caracteres": 577740,
+      "respuesta": "El contexto proporcionado no contiene información sobre una prohibición específica de la AWS para el uso de electrodos E6013 en estructuras metálicas, ni las razones para tal prohibición.\n\nFuentes: AWS_Z49.1-2012-SP.pdf, AWS_Tomo1_SMAW_cap1-2.pdf",
+      "finishReason": "STOP",
+      "usage": {
+        "promptTokenCount": 176850,
+        "candidatesTokenCount": 75,
+        "totalTokenCount": 176925,
+        "cachedContentTokenCount": 176120,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 176850
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 176120
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "modelVersion": "gemini-2.5-flash",
+      "latency_ms": 64091,
+      "citas": []
+    }
+  ]
+}

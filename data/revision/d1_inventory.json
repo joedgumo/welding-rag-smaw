@@ -1,0 +1,21 @@
+{
+  "total_pasajes": 499,
+  "dimension_embedding": 3072,
+  "limit_600_recorta": false,
+  "documentos": [
+    {
+      "document_id": 11,
+      "source_name": "AWS_Z49.1-2012-SP.pdf",
+      "n_pasajes": 217,
+      "pag_min": 2,
+      "pag_max": 71
+    },
+    {
+      "document_id": 16,
+      "source_name": "AWS_Tomo1_SMAW_cap1-2.pdf",
+      "n_pasajes": 282,
+      "pag_min": 3,
+      "pag_max": 87
+    }
+  ]
+}

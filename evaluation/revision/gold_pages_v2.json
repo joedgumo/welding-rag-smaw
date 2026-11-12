@@ -1,0 +1,638 @@
+{
+ "meta": {
+  "version": "v2 (5 nov 2026)",
+  "estado": "VERIFICADO. Páginas localizadas por coincidencia literal con el texto del PDF (43 fragmentos, verificados por script) y confirmadas visualmente por el primer autor el 2026-11-06: los 43 fragmentos están en la página indicada. Las 7 afirmaciones sin respaldo en el corpus no tienen página.",
+  "metodo": "Cada afirmación de la respuesta de referencia se buscó en el texto de los dos PDF indexados; página de oro = página que contiene un fragmento literal que la respalda. Las 43 coincidencias se verificaron por script (comparación sin espacios ni guiones, porque algunas páginas tienen OCR con letras separadas).",
+  "paginacion": "número de página del PDF indexado; impresa: Z49.1 = PDF − 13 (58 páginas verificadas); Manual T1 cap. 2 = PDF − 14 (verificado en los encabezados de las págs. 61, 73, 76 y 78)",
+  "cambios_vs_v1": "A1 +58, +61; A3 sin oro -> 58, 66, 70; B2 +22; C2 +83 (sección Porosidad) y 69 como posible; C3 sin cambio; posibles reducidos",
+  "uso": "eval/eval_retrieval.py usa 'oro'; con --incluir-posibles suma 'posibles'",
+  "verificacion_visual": {
+   "fecha": "2026-11-06",
+   "por": "J.E. Gutiérrez-Montoya",
+   "resultado": "43/43 fragmentos confirmados"
+  }
+ },
+ "tareas": {
+  "A1": {
+   "oro": [
+    [
+     "AWS_Tomo1_SMAW_cap1-2.pdf",
+     58
+    ],
+    [
+     "AWS_Tomo1_SMAW_cap1-2.pdf",
+     61
+    ],
+    [
+     "AWS_Tomo1_SMAW_cap1-2.pdf",
+     76
+    ]
+   ],
+   "posibles": [
+    [
+     "AWS_Tomo1_SMAW_cap1-2.pdf",
+     77
+    ],
+    [
+     "AWS_Tomo1_SMAW_cap1-2.pdf",
+     78
+    ]
+   ],
+   "afirmaciones": [
+    {
+     "afirmacion": "Intervalo global del proceso de 20 a 550 A",
+     "fuente": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "pagina_pdf": 58,
+     "pagina_impresa": 44,
+     "fragmento": "dentro del intervalo global de 20 a 550 A",
+     "respaldo": "literal"
+    },
+    {
+     "afirmacion": "El amperaje depende del tamaño (diámetro) y la clasificación del electrodo; cada uno tiene un rango recomendado",
+     "fuente": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "pagina_pdf": 76,
+     "pagina_impresa": 62,
+     "fragmento": "de un tamaño y clasificación específicos pueden operar de manera satisfactoria a diversos amperajes dentro de cierto intervalo",
+     "respaldo": "literal"
+    },
+    {
+     "afirmacion": "Depende de la posición de soldadura y del tipo de unión",
+     "fuente": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "pagina_pdf": 76,
+     "pagina_impresa": 62,
+     "fragmento": "el amperaje óptimo depende de varios factores como la posición de soldadura y el tipo de unión",
+     "respaldo": "literal"
+    },
+    {
+     "afirmacion": "Espesor del metal base (material delgado, corriente baja)",
+     "fuente": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "pagina_pdf": 61,
+     "pagina_impresa": 47,
+     "fragmento": "los niveles de corriente bajos requeridos para materiales delgados",
+     "respaldo": "literal"
+    },
+    {
+     "afirmacion": "Tipo de metal base",
+     "fuente": null,
+     "pagina_pdf": null,
+     "pagina_impresa": null,
+     "fragmento": null,
+     "respaldo": "no encontrado en el corpus"
+    },
+    {
+     "afirmacion": "A mayor diámetro, mayor amperaje (relación explícita)",
+     "fuente": null,
+     "pagina_pdf": null,
+     "pagina_impresa": null,
+     "fragmento": null,
+     "respaldo": "no encontrado en el corpus"
+    }
+   ]
+  },
+  "A2": {
+   "oro": [
+    [
+     "AWS_Tomo1_SMAW_cap1-2.pdf",
+     76
+    ]
+   ],
+   "posibles": [
+    [
+     "AWS_Tomo1_SMAW_cap1-2.pdf",
+     67
+    ]
+   ],
+   "afirmaciones": [
+    {
+     "afirmacion": "Dos polaridades en CC: inversa (electrodo positivo) y directa (electrodo negativo)",
+     "fuente": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "pagina_pdf": 76,
+     "pagina_impresa": 62,
+     "fragmento": "trabajan mejor con polaridad inversa (electrodo positivo), aunque algunos son apropiados (e incluso están diseñados) para polaridad directa (electrodo negativo)",
+     "respaldo": "literal"
+    },
+    {
+     "afirmacion": "Cambian la penetración y la tasa de depósito",
+     "fuente": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "pagina_pdf": 76,
+     "pagina_impresa": 62,
+     "fragmento": "La polaridad inversa logra mayor penetración, pero la directa aumenta la rapidez de fusión del electrodo",
+     "respaldo": "literal"
+    },
+    {
+     "afirmacion": "Algunos electrodos admiten corriente alterna",
+     "fuente": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "pagina_pdf": 76,
+     "pagina_impresa": 62,
+     "fragmento": "puede efectuarse con corriente tanto alterna como continua, siempre que se use el electrodo adecuado",
+     "respaldo": "literal"
+    },
+    {
+     "afirmacion": "Diferencia en la distribución del calor entre electrodo y pieza",
+     "fuente": null,
+     "pagina_pdf": null,
+     "pagina_impresa": null,
+     "fragmento": null,
+     "respaldo": "no encontrado en el corpus"
+    }
+   ]
+  },
+  "A3": {
+   "oro": [
+    [
+     "AWS_Tomo1_SMAW_cap1-2.pdf",
+     58
+    ],
+    [
+     "AWS_Tomo1_SMAW_cap1-2.pdf",
+     66
+    ],
+    [
+     "AWS_Tomo1_SMAW_cap1-2.pdf",
+     70
+    ]
+   ],
+   "posibles": [
+    [
+     "AWS_Tomo1_SMAW_cap1-2.pdf",
+     61
+    ],
+    [
+     "AWS_Tomo1_SMAW_cap1-2.pdf",
+     67
+    ]
+   ],
+   "afirmaciones": [
+    {
+     "afirmacion": "Electrodo conforme a la clasificación y especificaciones AWS (A5.1, etc.)",
+     "fuente": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "pagina_pdf": 66,
+     "pagina_impresa": 52,
+     "fragmento": "Tabla 2.2 Especificaciones de la AWS para electrodos cubiertos",
+     "respaldo": "literal"
+    },
+    {
+     "afirmacion": "Según el metal base y sus propiedades",
+     "fuente": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "pagina_pdf": 66,
+     "pagina_impresa": 52,
+     "fragmento": "depende de la disponibilidad de un electrodo cubierto cuyo metal de aporte tenga la composición y propiedades requeridas",
+     "respaldo": "literal"
+    },
+    {
+     "afirmacion": "Según el tipo de corriente y la posición de soldadura",
+     "fuente": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "pagina_pdf": 66,
+     "pagina_impresa": 52,
+     "fragmento": "se clasifican de acuerdo con el tipo de corriente de soldadura con la que trabajan mejor, y en ocasiones de acuerdo con las posiciones de soldadura",
+     "respaldo": "literal"
+    },
+    {
+     "afirmacion": "Espesor de la sección",
+     "fuente": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "pagina_pdf": 70,
+     "pagina_impresa": 56,
+     "fragmento": "se puede adaptar a materiales de cualquier espesor",
+     "respaldo": "literal"
+    },
+    {
+     "afirmacion": "La protección la da el revestimiento (sin gas externo)",
+     "fuente": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "pagina_pdf": 58,
+     "pagina_impresa": 44,
+     "fragmento": "proteger el metal derretido de la atmósfera por medio de los gases que se crean cuando el recubrimiento se descompone",
+     "respaldo": "literal"
+    },
+    {
+     "afirmacion": "Tipo de unión como criterio para elegir el electrodo",
+     "fuente": null,
+     "pagina_pdf": null,
+     "pagina_impresa": null,
+     "fragmento": null,
+     "respaldo": "no encontrado en el corpus"
+    }
+   ]
+  },
+  "A4": {
+   "oro": [
+    [
+     "AWS_Z49.1-2012-SP.pdf",
+     20
+    ],
+    [
+     "AWS_Z49.1-2012-SP.pdf",
+     21
+    ]
+   ],
+   "posibles": [],
+   "afirmaciones": [
+    {
+     "afirmacion": "El tono se selecciona con AWS F2.2 o la Tabla 1",
+     "fuente": "AWS_Z49.1-2012-SP.pdf",
+     "pagina_pdf": 20,
+     "pagina_impresa": 7,
+     "fragmento": "el tono se debe seleccionar de acuerdo con la norma AWS F2.2, Lens Shade Selector (Selector del tono de lentes) o la Tabla 1",
+     "respaldo": "literal"
+    },
+    {
+     "afirmacion": "Tabla de tonos según proceso y corriente",
+     "fuente": "AWS_Z49.1-2012-SP.pdf",
+     "pagina_pdf": 21,
+     "pagina_impresa": 8,
+     "fragmento": "Tabla 1 Guía de números de tono",
+     "respaldo": "literal"
+    },
+    {
+     "afirmacion": "Los lentes de filtro deben cumplir ANSI/ISEA Z87.1",
+     "fuente": "AWS_Z49.1-2012-SP.pdf",
+     "pagina_pdf": 20,
+     "pagina_impresa": 7,
+     "fragmento": "conformidad con la norma ANSI/ISEA Z87.1",
+     "respaldo": "literal"
+    }
+   ]
+  },
+  "B1": {
+   "oro": [
+    [
+     "AWS_Z49.1-2012-SP.pdf",
+     24
+    ]
+   ],
+   "posibles": [],
+   "afirmaciones": [
+    {
+     "afirmacion": "Los 5 factores de E5.1 (volumen y configuración ... zonas de respiración)",
+     "fuente": "AWS_Z49.1-2012-SP.pdf",
+     "pagina_pdf": 24,
+     "pagina_impresa": 11,
+     "fragmento": "E5.1 Los factores para determinar una ventilación adecuada incluyen lo siguiente: (1) Volumen y configuración del espacio",
+     "respaldo": "literal"
+    }
+   ]
+  },
+  "B2": {
+   "oro": [
+    [
+     "AWS_Z49.1-2012-SP.pdf",
+     19
+    ],
+    [
+     "AWS_Z49.1-2012-SP.pdf",
+     20
+    ],
+    [
+     "AWS_Z49.1-2012-SP.pdf",
+     22
+    ]
+   ],
+   "posibles": [],
+   "afirmaciones": [
+    {
+     "afirmacion": "Deben cumplir ANSI/ISEA Z87.1",
+     "fuente": "AWS_Z49.1-2012-SP.pdf",
+     "pagina_pdf": 19,
+     "pagina_impresa": 6,
+     "fragmento": "La protección de los ojos y la cara debe cumplir con la norma ANSI/ISEA Z87.1",
+     "respaldo": "literal"
+    },
+    {
+     "afirmacion": "Tono según AWS F2.2",
+     "fuente": "AWS_Z49.1-2012-SP.pdf",
+     "pagina_pdf": 20,
+     "pagina_impresa": 7,
+     "fragmento": "el tono se debe seleccionar de acuerdo con la norma AWS F2.2",
+     "respaldo": "literal"
+    },
+    {
+     "afirmacion": "Material aislante, no combustible o autoextinguible y opaco a radiación visible, UV e IR",
+     "fuente": "AWS_Z49.1-2012-SP.pdf",
+     "pagina_pdf": 20,
+     "pagina_impresa": 7,
+     "fragmento": "aislación térmica y eléctrica, no combustible o autoextinguible y opaco a la radiación visible, ultravioleta e infrarroja",
+     "respaldo": "literal"
+    },
+    {
+     "afirmacion": "Marcado permanente del fabricante y número de tono",
+     "fuente": "AWS_Z49.1-2012-SP.pdf",
+     "pagina_pdf": 22,
+     "pagina_impresa": 9,
+     "fragmento": "Los lentes de filtro deben llevar alguna marca distintiva permanente que permita la sencilla identificación del fabricante",
+     "respaldo": "literal"
+    }
+   ]
+  },
+  "B3": {
+   "oro": [
+    [
+     "AWS_Z49.1-2012-SP.pdf",
+     30
+    ]
+   ],
+   "posibles": [
+    [
+     "AWS_Z49.1-2012-SP.pdf",
+     31
+    ]
+   ],
+   "afirmaciones": [
+    {
+     "afirmacion": "Oxígeno suficiente; evitar mezclas asfixiantes, inflamables o explosivas y atmósferas enriquecidas en oxígeno; contaminantes bajo los límites",
+     "fuente": "AWS_Z49.1-2012-SP.pdf",
+     "pagina_pdf": 30,
+     "pagina_impresa": 17,
+     "fragmento": "evitar la acumulación de mezclas asfixiantes, inflamables o explosivas, evitar las atmósferas enriquecidas en oxígeno",
+     "respaldo": "literal"
+    },
+    {
+     "afirmacion": "Un acompañante capacitado para rescate fuera del espacio",
+     "fuente": "AWS_Z49.1-2012-SP.pdf",
+     "pagina_pdf": 30,
+     "pagina_impresa": 17,
+     "fragmento": "fuera del espacio confinado se encuentra una segunda persona capacitada y equipada para el rescate",
+     "respaldo": "literal"
+    },
+    {
+     "afirmacion": "No ingresar sin pruebas de la atmósfera",
+     "fuente": "AWS_Z49.1-2012-SP.pdf",
+     "pagina_pdf": 30,
+     "pagina_impresa": 17,
+     "fragmento": "Los espacios confinados se deben someter a ensayo en busca de gases, polvos y vapores tóxicos o inflamables",
+     "respaldo": "literal"
+    }
+   ]
+  },
+  "B4": {
+   "oro": [
+    [
+     "AWS_Tomo1_SMAW_cap1-2.pdf",
+     58
+    ],
+    [
+     "AWS_Tomo1_SMAW_cap1-2.pdf",
+     59
+    ]
+   ],
+   "posibles": [],
+   "afirmaciones": [
+    {
+     "afirmacion": "Estabilizar el arco y proteger el metal con los gases del revestimiento",
+     "fuente": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "pagina_pdf": 58,
+     "pagina_impresa": 44,
+     "fragmento": "Las funciones principales de la cobertura del electrodo son estabilizar el arco y proteger el metal derretido de la atmósfera",
+     "respaldo": "literal"
+    },
+    {
+     "afirmacion": "Aportar desoxidantes",
+     "fuente": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "pagina_pdf": 59,
+     "pagina_impresa": 45,
+     "fragmento": "Suministra limpiadores, desoxidantes y agentes fundentes",
+     "respaldo": "literal"
+    },
+    {
+     "afirmacion": "Formar escoria que protege y da forma al cordón",
+     "fuente": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "pagina_pdf": 59,
+     "pagina_impresa": 45,
+     "fragmento": "Proporciona un manto de escoria que protege el metal de soldadura caliente del aire",
+     "respaldo": "literal"
+    },
+    {
+     "afirmacion": "Aportar elementos de aleación",
+     "fuente": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "pagina_pdf": 59,
+     "pagina_impresa": 45,
+     "fragmento": "Constituye un medio para añadir elementos de aleación",
+     "respaldo": "literal"
+    },
+    {
+     "afirmacion": "Permitir soldar con corriente alterna",
+     "fuente": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "pagina_pdf": 59,
+     "pagina_impresa": 45,
+     "fragmento": "coberturas de electrodo pueden diseñarse para soldar con corriente alterna",
+     "respaldo": "literal"
+    }
+   ]
+  },
+  "C1": {
+   "oro": [
+    [
+     "AWS_Z49.1-2012-SP.pdf",
+     25
+    ]
+   ],
+   "posibles": [],
+   "afirmaciones": [
+    {
+     "afirmacion": "Si la natural no basta: ventilación mecánica o respiradores",
+     "fuente": "AWS_Z49.1-2012-SP.pdf",
+     "pagina_pdf": 25,
+     "pagina_impresa": 12,
+     "fragmento": "Si la ventilación natural no es suficiente para mantener los contaminantes por debajo de los límites permitidos que se mencionan en 5.1, se deben proveer ventilación mecánica o respiradores",
+     "respaldo": "literal"
+    },
+    {
+     "afirmacion": "Preferentemente extracción local lo más cerca posible de la fuente",
+     "fuente": "AWS_Z49.1-2012-SP.pdf",
+     "pagina_pdf": 25,
+     "pagina_impresa": 12,
+     "fragmento": "campanas extractoras fijas o móviles colocadas lo más cerca posible de la pieza",
+     "respaldo": "literal"
+    }
+   ]
+  },
+  "C2": {
+   "oro": [
+    [
+     "AWS_Tomo1_SMAW_cap1-2.pdf",
+     70
+    ],
+    [
+     "AWS_Tomo1_SMAW_cap1-2.pdf",
+     72
+    ],
+    [
+     "AWS_Tomo1_SMAW_cap1-2.pdf",
+     76
+    ],
+    [
+     "AWS_Tomo1_SMAW_cap1-2.pdf",
+     78
+    ],
+    [
+     "AWS_Tomo1_SMAW_cap1-2.pdf",
+     83
+    ]
+   ],
+   "posibles": [
+    [
+     "AWS_Tomo1_SMAW_cap1-2.pdf",
+     69
+    ],
+    [
+     "AWS_Tomo1_SMAW_cap1-2.pdf",
+     79
+    ],
+    [
+     "AWS_Tomo1_SMAW_cap1-2.pdf",
+     81
+    ]
+   ],
+   "afirmaciones": [
+    {
+     "afirmacion": "La porosidad es gas atrapado al solidificar",
+     "fuente": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "pagina_pdf": 83,
+     "pagina_impresa": 69,
+     "fragmento": "describir las bolsas de gas o huecos en el metal de soldadura",
+     "respaldo": "literal"
+    },
+    {
+     "afirmacion": "Se previene con amperaje apropiado, longitud de arco correcta y electrodos secos",
+     "fuente": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "pagina_pdf": 83,
+     "pagina_impresa": 69,
+     "fragmento": "la porosidad puede prevenirse empleando el amperaje apropiado y manteniendo un arco con la longitud correcta",
+     "respaldo": "literal"
+    },
+    {
+     "afirmacion": "Humedad en el revestimiento; guardar electrodos secos",
+     "fuente": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "pagina_pdf": 70,
+     "pagina_impresa": 56,
+     "fragmento": "Un exceso de humedad en la cobertura de los electrodos puede originar porosidad",
+     "respaldo": "literal"
+    },
+    {
+     "afirmacion": "Superficies limpias",
+     "fuente": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "pagina_pdf": 72,
+     "pagina_impresa": 58,
+     "fragmento": "estén limpias para evitar la porosidad",
+     "respaldo": "literal"
+    },
+    {
+     "afirmacion": "Arco largo: protección insuficiente",
+     "fuente": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "pagina_pdf": 76,
+     "pagina_impresa": 62,
+     "fragmento": "esto puede causar porosidad y contaminación del metal de soldadura con oxígeno o hidrógeno",
+     "respaldo": "literal"
+    },
+    {
+     "afirmacion": "Velocidad de recorrido alta atrapa gas",
+     "fuente": "AWS_Tomo1_SMAW_cap1-2.pdf",
+     "pagina_pdf": 78,
+     "pagina_impresa": 64,
+     "fragmento": "atrapar gas (porosidad) en el metal de soldadura",
+     "respaldo": "literal"
+    },
+    {
+     "afirmacion": "Contaminación por óxido, aceite o pintura",
+     "fuente": null,
+     "pagina_pdf": null,
+     "pagina_impresa": null,
+     "fragmento": null,
+     "respaldo": "no encontrado en el corpus"
+    },
+    {
+     "afirmacion": "Corrientes de aire",
+     "fuente": null,
+     "pagina_pdf": null,
+     "pagina_impresa": null,
+     "fragmento": null,
+     "respaldo": "no encontrado en el corpus"
+    }
+   ]
+  },
+  "C3": {
+   "oro": [
+    [
+     "AWS_Z49.1-2012-SP.pdf",
+     27
+    ],
+    [
+     "AWS_Z49.1-2012-SP.pdf",
+     28
+    ],
+    [
+     "AWS_Z49.1-2012-SP.pdf",
+     29
+    ]
+   ],
+   "posibles": [],
+   "afirmaciones": [
+    {
+     "afirmacion": "Retirar o proteger los combustibles",
+     "fuente": "AWS_Z49.1-2012-SP.pdf",
+     "pagina_pdf": 27,
+     "pagina_impresa": 14,
+     "fragmento": "a menos que los combustibles se alejen o protejan del peligro de incendio",
+     "respaldo": "literal"
+    },
+    {
+     "afirmacion": "Equipo de extinción accesible",
+     "fuente": "AWS_Z49.1-2012-SP.pdf",
+     "pagina_pdf": 28,
+     "pagina_impresa": 15,
+     "fragmento": "Se debe disponer del equipo de extinción de incendios suficiente y listo para usar",
+     "respaldo": "literal"
+    },
+    {
+     "afirmacion": "Vigilancia de incendios",
+     "fuente": "AWS_Z49.1-2012-SP.pdf",
+     "pagina_pdf": 29,
+     "pagina_impresa": 16,
+     "fragmento": "Los vigías contra incendios deben capacitarse en el uso de equipos de extinción de incendios",
+     "respaldo": "literal"
+    },
+    {
+     "afirmacion": "Autorización por escrito",
+     "fuente": "AWS_Z49.1-2012-SP.pdf",
+     "pagina_pdf": 29,
+     "pagina_impresa": 16,
+     "fragmento": "La autorización se realiza, por lo general, en la forma de un permiso escrito",
+     "respaldo": "literal"
+    },
+    {
+     "afirmacion": "Verificar ausencia de atmósferas inflamables",
+     "fuente": "AWS_Z49.1-2012-SP.pdf",
+     "pagina_pdf": 27,
+     "pagina_impresa": 14,
+     "fragmento": "La soldadura o el corte no se deben realizar a menos que la atmósfera no sea inflamable",
+     "respaldo": "literal"
+    }
+   ]
+  },
+  "C4": {
+   "oro": [
+    [
+     "AWS_Z49.1-2012-SP.pdf",
+     30
+    ]
+   ],
+   "posibles": [],
+   "afirmaciones": [
+    {
+     "afirmacion": "No usar oxígeno ni otros gases distintos del aire para ventilar",
+     "fuente": "AWS_Z49.1-2012-SP.pdf",
+     "pagina_pdf": 30,
+     "pagina_impresa": 17,
+     "fragmento": "No se debe utilizar oxígeno, o cualquier otro gas o mezclas de gases, excepto aire, para ventilación",
+     "respaldo": "literal"
+    },
+    {
+     "afirmacion": "La atmósfera enriquecida en oxígeno intensifica la combustión",
+     "fuente": "AWS_Z49.1-2012-SP.pdf",
+     "pagina_pdf": 30,
+     "pagina_impresa": 17,
+     "fragmento": "Las atmósferas enriquecidas en oxígeno intensifican considerablemente la combustión",
+     "respaldo": "literal"
+    }
+   ]
+  }
+ }
+}
