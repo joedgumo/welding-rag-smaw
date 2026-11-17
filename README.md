@@ -17,9 +17,9 @@ outputs of every evaluation reported in the paper.
 | `assistant/` | The evaluated assistant: a Cloudflare Worker (Telegram + D1 + Queues + Gemini) — `src/index.js`, production database schema, configuration template and its unit tests (`npm test`, 66 checks). |
 | `reproduction/` | Offline replica that imports the assistant's own functions: PDF ingestion and chunking (`ingest.mjs`), retrieval with the assistant's hybrid scoring (`run_retrieval.mjs`) and generation for the three configurations — RAG, retrieval-free baseline and long-context (`run_arm.mjs`). `npm test` runs an offline self-test with a mocked API. |
 | `evaluation/original_study/` | Original study: 12 tasks, reference answers, rubric (5 metrics), baseline runner, blind packet builder, LLM-judge runner and statistical analysis. |
-| `evaluation/revision/` | Revision experiments: retrieval evaluation (`eval_retrieval.py`), three-arm blind evaluation (`three_arm.py`), unanswerable queries (`judge_abstention.py`), cost per query (`cost_summary.py`), page-level relevance labels (`gold_pages_v2.json`) and the 11 unanswerable/false-premise queries. |
+| `evaluation/revision/` | Revision experiments: retrieval evaluation (`eval_retrieval.py`), three-arm blind evaluation (`three_arm.py`), unanswerable queries (`judge_abstention.py`), cost per query (`cost_summary.py`), expert-validated reference answers (`referencias_v2.json`), page-level relevance labels (`gold_pages_v2.json`) and the 11 unanswerable/false-premise queries. |
 | `data/original_study/` | The 24 responses of the original study, de-anonymization key and the scores of the three LLM judges. |
-| `data/revision/` | Retrieval logs, long-context and replica responses with token usage and latency, routes taken by each task in production, retrieval metrics (R2) and judge classifications of unanswerable queries (R4). |
+| `data/revision/` | Retrieval logs, long-context and replica responses with token usage and latency, routes taken by each task in production, retrieval metrics, judge classifications of unanswerable queries and the three-arm blind evaluation (`three_arm/`: anonymized packet, key, scores of the three judges and results). |
 
 `assistant/src/index.js` is byte-identical to the version deployed during the study
 (SHA-256 `a045601e679e14f95693aa96132379007728eca27f5010945be84158ae73ceb5`). Its user-facing
@@ -50,7 +50,7 @@ API calls are not deterministic, so re-running generation or the judges gives cl
 identical numbers. The analyses below can be reproduced exactly from the data in this repository
 without any API key.
 
-**Retrieval metrics (Table 2, reviewer comment 2)**
+**Retrieval metrics (Sect. 3.2 and Table S3)**
 
 ```bash
 cd evaluation/revision
@@ -59,7 +59,7 @@ python eval_retrieval.py --retrieval ../../data/revision/retrieval_imrc.json --g
   --data-dir ../../data/original_study --out out_r2
 ```
 
-**Original comparison (Table 1)**
+**Original comparison (Table 1 and Table S5)**
 
 ```bash
 cd evaluation/original_study
@@ -67,9 +67,11 @@ python analyze_scores.py --key ../../data/original_study/clave_desanonimizacion.
   --scores ../../data/original_study/E_opus5.xlsx ../../data/original_study/E_gpt56.xlsx ../../data/original_study/E_gemini31pro.xlsx
 ```
 
-**Unanswerable queries (Table 3)** — `python judge_abstention.py analyze --dir ../../data/revision/r4_unanswerable`
+**Unanswerable queries (Table 3 and Table S4)** — `python judge_abstention.py analyze --dir ../../data/revision/r4_unanswerable`
 
-**Cost per query** — `python cost_summary.py --arm RAG ../../data/revision/rag_replay_imrc.json --arm LC ../../data/revision/lc_imrc.json`
+**Three-arm evaluation: RAG, long context and baseline (Table 3 and Table S6)** — `python three_arm.py analyze --dir ../../data/revision/three_arm`
+
+**Cost per query (Table 3 and Table S7)** — `python cost_summary.py --arm RAG ../../data/revision/rag_replay_imrc.json --arm LC ../../data/revision/lc_imrc.json`
 
 **Full re-run from the PDFs** (requires the AWS documents and API keys)
 

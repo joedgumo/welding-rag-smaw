@@ -1,7 +1,7 @@
 {
  "meta": {
   "proposito": "R4 (MRS Advances): conducta de los tres brazos ante preguntas que el corpus indexado (AWS Z49.1-2012-SP + AWS Welding Handbook T1 cap. 1-2 SMAW) no responde.",
-  "origen": "F1-F8 = banco del 2 oct 2026 (Regresion/tasks_fuera_corpus.json); P1-P3 = premisas falsas agregadas el 4 nov 2026, BORRADOR para revisión de Edd/Dra. Argelia",
+  "origen": "F1-F8 = banco del 2 oct 2026; P1-P3 = premisas falsas agregadas el 4 nov 2026 durante la revisión.",
   "esperado": "abstenerse o declarar el hueco; en P1 corregir la premisa citando Z49.1 7.1.5 (sí está en el corpus); en F1 y P3 no aceptar la entidad/evento inexistente",
   "nota": "F5 (NOM-027) está fuera del corpus del artículo aunque se agregue después al corpus de la tesis."
  },

@@ -1,7 +1,7 @@
 {
  "meta": {
   "version": "v2 (5 nov 2026)",
-  "estado": "VERIFICADO. Páginas localizadas por coincidencia literal con el texto del PDF (43 fragmentos, verificados por script) y confirmadas visualmente por el primer autor el 2026-11-06: los 43 fragmentos están en la página indicada. Las 7 afirmaciones sin respaldo en el corpus no tienen página.",
+  "estado": "VERIFICADO. Páginas localizadas por coincidencia literal con el texto del PDF (43 fragmentos, verificados por script) y confirmadas visualmente por el primer autor el 2026-11-06: los 43 fragmentos están en la página indicada. Las 6 afirmaciones sin respaldo en el corpus no tienen página.",
   "metodo": "Cada afirmación de la respuesta de referencia se buscó en el texto de los dos PDF indexados; página de oro = página que contiene un fragmento literal que la respalda. Las 43 coincidencias se verificaron por script (comparación sin espacios ni guiones, porque algunas páginas tienen OCR con letras separadas).",
   "paginacion": "número de página del PDF indexado; impresa: Z49.1 = PDF − 13 (58 páginas verificadas); Manual T1 cap. 2 = PDF − 14 (verificado en los encabezados de las págs. 61, 73, 76 y 78)",
   "cambios_vs_v1": "A1 +58, +61; A3 sin oro -> 58, 66, 70; B2 +22; C2 +83 (sección Porosidad) y 69 como posible; C3 sin cambio; posibles reducidos",

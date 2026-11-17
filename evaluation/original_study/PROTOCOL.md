@@ -18,8 +18,12 @@ hallucination-control metrics.
 - Corpus indexed in the assistant: ANSI/AWS Z49.1:2012 (Spanish edition) and AWS Welding
   Handbook, Volume 1, Chapters 1–2 (SMAW). 499 passages.
 - Tasks: `tasks.json` (12 questions in three categories).
-- Reference answers and sources: `referencias.json`. [Validation status to be stated according
-  to the domain expert's review.]
+- Reference answers and sources: `referencias.json`, prepared from the corpus by the authors. Its
+  metadata records the status at the time of the original evaluation (pending expert validation).
+  During the revision (November 2026), a welding domain expert reviewed the twelve reference
+  answers and confirmed all of them as technically correct; they were used unchanged. The validated
+  version, with the source pages expressed in the PDF pagination, is
+  `../revision/referencias_v2.json`.
 - Rubric: `Rubrica_evaluacion_5_metricas.md` (accuracy, relevance, trustworthiness, grounding
   and hallucination control, each scored 1–5).
 

@@ -14,7 +14,7 @@ parseo, para que el protocolo sea idéntico; solo cambia de 2 a 3 respuestas por
 
 Uso (en la carpeta evaluation/revision/):
   python three_arm.py build --imrc ../original_study --data ../../data/original_study --lc ../../data/revision/lc_imrc.json \
-        --refs referencias_v2_BORRADOR.json --seed 20261105 --out paquete3
+        --refs referencias_v2.json --seed 20261105 --out paquete3
   python three_arm.py judge --imrc ../original_study --dir paquete3
   python three_arm.py analyze --dir paquete3
 """

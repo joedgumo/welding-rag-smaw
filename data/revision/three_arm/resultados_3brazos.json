@@ -1,0 +1,318 @@
+{
+  "con_C3": {
+    "excluidas": [],
+    "n": 12,
+    "metricas": {
+      "Exactitud": {
+        "media": {
+          "RAG": 4.19,
+          "baseline": 3.47,
+          "LC": 4.67
+        },
+        "friedman_p": 0.0005,
+        "pares": {
+          "RAG-baseline": {
+            "delta": 0.72,
+            "p": 0.0405,
+            "p_holm": 0.0811,
+            "r": 0.67
+          },
+          "RAG-LC": {
+            "delta": -0.47,
+            "p": 0.1094,
+            "p_holm": 0.1094,
+            "r": -0.71
+          },
+          "LC-baseline": {
+            "delta": 1.19,
+            "p": 0.0005,
+            "p_holm": 0.0015,
+            "r": 1.0
+          }
+        }
+      },
+      "Pertinencia": {
+        "media": {
+          "RAG": 4.17,
+          "baseline": 4.08,
+          "LC": 4.69
+        },
+        "friedman_p": 0.3114,
+        "pares": {
+          "RAG-baseline": {
+            "delta": 0.08,
+            "p": 0.4736,
+            "p_holm": 0.4736,
+            "r": 0.27
+          },
+          "RAG-LC": {
+            "delta": -0.53,
+            "p": 0.207,
+            "p_holm": 0.4141,
+            "r": -0.47
+          },
+          "LC-baseline": {
+            "delta": 0.61,
+            "p": 0.0781,
+            "p_holm": 0.2344,
+            "r": 0.64
+          }
+        }
+      },
+      "Confiabilidad": {
+        "media": {
+          "RAG": 4.42,
+          "baseline": 1.39,
+          "LC": 3.94
+        },
+        "friedman_p": 0.0006,
+        "pares": {
+          "RAG-baseline": {
+            "delta": 3.03,
+            "p": 0.001,
+            "p_holm": 0.0029,
+            "r": 0.97
+          },
+          "RAG-LC": {
+            "delta": 0.47,
+            "p": 0.2051,
+            "p_holm": 0.2051,
+            "r": 0.49
+          },
+          "LC-baseline": {
+            "delta": 2.56,
+            "p": 0.001,
+            "p_holm": 0.0029,
+            "r": 1.0
+          }
+        }
+      },
+      "Fundamentación": {
+        "media": {
+          "RAG": 4.39,
+          "baseline": 2.11,
+          "LC": 4.56
+        },
+        "friedman_p": 0.0004,
+        "pares": {
+          "RAG-baseline": {
+            "delta": 2.28,
+            "p": 0.0039,
+            "p_holm": 0.0078,
+            "r": 0.87
+          },
+          "RAG-LC": {
+            "delta": -0.17,
+            "p": 0.8887,
+            "p_holm": 0.8887,
+            "r": 0.03
+          },
+          "LC-baseline": {
+            "delta": 2.44,
+            "p": 0.0005,
+            "p_holm": 0.0015,
+            "r": 1.0
+          }
+        }
+      },
+      "Control alucinaciones": {
+        "media": {
+          "RAG": 4.61,
+          "baseline": 3.33,
+          "LC": 4.67
+        },
+        "friedman_p": 0.0004,
+        "pares": {
+          "RAG-baseline": {
+            "delta": 1.28,
+            "p": 0.0146,
+            "p_holm": 0.0293,
+            "r": 0.77
+          },
+          "RAG-LC": {
+            "delta": -0.06,
+            "p": 1.0,
+            "p_holm": 1.0,
+            "r": 0.14
+          },
+          "LC-baseline": {
+            "delta": 1.33,
+            "p": 0.001,
+            "p_holm": 0.0029,
+            "r": 1.0
+          }
+        }
+      }
+    }
+  },
+  "sin_C3": {
+    "excluidas": [
+      "C3"
+    ],
+    "n": 11,
+    "metricas": {
+      "Exactitud": {
+        "media": {
+          "RAG": 4.48,
+          "baseline": 3.42,
+          "LC": 4.67
+        },
+        "friedman_p": 0.0004,
+        "pares": {
+          "RAG-baseline": {
+            "delta": 1.06,
+            "p": 0.002,
+            "p_holm": 0.0039,
+            "r": 0.97
+          },
+          "RAG-LC": {
+            "delta": -0.18,
+            "p": 0.2188,
+            "p_holm": 0.2188,
+            "r": -0.62
+          },
+          "LC-baseline": {
+            "delta": 1.24,
+            "p": 0.001,
+            "p_holm": 0.0029,
+            "r": 1.0
+          }
+        }
+      },
+      "Pertinencia": {
+        "media": {
+          "RAG": 4.45,
+          "baseline": 4.03,
+          "LC": 4.67
+        },
+        "friedman_p": 0.3583,
+        "pares": {
+          "RAG-baseline": {
+            "delta": 0.42,
+            "p": 0.1719,
+            "p_holm": 0.3438,
+            "r": 0.53
+          },
+          "RAG-LC": {
+            "delta": -0.21,
+            "p": 0.3906,
+            "p_holm": 0.3906,
+            "r": -0.39
+          },
+          "LC-baseline": {
+            "delta": 0.64,
+            "p": 0.0977,
+            "p_holm": 0.293,
+            "r": 0.6
+          }
+        }
+      },
+      "Confiabilidad": {
+        "media": {
+          "RAG": 4.73,
+          "baseline": 1.36,
+          "LC": 4.15
+        },
+        "friedman_p": 0.0001,
+        "pares": {
+          "RAG-baseline": {
+            "delta": 3.36,
+            "p": 0.001,
+            "p_holm": 0.0029,
+            "r": 1.0
+          },
+          "RAG-LC": {
+            "delta": 0.58,
+            "p": 0.1133,
+            "p_holm": 0.1133,
+            "r": 0.64
+          },
+          "LC-baseline": {
+            "delta": 2.79,
+            "p": 0.001,
+            "p_holm": 0.0029,
+            "r": 1.0
+          }
+        }
+      },
+      "Fundamentación": {
+        "media": {
+          "RAG": 4.7,
+          "baseline": 2.0,
+          "LC": 4.58
+        },
+        "friedman_p": 0.0002,
+        "pares": {
+          "RAG-baseline": {
+            "delta": 2.7,
+            "p": 0.001,
+            "p_holm": 0.0029,
+            "r": 1.0
+          },
+          "RAG-LC": {
+            "delta": 0.12,
+            "p": 0.7539,
+            "p_holm": 0.7539,
+            "r": 0.24
+          },
+          "LC-baseline": {
+            "delta": 2.58,
+            "p": 0.001,
+            "p_holm": 0.0029,
+            "r": 1.0
+          }
+        }
+      },
+      "Control alucinaciones": {
+        "media": {
+          "RAG": 4.88,
+          "baseline": 3.3,
+          "LC": 4.76
+        },
+        "friedman_p": 0.0001,
+        "pares": {
+          "RAG-baseline": {
+            "delta": 1.58,
+            "p": 0.001,
+            "p_holm": 0.0029,
+            "r": 1.0
+          },
+          "RAG-LC": {
+            "delta": 0.12,
+            "p": 0.5312,
+            "p_holm": 0.5312,
+            "r": 0.52
+          },
+          "LC-baseline": {
+            "delta": 1.45,
+            "p": 0.001,
+            "p_holm": 0.0029,
+            "r": 1.0
+          }
+        }
+      }
+    }
+  },
+  "fiabilidad": {
+    "icc2k_por_metrica": {
+      "Exactitud": 0.868,
+      "Pertinencia": 0.902,
+      "Confiabilidad": 0.936,
+      "Fundamentación": 0.93,
+      "Control alucinaciones": 0.836
+    },
+    "kappa_por_metrica": {
+      "Exactitud": 0.68,
+      "Pertinencia": 0.749,
+      "Confiabilidad": 0.821,
+      "Fundamentación": 0.808,
+      "Control alucinaciones": 0.619
+    },
+    "icc2k_global": 0.917
+  },
+  "sesgo_posicion": {
+    "A": 3.93,
+    "B": 4.03,
+    "C": 3.78
+  }
+}
